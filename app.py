@@ -10,7 +10,7 @@ from dataclasses import dataclass
 import datetime
 
 
-app = Flask(__name__, static_url_path='', static_folder='reciprocity_frontend/build')
+app = Flask(__name__, static_url_path="", static_folder="frontend/build")
 
 database_url = os.getenv("DATABASE_URL")
 if database_url:
@@ -39,14 +39,22 @@ def get_tokens():
 
 @app.route("/get_doc")
 def get_doc():
-    doc_choice_num = random.randint(0, len(docs) - 1)
+    doc_choice_num = random.randint(0, 10000)
 
-    return jsonify({"docId": doc_choice_num, "tokens": docs[doc_choice_num]})
+    return jsonify(
+        {
+            "docId": doc_choice_num,
+            "tokens": json.load(
+                open(__file__[:-6] + f"/docs/doc{doc_choice_num}.json")
+            ),
+        }
+    )
 
 
-@app.route('/')
+@app.route("/")
 def hello_world():
-    return send_file(__file__[:-6] + 'frontend/build/index.html')
+    return send_file(__file__[:-6] + "frontend/build/index.html")
+
 
 @dataclass
 class LmGameGuess(db.Model):
@@ -84,6 +92,6 @@ def submit_guess():
     return "whatever"
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # Threaded option to enable multiple instances for multiple user access support
-    app.run(host='0.0.0.0', threaded=True, port=int(os.getenv("PORT", "5000")))
+    app.run(host="0.0.0.0", threaded=True, port=int(os.getenv("PORT", "5000")))
