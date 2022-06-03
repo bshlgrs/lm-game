@@ -85,7 +85,7 @@ function App(props) {
           <div
             key={idx}
             style={{
-              borderStyle: "thin",
+              borderStyle: "thin", 
               margin: "2px",
               backgroundColor:
                 idx === 0
