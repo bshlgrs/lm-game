@@ -10,7 +10,7 @@ from dataclasses import dataclass
 import datetime
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='', static_folder='reciprocity_frontend/build')
 
 database_url = os.getenv("DATABASE_URL")
 if database_url:
