@@ -29,7 +29,7 @@ def get_database_connection() -> Connection:
 
 
 tokens = ast.literal_eval(open("./tokens.json").read())
-docs = json.load(open("./docs.json"))
+# docs = json.load(open("./docs.json"))
 
 
 @app.route("/tokens")
@@ -46,7 +46,7 @@ def get_doc():
 
 @app.route('/')
 def hello_world():
-    return send_file(__file__[:-6] + 'reciprocity_frontend/build/index.html')
+    return send_file(__file__[:-6] + 'frontend/build/index.html')
 
 @dataclass
 class LmGameGuess(db.Model):
