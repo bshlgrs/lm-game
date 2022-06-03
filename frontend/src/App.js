@@ -86,6 +86,7 @@ function App(props) {
           flexWrap: "wrap",
           margin: "20px",
           borderStyle: "thin",
+          fontFamily: 'serif'
         }}
       >
         {guesses.map((guess, idx) => (
