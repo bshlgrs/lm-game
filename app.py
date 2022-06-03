@@ -44,6 +44,10 @@ def get_doc():
     return jsonify({"docId": doc_choice_num, "tokens": docs[doc_choice_num]})
 
 
+@app.route('/')
+def hello_world():
+    return send_file(__file__[:-6] + 'reciprocity_frontend/build/index.html')
+
 @dataclass
 class LmGameGuess(db.Model):
     __tablename__ = "lm_game_guesses"
