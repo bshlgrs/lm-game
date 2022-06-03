@@ -28,8 +28,8 @@ def get_database_connection() -> Connection:
     return session.connection()
 
 
-# tokens = ast.literal_eval(open("./tokens.json").read())
-# docs = json.load(open("./docs.json"))
+tokens = ast.literal_eval(open("./tokens.json").read())
+docs = json.load(open("./docs.json"))
 
 
 @app.route("/tokens")
@@ -78,3 +78,8 @@ def submit_guess():
     db.session.commit()
 
     return "whatever"
+
+
+if __name__ == '__main__':
+    # Threaded option to enable multiple instances for multiple user access support
+    app.run(host='0.0.0.0', threaded=True, port=int(os.getenv("PORT", "5000")))
