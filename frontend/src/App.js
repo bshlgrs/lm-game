@@ -8,7 +8,7 @@ function App(props) {
   // debugger;
   const [guesses, setGuesses] = useState([""]);
   const [doc, setDoc] = useState(initialDoc);
-  const [name, setName] = useState(localStorage.getItem('name') || 'anon');
+  const [name, setName] = useState(localStorage.getItem("name") || "anon");
 
   const [newGuess, setNewGuess] = useState("");
 
@@ -59,17 +59,24 @@ function App(props) {
       </div>
       <div>
         Your name:{" "}
-        <input value={name} onChange={(e) => {
-          setName(e.target.value);
-          localStorage.setItem('name', e.target.value);
-        }
-          } />
+        <input
+          value={name}
+          onChange={(e) => {
+            setName(e.target.value);
+            localStorage.setItem("name", e.target.value);
+          }}
+        />
       </div>
       <div>
         Your score: {numCorrect || "0"} / {guesses.length - 1}{" "}
         {((numCorrect * 100) / (guesses.length - 1)).toFixed(0)}%
       </div>
       <div>You're currently predicting document number {doc.docId}</div>
+      <div>
+        Remember that if you want to predict a token that starts with a space
+        (which you usually do), you need to type that space explicitly. See
+        the instructions if you're confused by how the tokenization works.
+      </div>
       <div>
         <button onClick={getNewDocument}>Get new document</button>
       </div>
@@ -85,7 +92,7 @@ function App(props) {
           <div
             key={idx}
             style={{
-              borderStyle: "thin", 
+              borderStyle: "thin",
               margin: "2px",
               backgroundColor:
                 idx === 0
