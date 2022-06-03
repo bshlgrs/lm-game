@@ -95,7 +95,7 @@ function App(props) {
                   : "pink",
             }}
           >
-            <div>{doc.tokens[idx].replace(" ", "•") || encodeURI(doc.tokens[idx])}</div>
+            <div>{doc.tokens[idx].replace(" ", "•")}&nbsp;</div>
             {guess !== doc.tokens[idx] && <div>{guess.replace(" ", "•")}</div>}
           </div>
         ))}

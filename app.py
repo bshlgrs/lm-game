@@ -28,8 +28,8 @@ def get_database_connection() -> Connection:
     return session.connection()
 
 
-tokens = ast.literal_eval(open("./tokens.json").read())
-docs = json.load(open("./docs.json"))
+# tokens = ast.literal_eval(open("./tokens.json").read())
+# docs = json.load(open("./docs.json"))
 
 
 @app.route("/tokens")
