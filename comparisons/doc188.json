@@ -1,0 +1,1 @@
+{"id": 188, "input_str": " Ordinary Cubans will soon have the luxury of owning a cell phone", "correct_token_str": ",", "generated_token_str": "\n", "generator_name": "text-babbage-001", "correct_logprobs": [-2.78414, -2.2769804, -2.759528], "generated_logprobs": [-1.3705431, -0.5545713, -0.2688989]}

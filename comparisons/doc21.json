@@ -1,0 +1,1 @@
+{"id": 21, "input_str": " I'm a programmer. I understand Perl. I'm comfortable configuring, building, installing, patching, reporting bugs in,", "correct_token_str": " distributing", "generated_token_str": " and", "generator_name": "text-curie-001", "correct_logprobs": [-17.447441, -8.421282, -11.863153], "generated_logprobs": [-0.0006338098, -0.105999954, -0.036178447]}

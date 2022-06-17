@@ -1,0 +1,1 @@
+{"id": 473, "input_str": " SPRINGFIELD \u2012 Despite pressure to weigh-in on the 2016 Democratic presidential race between Hillary Clinton and", "correct_token_str": " Bernie", "generated_token_str": " Bernie", "generator_name": "text-ada-001", "correct_logprobs": [-0.327435, -0.04641467, -0.31096116], "generated_logprobs": [-0.327435, -0.04641467, -0.31096116]}

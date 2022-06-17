@@ -1,0 +1,1 @@
+{"id": 223, "input_str": " England have skilfully manoeuvred themselves into", "correct_token_str": " exactly", "generated_token_str": " their", "generator_name": "text-babbage-001", "correct_logprobs": [-13.029342, -11.420142, -10.108778], "generated_logprobs": [-6.277797, -4.770712, -6.021471]}

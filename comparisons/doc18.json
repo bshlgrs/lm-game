@@ -1,0 +1,1 @@
+{"id": 18, "input_str": " Aerospace manufacturing is a growing, high-wage industry in Eastern Washington and North Idaho", "correct_token_str": ",", "generated_token_str": ".", "generator_name": "text-babbage-001", "correct_logprobs": [-6.094808, -2.6321948, -2.6755133], "generated_logprobs": [-0.018911162, -0.29883814, -0.83133227]}

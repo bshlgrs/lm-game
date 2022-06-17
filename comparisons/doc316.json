@@ -1,0 +1,1 @@
+{"id": 316, "input_str": " By James Folker\n\nThe Augusta Chronicle\n\nRICHMOND COUNTY, Ga. \u2014 A Richmond County sheriff\u2019s deputy died Sunday", "correct_token_str": " after", "generated_token_str": " night", "generator_name": "text-babbage-001", "correct_logprobs": [-0.07609164, -0.27812484, -0.4626551], "generated_logprobs": [-5.421891, -2.0207043, -2.4919004]}

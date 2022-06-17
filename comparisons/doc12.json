@@ -1,0 +1,1 @@
+{"id": 12, "input_str": " As more and more consumers get savvy about where they put their money, how do", "correct_token_str": " cooper", "generated_token_str": " they", "generator_name": "text-babbage-001", "correct_logprobs": [-18.11922, -16.675262, -13.090264], "generated_logprobs": [-0.011249784, -0.0119058965, -3.1268184]}

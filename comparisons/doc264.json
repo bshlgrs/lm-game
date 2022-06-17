@@ -1,0 +1,1 @@
+{"id": 264, "input_str": " Is it really a wrap for King of the", "correct_token_str": " Hill", "generated_token_str": " Jungle", "generator_name": "text-ada-001", "correct_logprobs": [-5.4184885, -0.32349584, -0.4824957], "generated_logprobs": [-1.9898926, -3.1465557, -3.4952595]}

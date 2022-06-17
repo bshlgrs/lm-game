@@ -1,0 +1,1 @@
+{"id": 345, "input_str": " by Countable | 8.8.17\n\nWhat\u2019s the story?\n\nTuesday the New York Times released the draft of what some", "correct_token_str": " experts", "generated_token_str": " are", "generator_name": "text-curie-001", "correct_logprobs": [-9.096443, -7.169761, -8.009555], "generated_logprobs": [-0.025823344, -0.1594418, -0.04453997]}

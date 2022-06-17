@@ -1,0 +1,1 @@
+{"id": 397, "input_str": " A set of twins from a mixed Jewish-Arab marriage celebrated their Bar Mitzvah this", "correct_token_str": " week", "generated_token_str": " week", "generator_name": "text-curie-001", "correct_logprobs": [-4.277881, -1.8332133, -1.6037315], "generated_logprobs": [-4.277881, -1.8332133, -1.6037315]}

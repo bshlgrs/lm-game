@@ -1,0 +1,1 @@
+{"id": 231, "input_str": " American general Ben Hodges handed out medals to wounded Ukrainian soldiers, thanking them for", "correct_token_str": " fighting", "generated_token_str": " their", "generator_name": "text-babbage-001", "correct_logprobs": [-12.633945, -6.882336, -4.148289], "generated_logprobs": [-0.007230891, -0.015503117, -0.06432293]}

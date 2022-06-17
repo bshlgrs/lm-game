@@ -1,0 +1,1 @@
+{"id": 60, "input_str": " Designed with a computer: Austrian Chocolate Burritos, whose ingredients include edamame and apricots. (Scott Suchman/For", "correct_token_str": " The", "generated_token_str": " The", "generator_name": "text-curie-001", "correct_logprobs": [-1.5791619, -0.07164221, -0.0085436655], "generated_logprobs": [-1.5791619, -0.07164221, -0.0085436655]}

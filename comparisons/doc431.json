@@ -1,0 +1,1 @@
+{"id": 431, "input_str": " People demonstrate against a US-led strike on Syria in Los Angeles.\n\n\u00a9 Thomson Reuters", "correct_token_str": " 2013", "generated_token_str": "ia", "generator_name": "text-ada-001", "correct_logprobs": [-1.8737737, -4.919187, -2.8503933], "generated_logprobs": [-9.094847, -19.078787, -22.520971]}

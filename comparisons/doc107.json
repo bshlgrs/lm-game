@@ -1,0 +1,1 @@
+{"id": 107, "input_str": " Ask any veteran winemaker in Virginia what tempted him (or her) to make wine", "correct_token_str": " in", "generated_token_str": "?", "generator_name": "text-ada-001", "correct_logprobs": [-4.9942584, -3.1417959, -3.1933472], "generated_logprobs": [-1.3371311, -0.5302172, -6.1828794]}

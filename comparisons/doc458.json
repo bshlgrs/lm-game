@@ -1,0 +1,1 @@
+{"id": 458, "input_str": " Five men from Russia and Ukraine have been charged for their supposed role in the mass theft of 160 million", "correct_token_str": " credit", "generated_token_str": " rub", "generator_name": "text-babbage-001", "correct_logprobs": [-9.614285, -11.088168, -2.4854755], "generated_logprobs": [-7.353878, -0.16295363, -5.6054845]}

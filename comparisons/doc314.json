@@ -1,0 +1,1 @@
+{"id": 314, "input_str": " Just over 200 years ago an Icelandic volcano erupted with catastrophic consequences", "correct_token_str": " for", "generated_token_str": ".", "generator_name": "text-babbage-001", "correct_logprobs": [-7.778448, -2.6539752, -4.0237403], "generated_logprobs": [-0.29424167, -0.7573526, -0.19796865]}

@@ -1,0 +1,1 @@
+{"id": 253, "input_str": " It's late in the year for us brewers but it's still that season", "correct_token_str": " when", "generated_token_str": " where", "generator_name": "text-curie-001", "correct_logprobs": [-4.594918, -3.05754, -3.0661974], "generated_logprobs": [-7.4032874, -2.4926002, -0.97115797]}

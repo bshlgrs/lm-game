@@ -1,0 +1,1 @@
+{"id": 65, "input_str": " Five years ago, while speaking in New York,", "correct_token_str": " Iranian", "generated_token_str": " I", "generator_name": "text-curie-001", "correct_logprobs": [-13.928172, -7.9406767, -5.8378797], "generated_logprobs": [-0.1508727, -1.4688239, -1.9410496]}

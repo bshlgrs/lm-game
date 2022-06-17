@@ -1,0 +1,1 @@
+{"id": 189, "input_str": " by\n\nOn March 30, 1976, the Palestinian people declared a general strike and", "correct_token_str": " demonstrated", "generated_token_str": " began", "generator_name": "text-babbage-001", "correct_logprobs": [-8.530203, -6.5159283, -6.1254506], "generated_logprobs": [-4.2362084, -3.9501026, -5.5975227]}

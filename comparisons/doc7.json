@@ -1,0 +1,1 @@
+{"id": 7, "input_str": " The \u201cNa\u2019vi River Journey,\u201d one", "correct_token_str": " of", "generated_token_str": " of", "generator_name": "text-curie-001", "correct_logprobs": [-0.0053459397, -0.019277688, -0.033471543], "generated_logprobs": [-0.0053459397, -0.019277688, -0.033471543]}

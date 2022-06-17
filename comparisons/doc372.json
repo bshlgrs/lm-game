@@ -1,0 +1,1 @@
+{"id": 372, "input_str": " Looking for news you can trust?\n\nSubscribe to our free", "correct_token_str": " newsletters", "generated_token_str": " newsletters", "generator_name": "text-curie-001", "correct_logprobs": [-5.2514925, -0.0014360857, -0.0008185982], "generated_logprobs": [-5.2514925, -0.0014270728, -0.0008185982]}

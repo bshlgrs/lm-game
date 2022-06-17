@@ -1,0 +1,1 @@
+{"id": 254, "input_str": " Photos: Photos: One World Trade Center towers over NYC One World Trade Center", "correct_token_str": " towers", "generated_token_str": " towers", "generator_name": "text-curie-001", "correct_logprobs": [-0.01125304, -0.007684514, -0.00043784294], "generated_logprobs": [-0.01125304, -0.007684514, -0.00043784294]}

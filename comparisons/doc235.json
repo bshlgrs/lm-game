@@ -1,0 +1,1 @@
+{"id": 235, "input_str": " JOB Fortran compiler -- Load Phases 52BC -- phase 52A CTL", "correct_token_str": " 66", "generated_token_str": "-", "generator_name": "text-curie-001", "correct_logprobs": [-7.8548713, -8.481492, -10.652138], "generated_logprobs": [-5.733226, -5.6596704, -4.0424833]}

@@ -1,0 +1,1 @@
+{"id": 323, "input_str": " * Draft energy rules force energy downsizing, focus on water\n\n* Writedown on energy assets could trigger first-ever loss\n\n*", "correct_token_str": " Company", "generated_token_str": " Reg", "generator_name": "text-curie-001", "correct_logprobs": [-10.522313, -6.0264096, -6.101283], "generated_logprobs": [-10.668254, -6.751509, -3.490791]}

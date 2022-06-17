@@ -1,0 +1,1 @@
+{"id": 203, "input_str": " Google has announced four measures it will use to tackle the spread of extremist content on YouTube having", "correct_token_str": " come", "generated_token_str": " previously", "generator_name": "text-curie-001", "correct_logprobs": [-8.494369, -5.4876904, -3.41693], "generated_logprobs": [-3.4636047, -5.0806313, -4.1791654]}

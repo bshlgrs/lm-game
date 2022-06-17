@@ -1,0 +1,1 @@
+{"id": 426, "input_str": " I am a happily married, young white man. I grew up in a happy, Conservative household. I\u2019ve spent my", "correct_token_str": " entire", "generated_token_str": " whole", "generator_name": "text-curie-001", "correct_logprobs": [-3.5639791, -0.74712193, -0.60650915], "generated_logprobs": [-1.3284885, -0.7180938, -1.2193612]}

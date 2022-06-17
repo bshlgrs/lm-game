@@ -1,0 +1,1 @@
+{"id": 301, "input_str": " lets(\n\n:person => Person.find(:first,...),\n\n:place =>", "correct_token_str": " City", "generated_token_str": " Place", "generator_name": "text-curie-001", "correct_logprobs": [-15.14472, -11.72766, -9.912969], "generated_logprobs": [-4.5663323, -0.020886213, -0.030084495]}

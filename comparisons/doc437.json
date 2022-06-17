@@ -1,0 +1,1 @@
+{"id": 437, "input_str": " KUALA LUMPUR (Reuters", "correct_token_str": ")", "generated_token_str": ")", "generator_name": "text-curie-001", "correct_logprobs": [-0.00051626156, -0.0008477705, -0.00086721935], "generated_logprobs": [-0.00051626156, -0.0008477705, -0.00086721935]}

@@ -1,0 +1,1 @@
+{"id": 121, "input_str": " Denon and Marantz Audyssey MultEQ Editor app", "correct_token_str": " puts", "generated_token_str": " The", "generator_name": "text-ada-001", "correct_logprobs": [-13.819013, -12.79157, -9.595772], "generated_logprobs": [-6.803529, -6.88604, -5.4844213]}

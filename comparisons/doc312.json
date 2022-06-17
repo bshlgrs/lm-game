@@ -1,0 +1,1 @@
+{"id": 312, "input_str": " Imagine a cyber-punk city where the only two methods of transaction: conventional bank notes and IDs with credits allocated to them.", "correct_token_str": " A", "generated_token_str": "\n", "generator_name": "text-babbage-001", "correct_logprobs": [-12.141633, -5.264809, -5.425291], "generated_logprobs": [-0.0029624654, -0.52639383, -0.7784013]}

@@ -1,0 +1,1 @@
+{"id": 120, "input_str": " Guests: Nicolas Winding Refn Nicolas Winding Refn\n\nNicolas Winding", "correct_token_str": " Ref", "generated_token_str": " Ref", "generator_name": "text-babbage-001", "correct_logprobs": [-0.0012633571, -0.000101643476, -0.00029020815], "generated_logprobs": [-0.0012633571, -0.000101643476, -0.00029020815]}

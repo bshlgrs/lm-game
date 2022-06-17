@@ -1,0 +1,1 @@
+{"id": 70, "input_str": " I can\u2019t imagine that I will ever publish", "correct_token_str": " a", "generated_token_str": " another", "generator_name": "text-curie-001", "correct_logprobs": [-1.5372725, -1.1444802, -0.55308914], "generated_logprobs": [-0.5214873, -2.1217914, -2.1699314]}

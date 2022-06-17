@@ -1,0 +1,1 @@
+{"id": 374, "input_str": " The question of music is a complex one and there are valid differences of opinion surrounding it. As a", "correct_token_str": " quick", "generated_token_str": " music", "generator_name": "text-curie-001", "correct_logprobs": [-11.45694, -9.774757, -12.21667], "generated_logprobs": [-2.6869025, -1.7742472, -1.2708179]}
