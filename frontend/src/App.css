@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+
+label {
+  float: left;
+  padding: 0 1em;
+  text-align: center;
+}
+
+.token-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.token-list > div > :nth-child(2) {
+  text-decoration: underline dotted;
+  white-space: pre;
+  font-size: large;
+}
+.token-list > div > * {
+  margin: 0;
+}
+.token-list > div {
+  padding: 0px 6px 0px 6px;
+}
+
+.prompt {
+  margin: 10px;
+}
+
+.token-correct {
+  border-style: solid;
+  border-color: green;
+}
+
+.whichone-App {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submit-button {
+  display: flex;
+  width: 100%;
+  margin-top: 1em;
+  justify-content: center;
+}
+
+.radios {
+  display: flex;
+  margin-top: 1em;
+  width: 100%;
+  justify-content: center;
+}
+.reasons-radios {
+  margin-top: 1em;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.reasons-radios > label {
+  width: 15em;
+  text-align: left;
+  gap: 1px;
+}
+.error {
+  color: red;
+}
+.error:empty {
+  display: none;
+}
