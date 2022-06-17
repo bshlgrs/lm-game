@@ -74,6 +74,7 @@ label {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  padding: 1em 1em 1em 1em;
 }
 
 .submit-button {
@@ -87,15 +88,28 @@ label {
   display: flex;
   margin-top: 1em;
   width: 100%;
-  justify-content: center;
+  justify-content: space-between;
 }
+.radios > label {
+  flex-shrink: 1;
+  padding: 1px;
+}
+.radios > p {
+  flex-shrink: 0;
+  width: 8em;
+  text-align: center;
+  margin: 8px 5px 0 5px;
+}
+
 .reasons-radios {
   margin-top: 1em;
+  display: flex;
+  margin-bottom: 1em;
   width: 100%;
   flex-wrap: wrap;
 }
 .reasons-radios > label {
-  width: 15em;
+  width: 20em;
   text-align: left;
   gap: 1px;
 }

@@ -126,6 +126,8 @@ def submit_whichone_guess():
     db.session.add(WhichOneGameGuess(**stuff))
     db.session.commit()
 
+    print(stuff)
+
     return "whatever"
 
 
