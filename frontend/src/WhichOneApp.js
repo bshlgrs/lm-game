@@ -32,6 +32,25 @@ function getRightToken(comparison, correctToTheLeft) {
   }
 }
 
+function addInvisibleTokenToText(text) {
+  return (
+    <>
+      {text.split("").map(function (c) {
+        if (c === " ")
+          return (
+            <>
+              <span className="invisible-space"> </span>
+              <span className="invisible-letter">•</span>
+            </>
+          );
+        else if (c === "\n")
+          return <span className="invisible-letter">\n</span>;
+        else return c;
+      })}
+    </>
+  );
+}
+
 function WhichOneApp(props) {
   const { initialComparison } = props;
 
@@ -91,8 +110,6 @@ function WhichOneApp(props) {
         <a href="https://docs.google.com/document/d/1BQF7EKs_kNssxZguyFK0X9pmtTYOF38qT-768vzNR1E/edit?usp=sharing">
           here
         </a>
-        . This is a draft version of the app. What is needed: the data without
-        duplicates, the google doc, better explanations. A better title ?
       </p>
       <div>
         Your name:{" "}
@@ -111,13 +128,15 @@ function WhichOneApp(props) {
         appeared in the original text?
       </p>
       <p>(comparison number: {comparison.id})</p>
-      <p className="prompt">{comparison.input_str}</p>
+      <p className="prompt">{addInvisibleTokenToText(comparison.input_str)}</p>
       <div className="token-list">
         <div className={correctToTheLeft && hasGuessed ? "token-correct" : ""}>
           <p>Token A</p>
           <p>
             <b>
-              <pre>{getLeftToken(comparison, correctToTheLeft)}</pre>
+              {addInvisibleTokenToText(
+                getLeftToken(comparison, correctToTheLeft)
+              )}
             </b>
           </p>
         </div>
@@ -125,7 +144,9 @@ function WhichOneApp(props) {
           <p>Token B</p>
           <p>
             <b>
-              <pre>{getRightToken(comparison, correctToTheLeft)}</pre>
+              {addInvisibleTokenToText(
+                getRightToken(comparison, correctToTheLeft)
+              )}
             </b>
           </p>
         </div>

@@ -62,12 +62,21 @@ label {
 }
 
 .prompt {
-  margin: 10px;
+  padding: 10px;
+  background-color: #eee;
+  /* word-break: break-all; */
+}
+
+.invisible-letter {
+  color: #ccc;
+}
+.invisible-space {
+  font-size: 0;
 }
 
 .token-correct {
   border-style: solid;
-  border-color: green;
+  border-color: rgb(3, 167, 3);
 }
 
 .whichone-App {
