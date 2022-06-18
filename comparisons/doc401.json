@@ -1,0 +1,1 @@
+{"id": 401, "input_str": " Everyone has an opinion on the Call of Duty games, even if the opinion is not having an opinion. As gaming", "correct_token_str": "'s", "generated_token_str": " has", "generator_name": "text-curie-001", "correct_logprobs": [-5.5344214, -5.662492, -5.942765], "generated_logprobs": [-0.8054729, -3.6931913, -1.3190758]}

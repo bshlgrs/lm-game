@@ -1,0 +1,1 @@
+{"id": 210, "input_str": " View photos\n\nPhoto: Trunk Archive/Levi Brown\n\nUnless your best friend is a makeup artist, your go-to", "correct_token_str": " spot", "generated_token_str": " makeup", "generator_name": "text-curie-001", "correct_logprobs": [-9.005651, -3.1826773, -8.033314], "generated_logprobs": [-0.84211206, -2.1058917, -1.5008428]}

@@ -1,0 +1,1 @@
+{"id": 270, "input_str": " Photo William S. Sessions, center, in 1993, before", "correct_token_str": " he", "generated_token_str": " his", "generator_name": "text-curie-001", "correct_logprobs": [-9.721329, -0.9992176, -1.2023057], "generated_logprobs": [-0.080324784, -0.6829487, -0.777871]}

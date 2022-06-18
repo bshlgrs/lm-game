@@ -1,0 +1,1 @@
+{"id": 352, "input_str": " Pete cocked his head and fixed his sharp eyes on the people gathered to watch him. The blue-crowned mealy Amazon parrot", "correct_token_str": " had", "generated_token_str": " perched", "generator_name": "text-babbage-001", "correct_logprobs": [-6.659746, -5.2350383, -3.9236531], "generated_logprobs": [-4.226827, -0.8944821, -1.2216718]}

@@ -1,0 +1,1 @@
+{"id": 489, "input_str": " hand giving cash getty istock.JPG\n\nSome New Jersey taxpayers may overpay their taxes because of a mistaken Division of Taxation", "correct_token_str": " notice", "generated_token_str": " policy", "generator_name": "text-curie-001", "correct_logprobs": [-3.8317604, -5.6797967, -9.744889], "generated_logprobs": [-10.026776, -3.8184586, -0.58274806]}

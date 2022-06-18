@@ -1,0 +1,1 @@
+{"id": 92, "input_str": " On a couple of occasions, I\u2019ve", "correct_token_str": " written", "generated_token_str": " found", "generator_name": "text-curie-001", "correct_logprobs": [-9.717875, -5.7259507, -5.2302938], "generated_logprobs": [-4.7660155, -2.9799154, -3.2868433]}

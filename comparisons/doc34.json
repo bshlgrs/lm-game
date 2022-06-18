@@ -1,0 +1,1 @@
+{"id": 34, "input_str": " Hamas leader Khaled Mashaal on", "correct_token_str": " Sunday", "generated_token_str": " Wednesday", "generator_name": "text-babbage-001", "correct_logprobs": [-2.964867, -1.9182483, -1.915886], "generated_logprobs": [-3.4870238, -1.8965502, -1.8093549]}

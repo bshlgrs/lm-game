@@ -1,0 +1,1 @@
+{"id": 464, "input_str": " The US Supreme Court on Monday ruled that an antiabortion advocacy group has", "correct_token_str": " demonstrated", "generated_token_str": " the", "generator_name": "text-babbage-001", "correct_logprobs": [-16.713844, -12.146212, -12.439601], "generated_logprobs": [-0.07868775, -0.1686301, -0.12922582]}

@@ -1,0 +1,1 @@
+{"id": 156, "input_str": " One-tonne ghost net found drifting off NT coast, fisherman rescues snagged turtle\n\nUpdated\n\nA Darwin fisherman rescued a", "correct_token_str": " sn", "generated_token_str": " one", "generator_name": "text-curie-001", "correct_logprobs": [-13.328801, -6.10643, -2.8745291], "generated_logprobs": [-0.0044563366, -0.13483635, -0.086162485]}

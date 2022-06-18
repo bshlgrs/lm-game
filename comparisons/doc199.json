@@ -1,0 +1,1 @@
+{"id": 199, "input_str": " Neil Gorsuch believes LGBT folks are \u201cpeople,\u201d but does he believe they deserve the same rights as everyone else?\n", "correct_token_str": "\n", "generated_token_str": "\n", "generator_name": "text-ada-001", "correct_logprobs": [-7.1892834, -4.636969, -4.641993], "generated_logprobs": [-7.1892834, -4.636969, -4.641993]}

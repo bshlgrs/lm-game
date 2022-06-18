@@ -1,0 +1,1 @@
+{"id": 452, "input_str": " Parcel carrier FedEx is maintaining its support of a driver who intervened in a public protest in Iowa where", "correct_token_str": " several", "generated_token_str": " a", "generator_name": "text-babbage-001", "correct_logprobs": [-10.544363, -4.7191086, -5.623011], "generated_logprobs": [-3.434393, -0.3855688, -0.7615156]}

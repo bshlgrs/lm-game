@@ -1,0 +1,1 @@
+{"id": 202, "input_str": " This month marks the fifth anniversary of the Dodd-Frank Wall Street Reform and Consumer Protection Act", "correct_token_str": " of", "generated_token_str": " of", "generator_name": "text-ada-001", "correct_logprobs": [-0.13873886, -3.660581, -3.7523205], "generated_logprobs": [-0.13873886, -3.660581, -3.7523205]}

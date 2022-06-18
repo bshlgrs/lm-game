@@ -1,0 +1,1 @@
+{"id": 146, "input_str": " Joe Lunardi is the kid who totally looks off other people\u2019s work in class,", "correct_token_str": " then", "generated_token_str": " but", "generator_name": "text-curie-001", "correct_logprobs": [-4.2926593, -5.5634203, -4.8422976], "generated_logprobs": [-1.5914605, -1.2825372, -1.0189068]}

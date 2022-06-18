@@ -1,0 +1,1 @@
+{"id": 106, "input_str": " Donald Trump and Hillary Clinton during their presidential town hall", "correct_token_str": " debate", "generated_token_str": " meeting", "generator_name": "text-babbage-001", "correct_logprobs": [-6.356968, -1.7423987, -0.24183157], "generated_logprobs": [-0.48139343, -0.48436978, -4.117499]}

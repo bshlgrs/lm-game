@@ -1,0 +1,1 @@
+{"id": 413, "input_str": " Almost every hero seems viable in the current meta. For this year\u2019s International qualifiers, 105 out of 111 heroes were picked", "correct_token_str": ",", "generated_token_str": ".", "generator_name": "text-babbage-001", "correct_logprobs": [-4.9140673, -1.4078798, -2.7857406], "generated_logprobs": [-0.03533399, -0.6851406, -0.73712057]}

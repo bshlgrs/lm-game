@@ -1,0 +1,1 @@
+{"id": 502, "input_str": " Using Scala Will Make You Less Productive Authored by Graham Allan.\n", "correct_token_str": "\n", "generated_token_str": "\n", "generator_name": "text-babbage-001", "correct_logprobs": [-7.191556, -2.1674137, -2.8601418], "generated_logprobs": [-7.191556, -2.1674137, -2.8601418]}

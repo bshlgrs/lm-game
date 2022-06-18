@@ -1,0 +1,1 @@
+{"id": 288, "input_str": " Canadian negotiators are open to working on a timeline proposed by the U.S. to", "correct_token_str": " complete", "generated_token_str": " gradually", "generator_name": "text-curie-001", "correct_logprobs": [-4.0805707, -5.705707, -2.8389304], "generated_logprobs": [-10.6067295, -7.3888407, -4.9130077]}

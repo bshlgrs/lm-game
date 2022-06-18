@@ -1,0 +1,1 @@
+{"id": 390, "input_str": " There\u2019s a promising new treatment option on the horizon to fight cancer: Herpes.\n\nIt sounds unusual, but it\ufffd", "correct_token_str": "\ufffd", "generated_token_str": "s", "generator_name": "text-ada-001", "correct_logprobs": [-6.827632e-08, 0, -1.3823812e-06], "generated_logprobs": [-0.0038796442, -0.0008663821, -0.0010907168]}

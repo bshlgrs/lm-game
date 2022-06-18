@@ -1,0 +1,1 @@
+{"id": 142, "input_str": " Depth was a big reason why the New York Rangers made it to the 2014 Stanley Cup Final, but with a slew of free agents \u2013 both", "correct_token_str": " restricted", "generated_token_str": " on", "generator_name": "text-curie-001", "correct_logprobs": [-10.516773, -5.4049873, -7.4211936], "generated_logprobs": [-4.385785, -0.8354829, -1.0642793]}

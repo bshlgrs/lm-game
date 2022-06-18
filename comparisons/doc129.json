@@ -1,0 +1,1 @@
+{"id": 129, "input_str": " In 2007 I was promoted to Lieutenant of Investigations at the Beatrice Police Department.", "correct_token_str": " I", "generated_token_str": " In", "generator_name": "text-ada-001", "correct_logprobs": [-3.3906305, -1.7874669, -1.274624], "generated_logprobs": [-0.34311983, -3.0664654, -1.0756322]}

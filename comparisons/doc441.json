@@ -1,0 +1,1 @@
+{"id": 441, "input_str": " Kevin Greene spent his entire career bagging quarterback sacks.\n", "correct_token_str": "\n", "generated_token_str": "\n", "generator_name": "text-curie-001", "correct_logprobs": [-6.9962754, -6.057476, -5.841569], "generated_logprobs": [-6.9962754, -6.057476, -5.8466353]}

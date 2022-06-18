@@ -1,0 +1,1 @@
+{"id": 484, "input_str": " An obscure company in West Palm Beach that markets itself as a firearms manufacturer made a", "correct_token_str": " splash", "generated_token_str": " deal", "generator_name": "text-babbage-001", "correct_logprobs": [-13.03758, -7.6946583, -5.819228], "generated_logprobs": [-9.35487, -2.5484607, -5.2458363]}

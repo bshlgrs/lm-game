@@ -1,0 +1,1 @@
+{"id": 506, "input_str": " Four trialists have joined the New England Revolution\u2019s preseason camp.", "correct_token_str": " Defender", "generated_token_str": "\n", "generator_name": "text-curie-001", "correct_logprobs": [-15.398186, -12.662008, -6.1078672], "generated_logprobs": [-0.04593122, -0.013585011, -0.15952848]}

@@ -1,0 +1,1 @@
+{"id": 434, "input_str": " Switzerland's decision to remove its currency peg", "correct_token_str": " on", "generated_token_str": " to", "generator_name": "text-babbage-001", "correct_logprobs": [-11.455718, -7.848168, -7.315324], "generated_logprobs": [-0.0121761, -0.07795644, -0.317054]}

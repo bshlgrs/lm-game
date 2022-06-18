@@ -1,0 +1,1 @@
+{"id": 396, "input_str": " If libertarianism is the prevailing political climate of Silicon Valley, then Al Gore is the resident who didn\u2019t bring", "correct_token_str": " an", "generated_token_str": " any", "generator_name": "text-babbage-001", "correct_logprobs": [-12.96008, -5.748267, -4.306753], "generated_logprobs": [-8.236539, -3.6588688, -6.7166104]}
