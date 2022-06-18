@@ -1,0 +1,1 @@
+{"id": 2466, "input_str": " Israel is asking the United States for $5 billion in annual defense aid for a decade, beginning in 2017, US", "correct_token_str": " congressional", "generated_token_str": " political", "generator_name": "text-babbage-001", "correct_logprobs": [-7.735143, -7.438623, -6.875893], "generated_logprobs": [-10.587634, -6.0766277, -10.110594]}

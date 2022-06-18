@@ -1,0 +1,1 @@
+{"id": 2934, "input_str": " Twenty federal agencies are overhauling their policies to promote the deployment of broadband internet across the US. The", "correct_token_str": " changes", "generated_token_str": " new", "generator_name": "text-curie-001", "correct_logprobs": [-11.450948, -6.5303144, -7.1732836], "generated_logprobs": [-4.1084967, -5.9767942, -4.344262]}

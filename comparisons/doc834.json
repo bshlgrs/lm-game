@@ -1,0 +1,1 @@
+{"id": 1326, "input_str": " President Barack Obama on Monday announced the deployment", "correct_token_str": " to", "generated_token_str": " of", "generator_name": "text-ada-001", "correct_logprobs": [-7.1447487, -8.587163, -6.5677886], "generated_logprobs": [-0.0012877658, -0.000990237, -0.0022876947]}

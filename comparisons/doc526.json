@@ -1,0 +1,1 @@
+{"id": 830, "input_str": " Yesterday, religious leaders in Iowa held a press conference to decry the role that the American Family Association in playing in", "correct_token_str": " running", "generated_token_str": " Prop", "generator_name": "text-babbage-001", "correct_logprobs": [-15.058599, -8.567901, -10.75973], "generated_logprobs": [-9.17695, -9.147429, -11.167814]}

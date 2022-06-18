@@ -1,0 +1,1 @@
+{"id": 2840, "input_str": " A 31-year-old Worcester man has been arrested in the", "correct_token_str": " murder", "generated_token_str": "BS", "generator_name": "text-ada-001", "correct_logprobs": [-6.1281767, -3.9481475, -3.1951313], "generated_logprobs": [-5.526154, -14.555777, -19.132019]}

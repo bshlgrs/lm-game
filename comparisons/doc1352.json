@@ -1,0 +1,1 @@
+{"id": 2167, "input_str": " A Russian hacking group began attacking U.S.-based policy think tanks within hours of Donald Trump's presidential election victory,", "correct_token_str": " according", "generated_token_str": " the", "generator_name": "text-curie-001", "correct_logprobs": [-1.0277721, -2.1272569, -1.0516009], "generated_logprobs": [-2.2154713, -1.9171127, -2.210462]}

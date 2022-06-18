@@ -1,0 +1,1 @@
+{"id": 1611, "input_str": " Jeff Bernards will not quit.\n\n(Photo \u00a9 J. Maus/BikePortland)\n\nA", "correct_token_str": " major", "generated_token_str": " petition", "generator_name": "text-curie-001", "correct_logprobs": [-6.536564, -6.3191924, -6.1038785], "generated_logprobs": [-7.1177797, -6.869688, -2.7140996]}

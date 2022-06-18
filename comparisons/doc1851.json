@@ -1,0 +1,1 @@
+{"id": 2951, "input_str": " KUALA LUMPUR (Reuters) - Wan Abdullah Wan Ibrahim, managing director of Malaysia\u2019s UEM Land, thought it was a \u201c", "correct_token_str": "match", "generated_token_str": "f", "generator_name": "text-curie-001", "correct_logprobs": [-11.317103, -9.507017, -10.958588], "generated_logprobs": [-6.509174, -3.8083637, -3.3063]}

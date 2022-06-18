@@ -1,0 +1,1 @@
+{"id": 2853, "input_str": " End-to-End Functional Testing is the process of testing interactions between multiple modules of an", "correct_token_str": " application", "generated_token_str": " software", "generator_name": "text-ada-001", "correct_logprobs": [-0.07764223, -0.04680946, -0.021104733], "generated_logprobs": [-4.0495553, -5.4121227, -6.3064895]}

@@ -1,0 +1,1 @@
+{"id": 1804, "input_str": " A D.C.-based appeals court struck down a Federal Aviation Administration (FAA) rule on Friday requiring recreational", "correct_token_str": " drone", "generated_token_str": " pilots", "generator_name": "text-babbage-001", "correct_logprobs": [-4.4009433, -2.179259, -0.13356319], "generated_logprobs": [-0.9553043, -0.8409172, -3.4828103]}

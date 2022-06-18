@@ -1,0 +1,1 @@
+{"id": 1336, "input_str": " LIMA, Peru \u2014 If you\u2019re", "correct_token_str": " hungry", "generated_token_str": " looking", "generator_name": "text-ada-001", "correct_logprobs": [-10.372457, -8.894567, -8.569154], "generated_logprobs": [-0.122082904, -0.20429704, -0.6975742]}

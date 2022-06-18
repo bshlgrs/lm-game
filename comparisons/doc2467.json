@@ -1,0 +1,1 @@
+{"id": 3811, "input_str": " If Hillary is such a great candidate, why do we need to talk about Trump at all?\n\nThe thing that", "correct_token_str": "\ufffd", "generated_token_str": " makes", "generator_name": "text-curie-001", "correct_logprobs": [-16.33732, -15.283429, -13.265992], "generated_logprobs": [-0.2567378, -1.1090627, -0.73990816]}

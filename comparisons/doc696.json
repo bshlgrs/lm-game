@@ -1,0 +1,1 @@
+{"id": 1104, "input_str": " Republicans thought Democrats from pro-Trump states would be easy marks for \u201cbipartisan\ufffd", "correct_token_str": "\ufffd", "generated_token_str": " compromise", "generator_name": "text-curie-001", "correct_logprobs": [-3.4403198e-05, -0.0007440355, -0.00039914515], "generated_logprobs": [-18.364872, -5.4345403, -2.8142197]}

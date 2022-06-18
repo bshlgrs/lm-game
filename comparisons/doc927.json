@@ -1,0 +1,1 @@
+{"id": 1470, "input_str": " Pitt grad makes four majors seem easy\n\nJoseph Rendemonti started bagging groceries at a grocery store outside Philadelphia when he", "correct_token_str": " was", "generated_token_str": " got", "generator_name": "text-ada-001", "correct_logprobs": [-0.9289833, -0.004452924, -0.00116608], "generated_logprobs": [-2.0660682, -9.454123, -13.807637]}

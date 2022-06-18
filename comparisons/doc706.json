@@ -1,0 +1,1 @@
+{"id": 1117, "input_str": " Farid Z. (not his real name) is a Sunni shopkeeper in the al-Sabil neighborhood. He", "correct_token_str": " is", "generated_token_str": " was", "generator_name": "text-babbage-001", "correct_logprobs": [-3.206014, -2.361217, -1.6139567], "generated_logprobs": [-1.2805474, -2.0575595, -2.3731482]}

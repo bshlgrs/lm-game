@@ -1,0 +1,1 @@
+{"id": 3448, "input_str": " Apr 17, 2017 at 14:55 // News\n\nNina Lyon Author\n\nTokens built on the Ethereum blockchain platform will give gentlemen", "correct_token_str": " access", "generated_token_str": " using", "generator_name": "text-ada-001", "correct_logprobs": [-3.95621, -2.1944728, -4.8302684], "generated_logprobs": [-7.780294, -11.138469, -10.287133]}

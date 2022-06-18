@@ -1,0 +1,1 @@
+{"id": 1491, "input_str": " Congratulations, you bought your first mechanical watch. That makes you the rightfully proud owner of", "correct_token_str": " more", "generated_token_str": " a", "generator_name": "text-ada-001", "correct_logprobs": [-19.249493, -14.190719, -11.238353], "generated_logprobs": [-0.0006258754, -0.048615616, -0.24523033]}

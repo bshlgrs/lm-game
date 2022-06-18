@@ -1,0 +1,1 @@
+{"id": 1358, "input_str": " SO WHAT HAPPENS NEXT?\n\nFirst, we are now FUNDING STRETCH GOALS!\n\nThe first goal will be to fund the addition of GNOMES to", "correct_token_str": " Pathfinder", "generated_token_str": " the", "generator_name": "text-ada-001", "correct_logprobs": [-21.138641, -15.2152815, -13.827303], "generated_logprobs": [-0.0128845675, -0.08899507, -0.02092054]}

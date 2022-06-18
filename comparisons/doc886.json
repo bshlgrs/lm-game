@@ -1,0 +1,1 @@
+{"id": 1407, "input_str": " (The Frisky) -- In a recent column on the Huffington Post, \"", "correct_token_str": "Why", "generated_token_str": "7", "generator_name": "text-curie-001", "correct_logprobs": [-1.7930274, -2.1590858, -2.507441], "generated_logprobs": [-4.033692, -3.4023187, -2.1218476]}

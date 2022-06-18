@@ -1,0 +1,1 @@
+{"id": 1106, "input_str": " SGM Herbert A. Friedman (Ret.)\n\nFlag", "correct_token_str": " of", "generated_token_str": " Officer", "generator_name": "text-curie-001", "correct_logprobs": [-0.3537014, -3.6892986, -4.9432397], "generated_logprobs": [-2.233691, -2.7360272, -0.24765398]}

@@ -1,0 +1,1 @@
+{"id": 2313, "input_str": " By Rohan Grey and Ra\u00fal Carrillo\n\nOrthodox economists are often inclined to think of law as an", "correct_token_str": " external", "generated_token_str": "asper", "generator_name": "text-ada-001", "correct_logprobs": [-4.842672, -5.5146456, -2.896733], "generated_logprobs": [-9.950216, -19.005072, -18.137865]}

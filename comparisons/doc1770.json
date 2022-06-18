@@ -1,0 +1,1 @@
+{"id": 2817, "input_str": " There are only two ways the human body can deal with the invading pathogens and infections that can cause colds and", "correct_token_str": " other", "generated_token_str": " respiratory", "generator_name": "text-ada-001", "correct_logprobs": [-5.247478, -0.808146, -1.1738098], "generated_logprobs": [-2.8026505, -4.0531983, -3.9242148]}

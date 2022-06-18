@@ -1,0 +1,1 @@
+{"id": 2077, "input_str": " Hamas leader Khaled Mashaal on Sunday praised Gaza\ufffd", "correct_token_str": "\ufffd", "generated_token_str": "s", "generator_name": "text-ada-001", "correct_logprobs": [-0.00014408647, -2.2365928e-05, -0.0025960703], "generated_logprobs": [-0.0014343557, -0.00024835463, -0.00022385397]}

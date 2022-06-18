@@ -1,0 +1,1 @@
+{"id": 2097, "input_str": " I was sitting in a storefront on the coldest night so far this year,", "correct_token_str": " light", "generated_token_str": " block", "generator_name": "text-ada-001", "correct_logprobs": [-8.712115, -11.743092, -10.443854], "generated_logprobs": [-8.172395, -14.699335, -14.256201]}

@@ -1,0 +1,1 @@
+{"id": 1639, "input_str": " A history of being patient is paying off for Shakir Bell.\n\nBell", "correct_token_str": " will", "generated_token_str": " was", "generator_name": "text-ada-001", "correct_logprobs": [-12.574866, -9.5925045, -9.483613], "generated_logprobs": [-0.22634463, -1.0520462, -2.9275565]}

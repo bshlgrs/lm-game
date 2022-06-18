@@ -1,0 +1,1 @@
+{"id": 2383, "input_str": " A group of researchers and producers from NHL Network picked their top 10 games of the season for", "correct_token_str": " a", "generated_token_str": " fans", "generator_name": "text-curie-001", "correct_logprobs": [-6.354125, -5.1405096, -3.114064], "generated_logprobs": [-9.942344, -5.151862, -1.3241053]}

@@ -1,0 +1,1 @@
+{"id": 1656, "input_str": " As a college hoops superfan, I'll watch the NIT, and", "correct_token_str": " even", "generated_token_str": " then", "generator_name": "text-curie-001", "correct_logprobs": [-7.6141834, -5.5863867, -5.1122565], "generated_logprobs": [-1.1377944, -1.0925819, -2.096113]}

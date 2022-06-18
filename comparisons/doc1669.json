@@ -1,0 +1,1 @@
+{"id": 2658, "input_str": " Sky Blue FC vs Boston Breakers, Final", "correct_token_str": " Score", "generated_token_str": "\n", "generator_name": "text-curie-001", "correct_logprobs": [-2.0167413, -5.0513153, -4.571118], "generated_logprobs": [-1.0235057, -0.16381213, -0.053036284]}

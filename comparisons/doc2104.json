@@ -1,0 +1,1 @@
+{"id": 3374, "input_str": " Negative space is, quite simply, the space that surrounds an object in a image. Just", "correct_token_str": " as", "generated_token_str": " like", "generator_name": "text-ada-001", "correct_logprobs": [-1.2416081, -0.18115193, -0.4377188], "generated_logprobs": [-0.34476912, -1.8934647, -1.0613875]}

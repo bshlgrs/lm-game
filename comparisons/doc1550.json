@@ -1,0 +1,1 @@
+{"id": 2472, "input_str": " Howard University\n\nWashington, D.C.\n\n11:47 A.M. EDT\n\n", "correct_token_str": "THE", "generated_token_str": "\n", "generator_name": "text-curie-001", "correct_logprobs": [-3.8124857, -2.2680895, -0.5275712], "generated_logprobs": [-0.0054805987, -0.007998685, -0.19642998]}

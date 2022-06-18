@@ -1,0 +1,1 @@
+{"id": 3003, "input_str": " It feels like a long time since we've had a great big knock-down, drag-out", "correct_token_str": " operating", "generated_token_str": " lightsaber", "generator_name": "text-curie-001", "correct_logprobs": [-15.64682, -19.30542, -14.037663], "generated_logprobs": [-9.391991, -9.301963, -7.5379043]}

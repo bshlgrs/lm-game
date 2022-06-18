@@ -1,0 +1,1 @@
+{"id": 1294, "input_str": " Narendra Modi in Delhi; BJP to declare him its choice for", "correct_token_str": " PM", "generated_token_str": " the", "generator_name": "text-ada-001", "correct_logprobs": [-9.733308, -3.626194, -1.3559247], "generated_logprobs": [-0.009498342, -0.8525314, -2.6797447]}

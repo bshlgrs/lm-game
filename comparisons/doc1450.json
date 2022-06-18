@@ -1,0 +1,1 @@
+{"id": 2320, "input_str": " Visitors walking through the thatched houses of this village on the shore of Lake Kivu are shadowed by", "correct_token_str": " a", "generated_token_str": " the", "generator_name": "text-curie-001", "correct_logprobs": [-5.8701386, -2.7301934, -2.8297505], "generated_logprobs": [-0.20714663, -0.40093163, -0.35023087]}

@@ -1,0 +1,1 @@
+{"id": 2191, "input_str": " TAMPA, Fla. - Further growing the Premier Development League\u2019s West Coast presence, the", "correct_token_str": " league", "generated_token_str": " California", "generator_name": "text-ada-001", "correct_logprobs": [-4.987406, -0.59540635, -1.530143], "generated_logprobs": [-4.1759434, -6.5210276, -5.4853177]}

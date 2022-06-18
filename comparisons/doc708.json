@@ -1,0 +1,1 @@
+{"id": 1121, "input_str": " Drugs and agrichemicals can be easily improved using the new process and pharma is already", "correct_token_str": " making", "generated_token_str": " scaven", "generator_name": "text-curie-001", "correct_logprobs": [-8.368563, -4.051203, -3.3322096], "generated_logprobs": [-14.078761, -13.215449, -14.756326]}

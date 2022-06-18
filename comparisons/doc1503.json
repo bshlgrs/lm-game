@@ -1,0 +1,1 @@
+{"id": 2396, "input_str": " Today at SCWS Americas, Sprint (NYSE: S) announced the availability of a new small cell solution from", "correct_token_str": " Spider", "generated_token_str": " Sprint", "generator_name": "text-babbage-001", "correct_logprobs": [-13.177779, -12.308114, -8.210889], "generated_logprobs": [-14.237099, -3.058319, -3.884667]}

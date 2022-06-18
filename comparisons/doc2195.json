@@ -1,0 +1,1 @@
+{"id": 3505, "input_str": " IN THE film \u201cSuperman 3\u201d, a lowly computer programmer", "correct_token_str": " (", "generated_token_str": " named", "generator_name": "text-curie-001", "correct_logprobs": [-6.637601, -3.4244013, -3.6221125], "generated_logprobs": [-0.3388836, -0.16332075, -0.32936233]}

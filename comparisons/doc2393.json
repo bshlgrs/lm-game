@@ -1,0 +1,1 @@
+{"id": 3737, "input_str": " By: Gibson Johns\n\nJoe Jonas is riding high right now. His debut single, \"Cake", "correct_token_str": " By", "generated_token_str": ",\"", "generator_name": "text-ada-001", "correct_logprobs": [-8.999121, -4.6831045, -1.9533145], "generated_logprobs": [-0.056419015, -0.34565714, -4.721827]}

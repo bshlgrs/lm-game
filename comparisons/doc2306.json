@@ -1,0 +1,1 @@
+{"id": 3650, "input_str": " As previously noted on these pages, I grew up", "correct_token_str": " a", "generated_token_str": " in", "generator_name": "text-ada-001", "correct_logprobs": [-7.7852583, -2.4685628, -2.5934682], "generated_logprobs": [-0.07271779, -0.8431815, -0.5904547]}

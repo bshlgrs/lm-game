@@ -1,0 +1,1 @@
+{"id": 2867, "input_str": " Photo By Jojo \u2013 Own work, CC BY-SA 3.0, Link\n\n*tap tap tap* Is this", "correct_token_str": " thing", "generated_token_str": " restaurant", "generator_name": "text-babbage-001", "correct_logprobs": [-11.689713, -2.926487, -0.08276108], "generated_logprobs": [-15.844406, -9.974497, -12.272384]}

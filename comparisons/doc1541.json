@@ -1,0 +1,1 @@
+{"id": 2462, "input_str": " Every day, Davis Webb assembled his list of questions.\n\nThere were questions specific to Eli Manning, which makes", "correct_token_str": " sense", "generated_token_str": " for", "generator_name": "text-babbage-001", "correct_logprobs": [-1.2726467, -1.1348377, -0.031989515], "generated_logprobs": [-5.823638, -1.9416585, -8.198291]}

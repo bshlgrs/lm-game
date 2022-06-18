@@ -1,0 +1,1 @@
+{"id": 2223, "input_str": " Cyclist captures close call with truck on video, renewing demands for safe passing laws\n\nUpdated\n\nA video showing a truck", "correct_token_str": " pass", "generated_token_str": " driver", "generator_name": "text-ada-001", "correct_logprobs": [-10.853449, -7.5170016, -8.526657], "generated_logprobs": [-1.673132, -2.278422, -4.8875527]}

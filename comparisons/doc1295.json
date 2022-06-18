@@ -1,0 +1,1 @@
+{"id": 2070, "input_str": " In her knee-length jumper and cobalt blue tights, Hannah Simpson cuts a neat figure. The vibrant 29-year-old student of oste", "correct_token_str": "opathic", "generated_token_str": "opathy", "generator_name": "text-curie-001", "correct_logprobs": [-1.6827089, -0.12965642, -3.3387742], "generated_logprobs": [-0.2231044, -2.2633328, -0.106271826]}

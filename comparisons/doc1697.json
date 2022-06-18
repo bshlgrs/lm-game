@@ -1,0 +1,1 @@
+{"id": 2693, "input_str": " The other day Bruce Bartlett had a piece in the Financial Times that well illustrates the \u201cJapan Syndrome\u201d, where \u201c", "correct_token_str": "JS", "generated_token_str": "a", "generator_name": "text-babbage-001", "correct_logprobs": [-11.084822, -10.889269, -13.922998], "generated_logprobs": [-3.9437451, -2.3496573, -1.7695639]}

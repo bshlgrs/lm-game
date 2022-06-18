@@ -1,0 +1,1 @@
+{"id": 2993, "input_str": " A journalist from one of the more normally boisterous outlets of the southern Chinese media, famed for its", "correct_token_str": " critical", "generated_token_str": " stepped", "generator_name": "text-babbage-001", "correct_logprobs": [-4.4942737, -5.3932986, -4.477419], "generated_logprobs": [-10.656225, -10.966989, -15.052053]}

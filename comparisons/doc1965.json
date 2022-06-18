@@ -1,0 +1,1 @@
+{"id": 3138, "input_str": " These are mistakes that I have made developing in Python over the years. This", "correct_token_str": " by", "generated_token_str": " is", "generator_name": "text-babbage-001", "correct_logprobs": [-13.00055, -12.964031, -10.774392], "generated_logprobs": [-0.27745062, -0.4708491, -0.40873632]}

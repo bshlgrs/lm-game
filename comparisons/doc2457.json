@@ -1,0 +1,1 @@
+{"id": 3801, "input_str": " Newspaper Page Text\n\nHOME EDITION\n\nT", "correct_token_str": "OD", "generated_token_str": "ired", "generator_name": "text-ada-001", "correct_logprobs": [-4.018537, -1.7833766, -3.3043437], "generated_logprobs": [-2.0159109, -7.5937266, -8.25843]}

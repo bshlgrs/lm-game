@@ -1,0 +1,1 @@
+{"id": 1443, "input_str": " The three years since the Affordable Care Act passed \u2014 2011,", "correct_token_str": " 2012", "generated_token_str": " 2013", "generator_name": "text-babbage-001", "correct_logprobs": [-5.289881, -0.8129604, -0.0039932784], "generated_logprobs": [-0.06649263, -0.65977365, -6.2953243]}

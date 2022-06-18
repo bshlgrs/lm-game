@@ -1,0 +1,1 @@
+{"id": 918, "input_str": " Description\n\nEffective Learning 10X - The HIGHEST Rated Memory Course On Udemy\n\nOVER 1,143", "correct_token_str": " \ufffd", "generated_token_str": ",", "generator_name": "text-curie-001", "correct_logprobs": [-13.098817, -14.806326, -15.637624], "generated_logprobs": [-5.7836037, -2.8789318, -0.07330177]}

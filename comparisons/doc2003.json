@@ -1,0 +1,1 @@
+{"id": 3200, "input_str": " SAN FRANCISCO (MarketWatch) \u2014 Gold hit a long-anticipated high-water mark Friday, briefly breaking through $1,300 an ounce.", "correct_token_str": " But", "generated_token_str": "\n", "generator_name": "text-curie-001", "correct_logprobs": [-13.879429, -8.122087, -6.85119], "generated_logprobs": [-0.0013195766, -0.00798931, -0.013128521]}

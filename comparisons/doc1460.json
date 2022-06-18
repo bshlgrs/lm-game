@@ -1,0 +1,1 @@
+{"id": 2333, "input_str": " Levine and her adorable daughter, Jo Jo, who\u2019s", "correct_token_str": " 6", "generated_token_str": " 10", "generator_name": "text-curie-001", "correct_logprobs": [-9.738226, -3.5860443, -4.6439276], "generated_logprobs": [-9.914001, -4.4966373, -4.4571133]}

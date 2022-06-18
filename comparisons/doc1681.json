@@ -1,0 +1,1 @@
+{"id": 2673, "input_str": " The live action adaptation of Jojo\u2019s Bizarre Adventure, which is approaching its 30th anniversary, recently", "correct_token_str": " held", "generated_token_str": " released", "generator_name": "text-curie-001", "correct_logprobs": [-6.986342, -5.6831746, -4.3429756], "generated_logprobs": [-3.4807277, -4.2203293, -1.6893358]}

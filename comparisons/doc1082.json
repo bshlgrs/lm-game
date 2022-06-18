@@ -1,0 +1,1 @@
+{"id": 1732, "input_str": " Buy Photo An ordinance proposed by Metro Councilwoman Angie Henderson would", "correct_token_str": " require", "generated_token_str": " prevent", "generator_name": "text-ada-001", "correct_logprobs": [-2.8335443, -2.7206717, -1.315342], "generated_logprobs": [-2.9233954, -4.557063, -5.346731]}

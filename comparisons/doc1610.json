@@ -1,0 +1,1 @@
+{"id": 2574, "input_str": " \u2014 Loretta Lynch is confirmed as Obama\ufffd", "correct_token_str": "\ufffd", "generated_token_str": "s", "generator_name": "text-babbage-001", "correct_logprobs": [-7.20769e-05, -1.9765537e-06, -0.002259738], "generated_logprobs": [-0.0063714096, -0.00022576131, -0.00074188696]}

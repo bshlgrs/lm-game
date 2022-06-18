@@ -1,0 +1,1 @@
+{"id": 3599, "input_str": " St-Tite, QC \u2013 The Quebec Remparts edged out the Shawinigan Cataractes to cap a special weekend of outdoor action in the", "correct_token_str": " first", "generated_token_str": " province", "generator_name": "text-babbage-001", "correct_logprobs": [-10.250003, -11.916044, -12.839117], "generated_logprobs": [-6.369973, -1.0916318, -3.1103725]}

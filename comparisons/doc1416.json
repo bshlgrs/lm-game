@@ -1,0 +1,1 @@
+{"id": 2272, "input_str": " Peter Gabriel joined big thinkers and one of the Internet\u2019s founding fathers Friday in", "correct_token_str": " launching", "generated_token_str": " a", "generator_name": "text-babbage-001", "correct_logprobs": [-6.0796227, -6.5981693, -3.499664], "generated_logprobs": [-1.5870385, -0.48046026, -1.3439593]}

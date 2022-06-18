@@ -1,0 +1,1 @@
+{"id": 933, "input_str": " For weeks now, Fox News has been pushing the narrative that", "correct_token_str": " the", "generated_token_str": " Rep", "generator_name": "text-ada-001", "correct_logprobs": [-0.51863956, -0.6958022, -0.4539762], "generated_logprobs": [-7.0775337, -7.08987, -6.6707087]}

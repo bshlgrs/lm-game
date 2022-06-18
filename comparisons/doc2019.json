@@ -1,0 +1,1 @@
+{"id": 3225, "input_str": " Last month, we published a post where we said that thousands of motorcyclists were expected to demonstrate all over France", "correct_token_str": " in", "generated_token_str": " on", "generator_name": "text-curie-001", "correct_logprobs": [-4.896822, -0.8188411, -1.409726], "generated_logprobs": [-9.509415, -3.5586538, -1.4644667]}

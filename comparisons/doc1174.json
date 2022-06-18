@@ -1,0 +1,1 @@
+{"id": 1891, "input_str": " 1969-1970 Aston Martin DB6 Vantage Shooting Brake 2012 Mercedes Benz CLS Shooting Brake\n\nShooting-brake is a term", "correct_token_str": " for", "generated_token_str": " used", "generator_name": "text-ada-001", "correct_logprobs": [-8.779618, -3.4985597, -1.8415698], "generated_logprobs": [-0.005259113, -0.44933772, -0.6456164]}

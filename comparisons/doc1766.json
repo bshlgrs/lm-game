@@ -1,0 +1,1 @@
+{"id": 2810, "input_str": " MANCHESTER, NH - NOVEMBER 29: Democratic Presidential candidate Bernie Sanders speaks at the Jefferson Jackson Dinner at the Radisson", "correct_token_str": " Hotel", "generated_token_str": "n", "generator_name": "text-ada-001", "correct_logprobs": [-0.4209767, -1.4066781, -0.102342896], "generated_logprobs": [-4.9174156, -12.988002, -15.1181555]}

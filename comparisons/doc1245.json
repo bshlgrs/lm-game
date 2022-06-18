@@ -1,0 +1,1 @@
+{"id": 1995, "input_str": " Serverless Computing is Exploding\n\nAs we move to the different models of production, distribution, and management", "correct_token_str": " when", "generated_token_str": " of", "generator_name": "text-babbage-001", "correct_logprobs": [-13.873061, -8.786857, -14.364918], "generated_logprobs": [-5.467622, -0.28177208, -3.4674969]}

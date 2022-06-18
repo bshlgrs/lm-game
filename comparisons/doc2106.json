@@ -1,0 +1,1 @@
+{"id": 3378, "input_str": " The first HTR-PM (High Temperature Reactor \u2013 Pebble Module), one of the more intriguing nuclear", "correct_token_str": " plant", "generated_token_str": " reactor", "generator_name": "text-babbage-001", "correct_logprobs": [-6.870271, -5.978104, -7.817551], "generated_logprobs": [-2.8725934, -1.2155036, -1.4111077]}

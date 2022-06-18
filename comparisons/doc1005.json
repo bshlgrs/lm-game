@@ -1,0 +1,1 @@
+{"id": 1606, "input_str": " How should you feel about your natural hair?", "correct_token_str": " When", "generated_token_str": "\n", "generator_name": "text-curie-001", "correct_logprobs": [-13.358228, -11.719284, -11.146672], "generated_logprobs": [-0.007672561, -0.014281531, -0.018378288]}

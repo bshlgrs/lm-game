@@ -1,0 +1,1 @@
+{"id": 2747, "input_str": " This may be the granddaddy of all pterodactyls.\n\nAn international team of researchers", "correct_token_str": " is", "generated_token_str": " has", "generator_name": "text-curie-001", "correct_logprobs": [-9.65897, -5.080082, -5.887193], "generated_logprobs": [-0.29307032, -0.40112513, -0.5739074]}

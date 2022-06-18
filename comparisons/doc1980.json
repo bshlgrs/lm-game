@@ -1,0 +1,1 @@
+{"id": 3163, "input_str": " Donald Trump was at his most bombastic this week in Washington. \u201cWe are led by stupid, stupid people\u2014very", "correct_token_str": ",", "generated_token_str": " stupid", "generator_name": "text-curie-001", "correct_logprobs": [-2.7153609, -0.96404225, -1.9585683], "generated_logprobs": [-5.714777, -0.74059266, -0.45571682]}

@@ -1,0 +1,1 @@
+{"id": 1306, "input_str": " The biggest and perhaps most fearsome of the world's big cats, the tiger shares 95.6 percent of its", "correct_token_str": " DNA", "generated_token_str": "),", "generator_name": "text-ada-001", "correct_logprobs": [-3.1270144, -1.4458896, -1.1258066], "generated_logprobs": [-10.636566, -14.927634, -17.834848]}

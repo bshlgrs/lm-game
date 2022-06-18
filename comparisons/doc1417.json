@@ -1,0 +1,1 @@
+{"id": 2276, "input_str": " NEW DELHI: The Army plans to", "correct_token_str": " send", "generated_token_str": " set", "generator_name": "text-babbage-001", "correct_logprobs": [-4.913947, -3.8753452, -5.6204863], "generated_logprobs": [-2.478034, -2.2791293, -2.3448117]}

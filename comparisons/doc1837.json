@@ -1,0 +1,1 @@
+{"id": 2929, "input_str": " The People Who Live On This Island Will Kill Anyone Who Tries To", "correct_token_str": " Come", "generated_token_str": " Return", "generator_name": "text-babbage-001", "correct_logprobs": [-2.0695236, -1.7941257, -3.023157], "generated_logprobs": [-7.8167744, -6.312527, -10.012754]}

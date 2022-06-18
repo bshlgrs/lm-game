@@ -1,0 +1,1 @@
+{"id": 2072, "input_str": " For everyone eagerly awaiting the final episodes of Breaking Bad: You'll get the chance to binge-watch each season over", "correct_token_str": " five", "generated_token_str": " the", "generator_name": "text-curie-001", "correct_logprobs": [-7.5343924, -7.74429, -9.65802], "generated_logprobs": [-1.9628942, -0.12794146, -0.004681837]}

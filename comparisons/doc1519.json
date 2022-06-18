@@ -1,0 +1,1 @@
+{"id": 2424, "input_str": " The precise timing of the origin of life on Earth and the changes in life during the past 4.5 billion years", "correct_token_str": " has", "generated_token_str": " remain", "generator_name": "text-curie-001", "correct_logprobs": [-4.3638816, -5.251629, -6.281491], "generated_logprobs": [-8.791279, -0.93460476, -1.6791444]}

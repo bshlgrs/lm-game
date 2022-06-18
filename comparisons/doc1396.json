@@ -1,0 +1,1 @@
+{"id": 2236, "input_str": " Gamescom 2014 is looming and Sony are bringing the fire. They have announced a", "correct_token_str": " press", "generated_token_str": " new", "generator_name": "text-babbage-001", "correct_logprobs": [-7.341813, -6.868475, -7.157202], "generated_logprobs": [-1.6393466, -0.3575232, -1.704404]}

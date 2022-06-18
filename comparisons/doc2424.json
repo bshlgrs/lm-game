@@ -1,0 +1,1 @@
+{"id": 3768, "input_str": " Abu Muhammad al Julani, the emir of Al Nusrah Front, delivered a", "correct_token_str": " short", "generated_token_str": " speech", "generator_name": "text-babbage-001", "correct_logprobs": [-9.509592, -8.737117, -9.055224], "generated_logprobs": [-0.21179892, -0.32484284, -0.5796443]}

@@ -1,0 +1,1 @@
+{"id": 1101, "input_str": " We think of psychedelic drugs, hallucinogens, as", "correct_token_str": " party", "generated_token_str": " being", "generator_name": "text-babbage-001", "correct_logprobs": [-10.208695, -9.353731, -3.117222], "generated_logprobs": [-8.292049, -1.7641585, -2.016705]}

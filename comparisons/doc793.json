@@ -1,0 +1,1 @@
+{"id": 1251, "input_str": " Projects \u200e > \u200e The Habitable Exoplanets Catalog NEWS RESULTS METHODS DATA STATS REFERENCES MEDIA PR", "correct_token_str": "IM", "generated_token_str": "ISON", "generator_name": "text-ada-001", "correct_logprobs": [-5.759812, -5.3978233, -3.9112759], "generated_logprobs": [-2.3493698, -5.816852, -5.777882]}

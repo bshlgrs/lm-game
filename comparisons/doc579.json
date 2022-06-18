@@ -1,0 +1,1 @@
+{"id": 908, "input_str": " Ever since learning about Vim\u2019s text-objects I have wished that there was a way of selecting blocks", "correct_token_str": " in", "generated_token_str": " of", "generator_name": "text-curie-001", "correct_logprobs": [-14.518395, -7.062779, -8.088218], "generated_logprobs": [-9.370307e-06, -0.004803051, -0.003175312]}

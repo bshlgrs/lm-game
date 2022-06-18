@@ -1,0 +1,1 @@
+{"id": 834, "input_str": " Money Monday - 3 Centimes, Kingdom of Westphalia (1809)\n\nObverse: Monogram [HN for Hieronymus Napoleon]\n\nReverse: 3 CENT./KOEN V WEST", "correct_token_str": "PH", "generated_token_str": "F", "generator_name": "text-babbage-001", "correct_logprobs": [-0.7049656, -1.7760986, -1.916817], "generated_logprobs": [-3.9564521, -0.61424017, -1.4516088]}

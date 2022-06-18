@@ -1,0 +1,1 @@
+{"id": 1050, "input_str": " Nassau Hall first opened its doors on November 28, 17", "correct_token_str": "56", "generated_token_str": "85", "generator_name": "text-babbage-001", "correct_logprobs": [-8.608627, -7.5203867, -5.489457], "generated_logprobs": [-2.1612127, -2.5982988, -3.8073578]}

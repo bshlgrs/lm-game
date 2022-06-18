@@ -1,0 +1,1 @@
+{"id": 3127, "input_str": " Reaching the Crown\n\nLots of times, we cue lengthening through the crown of the head so that your Levator Sc", "correct_token_str": "ap", "generated_token_str": "rot", "generator_name": "text-ada-001", "correct_logprobs": [-2.4115977, -0.077362254, -0.01118384], "generated_logprobs": [-0.23512241, -4.379174, -9.873267]}

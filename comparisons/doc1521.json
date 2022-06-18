@@ -1,0 +1,1 @@
+{"id": 2427, "input_str": " I guess what I\u2019m trying to say here is that we evolve", "correct_token_str": " in", "generated_token_str": ",", "generator_name": "text-babbage-001", "correct_logprobs": [-6.077632, -4.4247236, -4.187323], "generated_logprobs": [-3.5990813, -1.7024938, -1.7116535]}

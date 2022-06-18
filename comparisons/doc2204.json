@@ -1,0 +1,1 @@
+{"id": 3522, "input_str": " The Blazers forward could use his size and strength to earn minutes early. (1", "correct_token_str": ":", "generated_token_str": ")", "generator_name": "text-babbage-001", "correct_logprobs": [-1.3564255, -5.4072685, -4.943201], "generated_logprobs": [-1.2653906, -1.0513364, -1.2792218]}

@@ -1,0 +1,1 @@
+{"id": 1945, "input_str": " Tens of thousands of panicking Congolese are fleeing from their homes after heavily armed", "correct_token_str": " rebels", "generated_token_str": " soldiers", "generator_name": "text-babbage-001", "correct_logprobs": [-4.175943, -3.1069486, -0.69879574], "generated_logprobs": [-2.617703, -1.9699202, -3.36502]}

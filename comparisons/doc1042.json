@@ -1,0 +1,1 @@
+{"id": 1668, "input_str": " Scoot over, Donna Hanscum (Brianna Buckmaster), because there\u2019s another", "correct_token_str": " sheriff", "generated_token_str": " Sc", "generator_name": "text-babbage-001", "correct_logprobs": [-13.256938, -10.412115, -10.201586], "generated_logprobs": [-9.643704, -6.8396473, -10.524238]}

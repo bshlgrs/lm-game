@@ -1,0 +1,1 @@
+{"id": 2488, "input_str": " Dolls have long been a source of amusement for", "correct_token_str": " both", "generated_token_str": " children", "generator_name": "text-curie-001", "correct_logprobs": [-1.3669891, -4.0233936, -2.3442714], "generated_logprobs": [-4.402899, -0.1842319, -0.6753051]}

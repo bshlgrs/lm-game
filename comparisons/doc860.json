@@ -1,0 +1,1 @@
+{"id": 1367, "input_str": " Suppose one of our countrymen goes to America,", "correct_token_str": " settles", "generated_token_str": " and", "generator_name": "text-babbage-001", "correct_logprobs": [-12.970211, -9.027804, -5.7250543], "generated_logprobs": [-0.8595367, -0.5882828, -0.9707513]}

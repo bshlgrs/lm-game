@@ -1,0 +1,1 @@
+{"id": 3795, "input_str": " Image caption Ghostwatch's creators wanted to", "correct_token_str": " break", "generated_token_str": " make", "generator_name": "text-curie-001", "correct_logprobs": [-12.110327, -8.6698, -8.3812475], "generated_logprobs": [-3.0802968, -1.3743856, -1.0609998]}

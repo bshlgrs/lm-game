@@ -1,0 +1,1 @@
+{"id": 1604, "input_str": " The USA is an easy and unforgettable place to take a road trip. The roads are wide and smooth, there", "correct_token_str": " are", "generated_token_str": " is", "generator_name": "text-ada-001", "correct_logprobs": [-3.7079194, -0.052180793, -0.24014464], "generated_logprobs": [-0.15832473, -4.2131267, -2.124191]}

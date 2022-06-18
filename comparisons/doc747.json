@@ -1,0 +1,1 @@
+{"id": 1176, "input_str": " Frying chicken is fairly simple, if a little messy. You dip pieces of chicken into a mix of egg and", "correct_token_str": " milk", "generated_token_str": " water", "generator_name": "text-babbage-001", "correct_logprobs": [-6.3811917, -8.097323, -2.19737], "generated_logprobs": [-4.135526, -4.6280417, -4.2391295]}

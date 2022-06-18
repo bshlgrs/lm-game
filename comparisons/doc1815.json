@@ -1,0 +1,1 @@
+{"id": 2893, "input_str": " Before setting out to work on a VR project it\u2019s important to hone in and focus on something specific as a core", "correct_token_str": " mission", "generated_token_str": " skill", "generator_name": "text-ada-001", "correct_logprobs": [-9.033526, -6.040206, -6.7575407], "generated_logprobs": [-1.4017456, -5.775869, -9.690255]}

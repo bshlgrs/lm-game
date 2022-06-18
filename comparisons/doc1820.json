@@ -1,0 +1,1 @@
+{"id": 2901, "input_str": " Gayle Laird \u00a9 Exploratorium/Flickr The question of how to win at Rock-Paper-Scissors", "correct_token_str": " has", "generated_token_str": " is", "generator_name": "text-babbage-001", "correct_logprobs": [-3.4682126, -2.2822425, -1.7590253], "generated_logprobs": [-0.13676584, -0.26243597, -0.64789367]}

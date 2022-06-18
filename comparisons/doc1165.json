@@ -1,0 +1,1 @@
+{"id": 1865, "input_str": " Michael Harper for redOrbit.com", "correct_token_str": " \u2014", "generated_token_str": " \u2013", "generator_name": "text-curie-001", "correct_logprobs": [-8.372341, -7.0690665, -3.2186916], "generated_logprobs": [-5.903438, -3.7660491, -0.5103329]}

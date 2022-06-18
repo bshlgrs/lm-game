@@ -1,0 +1,1 @@
+{"id": 1888, "input_str": " A list of IWW pamphlets from the beginning of the 20th Century up until today.\n\nUPDATE 2/28/15: Added 50 titles", "correct_token_str": ".", "generated_token_str": " to", "generator_name": "text-curie-001", "correct_logprobs": [-10.085453, -3.3976905, -6.4287105], "generated_logprobs": [-0.028445436, -0.3718746, -0.2737803]}

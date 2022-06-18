@@ -1,0 +1,1 @@
+{"id": 1426, "input_str": " Tom Cruise, 55, and Sarah Wright, 33,", "correct_token_str": " in", "generated_token_str": " the", "generator_name": "text-babbage-001", "correct_logprobs": [-8.526779, -3.6933594, -5.3018937], "generated_logprobs": [-8.094378, -6.230788, -5.639875]}

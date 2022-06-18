@@ -1,0 +1,1 @@
+{"id": 1618, "input_str": " Scientists have for the first time reported successful use of a brain-stimulating implant to help patients with severe anorexia", "correct_token_str": " whose", "generated_token_str": " pre", "generator_name": "text-ada-001", "correct_logprobs": [-12.875632, -14.400529, -13.379574], "generated_logprobs": [-8.315331, -13.245218, -13.3984785]}

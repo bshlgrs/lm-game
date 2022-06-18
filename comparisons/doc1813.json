@@ -1,0 +1,1 @@
+{"id": 2891, "input_str": " Ron Wimberly has been working in mainstream comics for more than ten years, on projects", "correct_token_str": " like", "generated_token_str": " ranging", "generator_name": "text-curie-001", "correct_logprobs": [-1.9791051, -1.3764497, -0.603186], "generated_logprobs": [-3.4617865, -4.443082, -3.0162072]}

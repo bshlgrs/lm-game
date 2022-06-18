@@ -1,0 +1,1 @@
+{"id": 1859, "input_str": " Ask any chef: There\u2019s", "correct_token_str": " nothing", "generated_token_str": " no", "generator_name": "text-babbage-001", "correct_logprobs": [-3.5237226, -2.6043046, -1.5066518], "generated_logprobs": [-3.2680426, -0.32765433, -0.5418463]}

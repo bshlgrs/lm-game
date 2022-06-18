@@ -1,0 +1,1 @@
+{"id": 2880, "input_str": " News Release (510) 486-6491 \u2022\n\nArt", "correct_token_str": " Rosen", "generated_token_str": "icles", "generator_name": "text-curie-001", "correct_logprobs": [-14.839085, -11.356183, -8.869346], "generated_logprobs": [-3.789144, -2.657463, -2.0318093]}

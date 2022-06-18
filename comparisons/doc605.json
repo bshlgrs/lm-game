@@ -1,0 +1,1 @@
+{"id": 942, "input_str": " (NewsWire) Salt Lake City, UT\n\nIn response to Mayor Biskupski\ufffd", "correct_token_str": "\ufffd", "generated_token_str": "s", "generator_name": "text-curie-001", "correct_logprobs": [-4.6445148e-05, -1.6282536e-05, -8.00667e-05], "generated_logprobs": [-1.8073477e-05, -0.0007853737, -0.000111657944]}

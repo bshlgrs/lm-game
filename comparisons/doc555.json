@@ -1,0 +1,1 @@
+{"id": 876, "input_str": " The fast food chain insists the Caveman", "correct_token_str": " toy", "generated_token_str": " is", "generator_name": "text-ada-001", "correct_logprobs": [-9.749811, -9.881605, -9.854125], "generated_logprobs": [-1.0815434, -2.924028, -2.6833436]}

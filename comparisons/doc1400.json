@@ -1,0 +1,1 @@
+{"id": 2240, "input_str": " People often ask us the same questions, such as if", "correct_token_str": " we", "generated_token_str": " there", "generator_name": "text-babbage-001", "correct_logprobs": [-1.8757836, -0.43439955, -1.0549426], "generated_logprobs": [-6.714473, -2.3877847, -1.7493141]}

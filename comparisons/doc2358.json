@@ -1,0 +1,1 @@
+{"id": 3702, "input_str": " Retired cop-turned-private eye-turned-Arby", "correct_token_str": "\ufffd", "generated_token_str": "'s", "generator_name": "text-babbage-001", "correct_logprobs": [-10.897479, -11.984058, -12.63928], "generated_logprobs": [-0.6286503, -0.021095417, -0.1545047]}

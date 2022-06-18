@@ -1,0 +1,1 @@
+{"id": 1823, "input_str": " South Africa (1989)\n\nArmored Car \u2013 242 built\n\n\u201cR", "correct_token_str": "oo", "generated_token_str": "30", "generator_name": "text-curie-001", "correct_logprobs": [-8.159376, -5.6474586, -0.70729214], "generated_logprobs": [-11.910616, -8.108199, -5.654203]}

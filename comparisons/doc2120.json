@@ -1,0 +1,1 @@
+{"id": 3401, "input_str": " The morphology and colour of L. balearicus are unique and,", "correct_token_str": " in", "generated_token_str": " as", "generator_name": "text-ada-001", "correct_logprobs": [-0.68271214, -2.048553, -3.039325], "generated_logprobs": [-0.91148627, -1.0505692, -1.8187286]}

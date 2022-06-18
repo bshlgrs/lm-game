@@ -1,0 +1,1 @@
+{"id": 3055, "input_str": " Reuters/Russell Boyce Brexit will not give UK exports a boost as", "correct_token_str": " huge", "generated_token_str": " long", "generator_name": "text-babbage-001", "correct_logprobs": [-10.599029, -7.9812927, -11.718642], "generated_logprobs": [-10.571592, -4.3914857, -6.523793]}

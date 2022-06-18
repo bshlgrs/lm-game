@@ -1,0 +1,1 @@
+{"id": 1934, "input_str": " Please enable Javascript to watch this video\n\nA couple of Fort Collins friends rescue a", "correct_token_str": " starving", "generated_token_str": " dog", "generator_name": "text-ada-001", "correct_logprobs": [-9.076028, -7.2918253, -8.285702], "generated_logprobs": [-0.8526333, -1.6949973, -0.9835269]}

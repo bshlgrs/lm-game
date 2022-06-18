@@ -1,0 +1,1 @@
+{"id": 1982, "input_str": " If the region\u2019s vigorously growing economy slows, what\u2019s next?", "correct_token_str": " Much", "generated_token_str": "\n", "generator_name": "text-babbage-001", "correct_logprobs": [-15.358654, -15.306362, -14.166797], "generated_logprobs": [-0.00560275, -0.019952286, -0.0149976555]}

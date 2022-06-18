@@ -1,0 +1,1 @@
+{"id": 2136, "input_str": " I\u2019ve been the only black student in a class full of white people; hello Texas", "correct_token_str": " A", "generated_token_str": "\n", "generator_name": "text-ada-001", "correct_logprobs": [-1.578553, -3.2200663, -3.682119], "generated_logprobs": [-0.86663693, -0.64607555, -0.45053267]}

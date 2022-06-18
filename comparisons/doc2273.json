@@ -1,0 +1,1 @@
+{"id": 3617, "input_str": " IT SEEMED to Elinor Ostrom that the world contained a large body of common", "correct_token_str": " sense", "generated_token_str": " people", "generator_name": "text-ada-001", "correct_logprobs": [-1.079533, -2.1574163, -4.4020014], "generated_logprobs": [-4.387316, -6.9611125, -13.028209]}

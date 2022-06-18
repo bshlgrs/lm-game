@@ -1,1 +1,1 @@
-{"id": 437, "input_str": " KUALA LUMPUR (Reuters", "correct_token_str": ")", "generated_token_str": ")", "generator_name": "text-curie-001", "correct_logprobs": [-0.00051626156, -0.0008477705, -0.00086721935], "generated_logprobs": [-0.00051626156, -0.0008477705, -0.00086721935]}
+{"id": 673, "input_str": " [RAMALLAH] Of the 27 human rights defenders", "correct_token_str": " captured", "generated_token_str": " since", "generator_name": "text-ada-001", "correct_logprobs": [-7.7794423, -7.4219975, -11.380595], "generated_logprobs": [-8.228248, -9.069986, -11.498568]}

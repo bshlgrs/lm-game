@@ -1,0 +1,1 @@
+{"id": 3027, "input_str": " Belts are an accessory worn everyday, yet they haven't been updated since their inception", "correct_token_str": ".", "generated_token_str": " over", "generator_name": "text-curie-001", "correct_logprobs": [-0.06962957, -0.5787953, -0.67242396], "generated_logprobs": [-7.4669123, -3.8530478, -2.8239052]}

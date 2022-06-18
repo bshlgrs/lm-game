@@ -1,0 +1,1 @@
+{"id": 2818, "input_str": " Admit it. You\u2019ve wondered how you would compare when stacked up against", "correct_token_str": " the", "generated_token_str": " others", "generator_name": "text-ada-001", "correct_logprobs": [-6.200703, -4.211692, -1.2541423], "generated_logprobs": [-1.1916192, -3.3252828, -5.1549263]}

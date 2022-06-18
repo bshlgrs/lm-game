@@ -1,0 +1,1 @@
+{"id": 2826, "input_str": " BP and several other big European companies are funding the midterm election campaigns of Tea Party favourites who deny the", "correct_token_str": " existence", "generated_token_str": " all", "generator_name": "text-ada-001", "correct_logprobs": [-3.6686938, -3.4648826, -2.838559], "generated_logprobs": [-4.9492126, -11.078287, -15.139924]}

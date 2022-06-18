@@ -1,0 +1,1 @@
+{"id": 3442, "input_str": " Way back in the dawn of time when I came", "correct_token_str": " to", "generated_token_str": " across", "generator_name": "text-ada-001", "correct_logprobs": [-0.76648927, -1.4847695, -0.94433343], "generated_logprobs": [-0.8142971, -3.8291316, -3.9250014]}

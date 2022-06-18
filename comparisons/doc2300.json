@@ -1,0 +1,1 @@
+{"id": 3644, "input_str": " A lot of people do search for international numbers especially of US, to make and attend cheap call using that number.", "correct_token_str": " However", "generated_token_str": "\n\n", "generator_name": "text-curie-001", "correct_logprobs": [-4.2616067, -3.6945505, -3.060682], "generated_logprobs": [-2.4584923, -4.4526443, -2.282108]}

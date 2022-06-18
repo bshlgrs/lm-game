@@ -1,0 +1,1 @@
+{"id": 1590, "input_str": " Execrable Russian political scientist Sergei Markov has propounded a lovely theory, which", "correct_token_str": " has", "generated_token_str": " he", "generator_name": "text-babbage-001", "correct_logprobs": [-4.9447, -4.1987066, -4.65904], "generated_logprobs": [-3.0219615, -2.584172, -0.91842735]}

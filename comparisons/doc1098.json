@@ -1,0 +1,1 @@
+{"id": 1761, "input_str": " By Matt Walker\n\nEditor, Earth News\n\nM. and", "correct_token_str": "aman", "generated_token_str": " A", "generator_name": "text-ada-001", "correct_logprobs": [-15.412505, -17.305084, -16.457628], "generated_logprobs": [-2.3197203, -2.2861853, -3.8916051]}

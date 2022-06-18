@@ -1,0 +1,1 @@
+{"id": 1608, "input_str": " MOSCOW (Reuters) - Russia will work on a new generation of atomic weapons to strengthen its", "correct_token_str": " nuclear", "generated_token_str": " military", "generator_name": "text-curie-001", "correct_logprobs": [-1.8625331, -4.5622253, -2.312532], "generated_logprobs": [-0.6228594, -3.6941092, -2.726583]}

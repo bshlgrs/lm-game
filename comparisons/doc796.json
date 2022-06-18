@@ -1,0 +1,1 @@
+{"id": 1254, "input_str": " Gurung as a young Gurkha. via We Are The Mighty The martial tradition, training, and dominating warrior spirit of", "correct_token_str": " Gur", "generated_token_str": " the", "generator_name": "text-ada-001", "correct_logprobs": [-5.0104833, -7.094586, -3.2336357], "generated_logprobs": [-0.008288086, -0.009857039, -0.04563209]}

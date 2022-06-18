@@ -1,0 +1,1 @@
+{"id": 1472, "input_str": " As long as the Australian Workers Union stain lingers and/or grows, Labor cannot hope to win an election next September, let alone", "correct_token_str": " a", "generated_token_str": " gain", "generator_name": "text-curie-001", "correct_logprobs": [-5.185103, -4.546387, -3.9065259], "generated_logprobs": [-7.9658384, -4.4333677, -5.0717]}

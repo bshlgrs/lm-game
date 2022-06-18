@@ -1,0 +1,1 @@
+{"id": 823, "input_str": " The paradox of rowing is that this most physically demanding of sports is about eighty", "correct_token_str": " per", "generated_token_str": " percent", "generator_name": "text-ada-001", "correct_logprobs": [-6.341434, -5.0097523, -6.0472937], "generated_logprobs": [-0.6999809, -2.1538565, -0.005700634]}

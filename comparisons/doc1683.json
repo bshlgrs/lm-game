@@ -1,0 +1,1 @@
+{"id": 2675, "input_str": " The Irishman who saved Hitler\n\n[My piece that ran in The Examiner, Independent, Daily Mirror and Daily Mail and a hat-tip to", "correct_token_str": " North", "generated_token_str": " the", "generator_name": "text-ada-001", "correct_logprobs": [-12.245496, -8.979837, -9.453576], "generated_logprobs": [-2.4719498, -2.2392693, -1.7755883]}

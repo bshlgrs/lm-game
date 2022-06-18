@@ -1,0 +1,1 @@
+{"id": 3168, "input_str": " Hello, Victor Spiresau, one of the few new arrivals that photographers and", "correct_token_str": " MPs", "generated_token_str": " bloggers", "generator_name": "text-curie-001", "correct_logprobs": [-16.019154, -14.7389, -11.341836], "generated_logprobs": [-4.9290547, -2.261727, -2.1306112]}

@@ -1,0 +1,1 @@
+{"id": 2422, "input_str": " Javi Marroquin, you ARE the father! Only days after Kailyn Lowry", "correct_token_str": " confirmed", "generated_token_str": "'s", "generator_name": "text-curie-001", "correct_logprobs": [-7.5333285, -4.675137, -2.2685935], "generated_logprobs": [-0.892351, -0.59054863, -3.1505914]}

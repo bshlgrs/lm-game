@@ -1,0 +1,1 @@
+{"id": 2395, "input_str": " An audio version of this post is available here.\n\nProductivity is less about time", "correct_token_str": " management", "generated_token_str": " spent", "generator_name": "text-curie-001", "correct_logprobs": [-0.894544, -3.1163895, -0.48742625], "generated_logprobs": [-4.0399046, -3.5048068, -1.8341802]}

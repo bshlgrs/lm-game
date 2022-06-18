@@ -1,0 +1,1 @@
+{"id": 2802, "input_str": " Illustration by Natalie Matthews-Ramo\n\nFacilitated", "correct_token_str": " communication", "generated_token_str": " by", "generator_name": "text-ada-001", "correct_logprobs": [-21.889006, -9.085854, -3.097173], "generated_logprobs": [-4.0040345e-06, -0.10938486, -0.65094864]}

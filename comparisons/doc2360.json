@@ -1,0 +1,1 @@
+{"id": 3704, "input_str": " As Canadians waver over new oil pipelines and increased exports, the United States \u2014 a long-time", "correct_token_str": " customer", "generated_token_str": " oil", "generator_name": "text-curie-001", "correct_logprobs": [-8.77265, -4.967517, -4.6761856], "generated_logprobs": [-3.4139018, -3.4829261, -1.2677566]}

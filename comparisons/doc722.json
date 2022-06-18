@@ -1,0 +1,1 @@
+{"id": 1144, "input_str": " \"They said our life will change for the better, but they have betrayed us,\" says Prit", "correct_token_str": "am", "generated_token_str": "i", "generator_name": "text-curie-001", "correct_logprobs": [-3.99314, -1.6075037, -2.5608575], "generated_logprobs": [-2.0146015, -0.47113582, -0.1794164]}

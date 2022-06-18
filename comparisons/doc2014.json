@@ -1,0 +1,1 @@
+{"id": 3217, "input_str": " Mayor de Blasio updated the city on the post-blizzard state of affairs, with his", "correct_token_str": " biggest", "generated_token_str": " Facebook", "generator_name": "text-babbage-001", "correct_logprobs": [-4.1681166, -8.639461, -4.380246], "generated_logprobs": [-8.548968, -9.415996, -10.907312]}

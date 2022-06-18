@@ -1,0 +1,1 @@
+{"id": 3026, "input_str": " Comic Cooked #1 Avengers Tribute \u2013 Iron Manwiches! Posted on May 2, 2012 by Comic Booked Guest Writer in", "correct_token_str": " Features", "generated_token_str": " Iron", "generator_name": "text-curie-001", "correct_logprobs": [-5.6712365, -7.1365566, -5.7636433], "generated_logprobs": [-8.316535, -4.087528, -5.0947137]}

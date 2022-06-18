@@ -1,0 +1,1 @@
+{"id": 3305, "input_str": " Washington turned in another disastrous season where they won four games and had more questions than answers", "correct_token_str": " heading", "generated_token_str": ".", "generator_name": "text-babbage-001", "correct_logprobs": [-11.785862, -5.2639785, -1.4213282], "generated_logprobs": [-0.15119104, -0.49647543, -0.64708376]}

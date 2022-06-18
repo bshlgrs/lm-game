@@ -1,0 +1,1 @@
+{"id": 3808, "input_str": " In September, the Florida Department of Citrus announced it had paid Marvel Comics $", "correct_token_str": "1", "generated_token_str": "300", "generator_name": "text-curie-001", "correct_logprobs": [-3.3103359, -2.6271896, -1.2073512], "generated_logprobs": [-6.774161, -6.6296277, -4.150806]}

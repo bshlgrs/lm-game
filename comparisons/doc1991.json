@@ -1,0 +1,1 @@
+{"id": 3182, "input_str": " WILLIE NELSON & MERLE HAGGARD TO PERFORM AT ENID EVENT CENTER\n\n\u2013", "correct_token_str": "\n", "generated_token_str": " Willie", "generator_name": "text-babbage-001", "correct_logprobs": [-6.869525, -7.755887, -4.239568], "generated_logprobs": [-2.588108, -0.13272046, -0.036533188]}

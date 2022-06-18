@@ -1,0 +1,1 @@
+{"id": 1136, "input_str": " A year to the week that a newer, more virulent version of the Flash", "correct_token_str": "back", "generated_token_str": " virus", "generator_name": "text-curie-001", "correct_logprobs": [-2.2263093, -2.1676705, -1.97745], "generated_logprobs": [-4.3062034, -1.0372592, -0.58555394]}

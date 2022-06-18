@@ -1,0 +1,1 @@
+{"id": 2104, "input_str": " SPOILER ALERT: IF YOU HAVEN\u2019T WATCHED G", "correct_token_str": "LE", "generated_token_str": "OTH", "generator_name": "text-curie-001", "correct_logprobs": [-6.7498026, -3.0118935, -3.6566887], "generated_logprobs": [-7.6481705, -1.2728226, -0.43311134]}

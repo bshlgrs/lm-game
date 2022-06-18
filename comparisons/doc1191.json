@@ -1,0 +1,1 @@
+{"id": 1913, "input_str": " For the stalwarts in the Ontario Progressive Conservative Party, he\u2019s a little-known", "correct_token_str": " up", "generated_token_str": " figure", "generator_name": "text-babbage-001", "correct_logprobs": [-7.2344513, -7.3003354, -3.2308457], "generated_logprobs": [-4.8806486, -0.68041456, -3.371357]}

@@ -1,0 +1,1 @@
+{"id": 1914, "input_str": " LOS ANGELES \u2014 Opening statements in the first-of-its kind Xbox 360 criminal hacking trial were delayed here Wednesday", "correct_token_str": " after", "generated_token_str": " morning", "generator_name": "text-babbage-001", "correct_logprobs": [-1.1058156, -1.4202317, -1.0339625], "generated_logprobs": [-4.6198106, -2.554691, -1.8939879]}

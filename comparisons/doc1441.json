@@ -1,0 +1,1 @@
+{"id": 2308, "input_str": " December 21, 2016 - Oxford, Miss. resident Donna Fuller, left, talks with sales associate Tom Holland as she shops", "correct_token_str": " for", "generated_token_str": " at", "generator_name": "text-ada-001", "correct_logprobs": [-0.8843396, -0.4498067, -0.09461851], "generated_logprobs": [-0.59516627, -1.1004566, -2.4403615]}

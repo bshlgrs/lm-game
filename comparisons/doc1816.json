@@ -1,0 +1,1 @@
+{"id": 2895, "input_str": " F Family\n\nNew F55 and F5\n\n", "correct_token_str": "The", "generated_token_str": "\n\n", "generator_name": "text-babbage-001", "correct_logprobs": [-0.3529429, -1.4398464, -0.4973425], "generated_logprobs": [-3.592777, -1.5577413, -1.567171]}

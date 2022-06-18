@@ -1,0 +1,1 @@
+{"id": 2058, "input_str": " A miniature spatula for your fork. The Forktula is the world's first and only fork accessory.", "correct_token_str": " Now", "generated_token_str": " You", "generator_name": "text-ada-001", "correct_logprobs": [-9.658857, -8.084299, -7.6975417], "generated_logprobs": [-8.265146, -5.8777184, -6.2062078]}

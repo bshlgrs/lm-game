@@ -1,0 +1,1 @@
+{"id": 2689, "input_str": " The Diario of Christopher Columbus (October 11-15, 1492)\n\nThe only version of the diary of the first voyage that", "correct_token_str": " we", "generated_token_str": " exists", "generator_name": "text-babbage-001", "correct_logprobs": [-2.83809, -1.6682115, -1.0642248], "generated_logprobs": [-1.8355116, -3.6495423, -4.026253]}

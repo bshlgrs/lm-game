@@ -1,0 +1,1 @@
+{"id": 1202, "input_str": " SPFL approaches Scottish Government for financial support to bring in scheme costing up to \u00a34m.\n\nTalks: SPFL", "correct_token_str": " chief", "generated_token_str": " approaches", "generator_name": "text-babbage-001", "correct_logprobs": [-13.7498, -11.992428, -10.494461], "generated_logprobs": [-0.30670425, -0.75520265, -0.34883177]}

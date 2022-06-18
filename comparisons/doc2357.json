@@ -1,0 +1,1 @@
+{"id": 3701, "input_str": " Anderson Cooper spent the better part of a half-hour last night grilling Dr. G. Dick", "correct_token_str": " Miller", "generated_token_str": " Spencer", "generator_name": "text-curie-001", "correct_logprobs": [-9.716461, -7.1262226, -1.3523536], "generated_logprobs": [-8.91526, -10.322211, -5.2981043]}

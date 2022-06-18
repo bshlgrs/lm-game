@@ -1,0 +1,1 @@
+{"id": 1256, "input_str": " by\n\nDISCLOSURE: It is Cocktails,", "correct_token_str": " 365", "generated_token_str": " not", "generator_name": "text-curie-001", "correct_logprobs": [-14.765937, -14.659703, -12.505368], "generated_logprobs": [-0.044668354, -0.93640834, -0.089884594]}

@@ -1,0 +1,1 @@
+{"id": 3113, "input_str": " As we recently covered at RedState, a couple of weeks ago", "correct_token_str": " Ann", "generated_token_str": ",", "generator_name": "text-ada-001", "correct_logprobs": [-22.714975, -10.527459, -9.411854], "generated_logprobs": [-0.00039091698, -0.7076487, -1.354692]}

@@ -1,0 +1,1 @@
+{"id": 1755, "input_str": " The activist hacker organization known as Anonymous claims that it has obtained information on the upcoming", "correct_token_str": " Grand", "generated_token_str": " \"", "generator_name": "text-curie-001", "correct_logprobs": [-9.439925, -8.591992, -7.1034274], "generated_logprobs": [-8.397707, -5.637837, -3.7322056]}

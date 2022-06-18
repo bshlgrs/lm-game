@@ -1,0 +1,1 @@
+{"id": 3289, "input_str": " May 26, 2017 \u2013 9:18 PM, Game 1 ECHL Kelly Cup Finals: Matt Garbowsky, dramatically, ties the game at 2 for the Colorado Eagles with", "correct_token_str": " 2", "generated_token_str": " 10", "generator_name": "text-curie-001", "correct_logprobs": [-6.8929844, -3.1890152, -2.800724], "generated_logprobs": [-6.7745047, -7.6236696, -5.5936313]}

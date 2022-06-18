@@ -1,0 +1,1 @@
+{"id": 2781, "input_str": " It\u2019s not a life for", "correct_token_str": " the", "generated_token_str": " a", "generator_name": "text-babbage-001", "correct_logprobs": [-7.7044277, -3.3817763, -1.7962018], "generated_logprobs": [-7.6355567, -1.4772375, -1.4780122]}

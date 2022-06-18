@@ -1,0 +1,1 @@
+{"id": 3489, "input_str": " One evening in May, the Kishon", "correct_token_str": " River", "generated_token_str": " family", "generator_name": "text-babbage-001", "correct_logprobs": [-5.7470355, -2.3780005, -1.5166156], "generated_logprobs": [-6.4195642, -0.74512327, -1.8528887]}

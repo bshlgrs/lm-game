@@ -1,0 +1,1 @@
+{"id": 3077, "input_str": " Buy Photo Rita Markley of the Committee on Temporary Shelter (pointing) speaks at a news conference where a plan to end", "correct_token_str": " family", "generated_token_str": " the", "generator_name": "text-ada-001", "correct_logprobs": [-6.928421, -4.534061, -4.489873], "generated_logprobs": [-0.24317168, -0.3069434, -0.9637535]}

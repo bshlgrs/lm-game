@@ -1,0 +1,1 @@
+{"id": 2717, "input_str": " U.S. auto manufacturing giant GM has just come out with a major wind power announcement that illustrates an ironic aspect to the", "correct_token_str": " renewable", "generated_token_str": " current", "generator_name": "text-curie-001", "correct_logprobs": [-10.526048, -6.0764527, -3.4197536], "generated_logprobs": [-0.5532432, -1.100554, -1.7452179]}

@@ -1,0 +1,1 @@
+{"id": 2730, "input_str": " It's International Women's Day \u2013 a day I usually use to applaud the progress and accomplishments of my gender.\n\nHow cool that", "correct_token_str": " few", "generated_token_str": " this", "generator_name": "text-curie-001", "correct_logprobs": [-25.993849, -14.798321, -16.02882], "generated_logprobs": [-18.61061, -1.8551493, -1.6429387]}

@@ -1,0 +1,1 @@
+{"id": 3822, "input_str": " Taipei, May 3 (CNA) A new proposal put forward by President Tsai Ing-wen (\u8521\u82f1\u6587) as", "correct_token_str": " a", "generated_token_str": " part", "generator_name": "text-babbage-001", "correct_logprobs": [-10.9015875, -1.2019677, -2.2419705], "generated_logprobs": [-0.011307774, -0.4677444, -0.32406268]}

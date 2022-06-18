@@ -1,0 +1,1 @@
+{"id": 3364, "input_str": " The Supreme Court will hear arguments Feb. 19 in \"Bowman v. Monsanto Co.,\" a landmark", "correct_token_str": " court", "generated_token_str": " pesticide", "generator_name": "text-ada-001", "correct_logprobs": [-6.6261573, -5.9095435, -7.295097], "generated_logprobs": [-3.8163517, -7.4002895, -4.642652]}

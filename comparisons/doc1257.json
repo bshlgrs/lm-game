@@ -1,0 +1,1 @@
+{"id": 2019, "input_str": " Special counsel Robert Mueller removed one of the", "correct_token_str": " FBI", "generated_token_str": " trustees", "generator_name": "text-babbage-001", "correct_logprobs": [-6.530001, -4.1070223, -2.0600553], "generated_logprobs": [-9.375654, -8.299604, -11.017033]}

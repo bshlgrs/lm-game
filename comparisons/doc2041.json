@@ -1,0 +1,1 @@
+{"id": 3267, "input_str": " Beyonce performs on stage during \"The Mrs. Carter Show World Tour\" at the Staples Center on December 3, 2013 in Los Angeles,", "correct_token_str": " CA", "generated_token_str": " California", "generator_name": "text-curie-001", "correct_logprobs": [-4.534169, -5.982471, -5.1883883], "generated_logprobs": [-0.115848765, -0.006348678, -0.008443697]}

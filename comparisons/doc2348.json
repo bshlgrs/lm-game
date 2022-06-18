@@ -1,0 +1,1 @@
+{"id": 3692, "input_str": " Image copyright AFP Image caption The impact left a crater 12m (40ft) wide and 5.5m deep\n\nA", "correct_token_str": " small", "generated_token_str": " DeL", "generator_name": "text-ada-001", "correct_logprobs": [-7.05575, -5.5347133, -7.0037694], "generated_logprobs": [-10.46, -16.963686, -20.01958]}

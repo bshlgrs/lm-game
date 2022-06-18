@@ -1,0 +1,1 @@
+{"id": 2345, "input_str": " Two men associated with a series of robberies in San Francisco in recent months", "correct_token_str": " were", "generated_token_str": " have", "generator_name": "text-curie-001", "correct_logprobs": [-2.173262, -0.5364959, -1.0088826], "generated_logprobs": [-4.8247323, -1.4019145, -0.9700451]}

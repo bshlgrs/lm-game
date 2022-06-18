@@ -1,0 +1,1 @@
+{"id": 2108, "input_str": " Two nights ago, when no one was looking, I tweeted", "correct_token_str": " out", "generated_token_str": " about", "generator_name": "text-ada-001", "correct_logprobs": [-1.397813, -1.6949975, -1.9616828], "generated_logprobs": [-1.3981955, -2.1260116, -2.4751737]}

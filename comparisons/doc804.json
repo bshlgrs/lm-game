@@ -1,0 +1,1 @@
+{"id": 1263, "input_str": " Amazing how a lawsuit can rattle the rust off an outdated institution.\n\nA couple of weeks", "correct_token_str": " after", "generated_token_str": " ago", "generator_name": "text-babbage-001", "correct_logprobs": [-10.383658, -9.105231, -5.173049], "generated_logprobs": [-0.00023655016, -0.00758217, -0.007117128]}

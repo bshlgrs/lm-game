@@ -1,0 +1,1 @@
+{"id": 2402, "input_str": " In China, new fossils discovered of an ancient, winged dinosaur that is closely related to", "correct_token_str": " vel", "generated_token_str": " the", "generator_name": "text-babbage-001", "correct_logprobs": [-11.831799, -7.553993, -5.3406396], "generated_logprobs": [-0.069674306, -0.3940125, -0.21341172]}

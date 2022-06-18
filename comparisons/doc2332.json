@@ -1,0 +1,1 @@
+{"id": 3676, "input_str": " The law is an ass. Or rather, since", "correct_token_str": " that", "generated_token_str": " it", "generator_name": "text-babbage-001", "correct_logprobs": [-11.203131, -7.7737417, -7.0721974], "generated_logprobs": [-1.2751365, -0.92954904, -0.904962]}

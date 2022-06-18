@@ -1,0 +1,1 @@
+{"id": 1060, "input_str": " Have you ever opened up Street View in", "correct_token_str": " Google", "generated_token_str": " English", "generator_name": "text-ada-001", "correct_logprobs": [-5.33803, -3.0026798, -0.29808316], "generated_logprobs": [-4.300618, -12.197036, -13.877848]}

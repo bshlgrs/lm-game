@@ -1,0 +1,1 @@
+{"id": 1531, "input_str": " He middle fingered the establishment and acted", "correct_token_str": " as", "generated_token_str": " like", "generator_name": "text-ada-001", "correct_logprobs": [-3.5984201, -1.767367, -2.1907172], "generated_logprobs": [-0.032952365, -0.3559342, -0.4298835]}

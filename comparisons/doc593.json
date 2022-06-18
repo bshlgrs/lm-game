@@ -1,0 +1,1 @@
+{"id": 928, "input_str": " As shellackings go, the 2010", "correct_token_str": " election", "generated_token_str": " LSU", "generator_name": "text-babbage-001", "correct_logprobs": [-6.1507225, -5.2619843, -4.4616575], "generated_logprobs": [-10.50063, -5.2259574, -10.471938]}

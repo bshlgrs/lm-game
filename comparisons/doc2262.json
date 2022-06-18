@@ -1,0 +1,1 @@
+{"id": 3606, "input_str": " In addition, twenty-three healthy control participants (HC", "correct_token_str": ",", "generated_token_str": ")", "generator_name": "text-ada-001", "correct_logprobs": [-10.192159, -4.080577, -6.837892], "generated_logprobs": [-0.07060494, -0.18418783, -0.653291]}

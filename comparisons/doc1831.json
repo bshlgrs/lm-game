@@ -1,0 +1,1 @@
+{"id": 2918, "input_str": " 1 year ago\n\nHello, hello, what\u2019s up, what\u2019s up!", "correct_token_str": " This", "generated_token_str": "actly", "generator_name": "text-ada-001", "correct_logprobs": [-4.460425, -3.7585194, -3.0502584], "generated_logprobs": [-8.798929, -19.786444, -19.192348]}

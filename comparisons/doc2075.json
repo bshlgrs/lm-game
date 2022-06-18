@@ -1,0 +1,1 @@
+{"id": 3331, "input_str": " Just days before the Vilnius summit, in the", "correct_token_str": " course", "generated_token_str": " Lat", "generator_name": "text-babbage-001", "correct_logprobs": [-2.4265482, -3.3735437, -4.635311], "generated_logprobs": [-7.019957, -5.194473, -5.01597]}

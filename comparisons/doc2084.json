@@ -1,0 +1,1 @@
+{"id": 3347, "input_str": " Gold's stellar run this year has not only breathed new life into the", "correct_token_str": " exploration", "generated_token_str": " esports", "generator_name": "text-curie-001", "correct_logprobs": [-13.510131, -10.223047, -12.301314], "generated_logprobs": [-6.6935177, -7.4408903, -2.2913067]}

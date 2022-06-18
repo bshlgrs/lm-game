@@ -1,0 +1,1 @@
+{"id": 1400, "input_str": " A so-so deck which never really gets out of first gear\n\n\u2018Level your turntable\u2019 is one of the first rules of vinyl club. But", "correct_token_str": " it", "generated_token_str": ",", "generator_name": "text-babbage-001", "correct_logprobs": [-3.0268412, -2.3557453, -3.1033473], "generated_logprobs": [-6.855047, -3.2544832, -2.4892921]}

@@ -1,0 +1,1 @@
+{"id": 2380, "input_str": " Editor\u2019s Note:\n\nWay back in college, I was", "correct_token_str": " half", "generated_token_str": " a", "generator_name": "text-babbage-001", "correct_logprobs": [-9.811966, -10.598257, -9.137475], "generated_logprobs": [-1.0152113, -1.407386, -1.4231604]}

@@ -1,0 +1,1 @@
+{"id": 2561, "input_str": " I recently found myself looking at the Tools switch in Espresso:\n\nNot because I was going to use it (I rarely", "correct_token_str": " do", "generated_token_str": " ever", "generator_name": "text-curie-001", "correct_logprobs": [-0.5355253, -1.3991984, -2.481974], "generated_logprobs": [-1.110957, -2.315859, -1.8459951]}

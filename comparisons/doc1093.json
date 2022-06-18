@@ -1,0 +1,1 @@
+{"id": 1751, "input_str": " It may not surprise you to learn, given how much of it he", "correct_token_str": "\ufffd", "generated_token_str": " processes", "generator_name": "text-ada-001", "correct_logprobs": [-13.481364, -11.9132, -12.100946], "generated_logprobs": [-6.830191, -7.4081936, -10.493843]}

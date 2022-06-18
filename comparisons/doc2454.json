@@ -1,0 +1,1 @@
+{"id": 3798, "input_str": " For the past 4 years, we\u2019ve been helping with organizing the", "correct_token_str": " main", "generated_token_str": " teenage", "generator_name": "text-ada-001", "correct_logprobs": [-11.011923, -8.864835, -7.9536448], "generated_logprobs": [-6.8332324, -10.830317, -13.033269]}

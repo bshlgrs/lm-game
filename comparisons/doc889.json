@@ -1,0 +1,1 @@
+{"id": 1410, "input_str": " Nearly 80 years ago, on Dec. 5,", "correct_token_str": " 1933", "generated_token_str": " 1944", "generator_name": "text-babbage-001", "correct_logprobs": [-4.4382157, -4.7380986, -1.5344628], "generated_logprobs": [-6.1605134, -3.246048, -6.685511]}

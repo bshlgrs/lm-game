@@ -1,0 +1,1 @@
+{"id": 1746, "input_str": " This is, I believe, his first lead in any national poll. One word, my friends: Yuge.\n\n", "correct_token_str": "The", "generated_token_str": "\n", "generator_name": "text-babbage-001", "correct_logprobs": [-1.7319541, -1.7031963, -2.3238063], "generated_logprobs": [-0.0020283898, -0.042849604, -0.087347224]}

@@ -1,0 +1,1 @@
+{"id": 1041, "input_str": " The Al Nusrah Front for the People of the Levant, al Qaeda\u2019s affiliate in Syria, claimed it launched two suicide assaults", "correct_token_str": " and", "generated_token_str": " against", "generator_name": "text-ada-001", "correct_logprobs": [-7.1945896, -6.7295094, -7.5093713], "generated_logprobs": [-1.6975342, -1.4633338, -0.89681685]}

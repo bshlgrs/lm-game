@@ -1,0 +1,1 @@
+{"id": 1527, "input_str": " Mark Zuckerberg at the F8 developer's conference in 2011. James", "correct_token_str": " Martin", "generated_token_str": " executed", "generator_name": "text-ada-001", "correct_logprobs": [-4.990741, -2.666709, -0.023657149], "generated_logprobs": [-10.499971, -11.955297, -22.521791]}

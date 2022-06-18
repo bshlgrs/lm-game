@@ -1,0 +1,1 @@
+{"id": 3157, "input_str": " St-Tite, QC \u2013 The Quebec Remparts edged out the Shawinigan", "correct_token_str": " Cat", "generated_token_str": " Hus", "generator_name": "text-babbage-001", "correct_logprobs": [-6.3808684, -1.6481104, -0.005696259], "generated_logprobs": [-5.0509014, -6.7573714, -8.619575]}

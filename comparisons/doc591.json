@@ -1,0 +1,1 @@
+{"id": 926, "input_str": " PARIS \u2014 Satellite fleet operator SES on Sept. 14 said it is now confident that", "correct_token_str": " launch", "generated_token_str": " liquid", "generator_name": "text-babbage-001", "correct_logprobs": [-10.916239, -8.842119, -5.7620068], "generated_logprobs": [-15.378158, -10.590761, -10.545856]}

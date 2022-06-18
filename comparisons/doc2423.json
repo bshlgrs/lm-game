@@ -1,0 +1,1 @@
+{"id": 3767, "input_str": " Adrian\n\nAstral Energy 5\n\n\n\n", "correct_token_str": "Offline", "generated_token_str": "\n\n", "generator_name": "text-babbage-001", "correct_logprobs": [-13.217828, -5.8158917, -1.6578319], "generated_logprobs": [-2.9194818, -1.1440238, -1.2090025]}

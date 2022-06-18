@@ -1,0 +1,1 @@
+{"id": 2511, "input_str": " Hi there,\n\nPrevious blogs have", "correct_token_str": " been", "generated_token_str": " featured", "generator_name": "text-ada-001", "correct_logprobs": [-3.8005407, -1.5333977, -2.127187], "generated_logprobs": [-5.718497, -6.230968, -7.2399306]}

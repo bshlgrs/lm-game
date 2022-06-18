@@ -1,0 +1,1 @@
+{"id": 3496, "input_str": " redefiningbodyimage:\n\nMarilyn Wann discovered this", "correct_token_str": " ad", "generated_token_str": " definition", "generator_name": "text-ada-001", "correct_logprobs": [-15.73296, -10.187895, -10.794057], "generated_logprobs": [-0.052768193, -2.071847, -0.7736458]}

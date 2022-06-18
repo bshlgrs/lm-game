@@ -1,0 +1,1 @@
+{"id": 3487, "input_str": " Occupy Wall Street Seattle Division \u2013 October 15, 2011 \u2013 By Holly", "correct_token_str": " H", "generated_token_str": " Sh", "generator_name": "text-curie-001", "correct_logprobs": [-4.4900765, -3.630508, -1.8999531], "generated_logprobs": [-5.0708594, -5.2639775, -4.076741]}

@@ -1,0 +1,1 @@
+{"id": 1991, "input_str": " Chris Rank / Bloomberg\n\nTexas governor and GOP presidential candidate Rick Perry", "correct_token_str": " still", "generated_token_str": ",", "generator_name": "text-curie-001", "correct_logprobs": [-15.8757515, -11.265017, -9.732675], "generated_logprobs": [-5.534561, -4.5951414, -4.532341]}

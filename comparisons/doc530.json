@@ -1,0 +1,1 @@
+{"id": 835, "input_str": " President Trump's Mar-a-Lago estate in Palm Beach, Fla. (", "correct_token_str": "Alex", "generated_token_str": " penchant", "generator_name": "text-ada-001", "correct_logprobs": [-6.711958, -4.720331, -4.7314405], "generated_logprobs": [-10.047754, -15.181253, -16.602764]}

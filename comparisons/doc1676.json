@@ -1,0 +1,1 @@
+{"id": 2668, "input_str": " CLOSE So Taylor Swift has shaken off Spotify, but she's not the only one. There are at least five other artists you won't", "correct_token_str": " find", "generated_token_str": " be", "generator_name": "text-curie-001", "correct_logprobs": [-9.898073, -1.6501162, -2.0302188], "generated_logprobs": [-0.08475412, -3.4799178, -0.42789927]}

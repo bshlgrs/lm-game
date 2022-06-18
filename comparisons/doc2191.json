@@ -1,0 +1,1 @@
+{"id": 3501, "input_str": " Slater & Gordon shares went into freefall once again", "correct_token_str": ",", "generated_token_str": " on", "generator_name": "text-curie-001", "correct_logprobs": [-1.832879, -5.81266, -2.9273953], "generated_logprobs": [-6.706528, -5.9679103, -1.6229444]}

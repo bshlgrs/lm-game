@@ -1,0 +1,1 @@
+{"id": 3312, "input_str": " Prospects 21-25\n\nProspects 16-20\n\nProspects 11-15\n\nProspects 6-10", "correct_token_str": "\n", "generated_token_str": "<|endoftext|>", "generator_name": "text-curie-001", "correct_logprobs": [-4.337926, -3.7670624, -3.851208], "generated_logprobs": [-0.7254752, -1.1679742, -0.13403136]}

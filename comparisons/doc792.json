@@ -1,0 +1,1 @@
+{"id": 1250, "input_str": " Pitchfork-wielding Virginia farmers rallied to support a woman who claims local officials", "correct_token_str": " came", "generated_token_str": " shot", "generator_name": "text-curie-001", "correct_logprobs": [-8.979453, -8.589425, -8.075748], "generated_logprobs": [-10.950788, -8.396583, -8.345802]}

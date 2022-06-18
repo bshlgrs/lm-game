@@ -1,0 +1,1 @@
+{"id": 1417, "input_str": " Valle de los Ca\u00eddos (Valley of the Fallen), viewed from the esplanade.\n\nThe", "correct_token_str": " Val", "generated_token_str": " Valley", "generator_name": "text-curie-001", "correct_logprobs": [-2.7052927, -0.2215012, -1.7397008], "generated_logprobs": [-2.4477453, -2.2035103, -0.32905912]}

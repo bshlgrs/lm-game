@@ -1,0 +1,1 @@
+{"id": 2939, "input_str": " On the website of Thailand's first ice-arena, a how-to guide explains this foreign game: To gain strength, build sports", "correct_token_str": "manship", "generated_token_str": " endurance", "generator_name": "text-curie-001", "correct_logprobs": [-4.220994, -5.502423, -3.0391345], "generated_logprobs": [-5.9812493, -7.581109, -1.7108724]}

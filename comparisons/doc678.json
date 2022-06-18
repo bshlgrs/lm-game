@@ -1,0 +1,1 @@
+{"id": 1070, "input_str": " One of the most important things to consider when buying a house is the quality of the grocery district.\n\nAs the", "correct_token_str": " name", "generated_token_str": " grocery", "generator_name": "text-babbage-001", "correct_logprobs": [-0.1197029, -3.8465385, -3.0518472], "generated_logprobs": [-10.518468, -1.7414429, -5.566351]}

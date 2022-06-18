@@ -1,0 +1,1 @@
+{"id": 3202, "input_str": " Imagine an NBA without the Los Angeles Lakers", "correct_token_str": ".", "generated_token_str": "\n", "generator_name": "text-curie-001", "correct_logprobs": [-1.6075779, -4.9826546, -5.9731135], "generated_logprobs": [-0.3476789, -0.025288915, -0.09454669]}

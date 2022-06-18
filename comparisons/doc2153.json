@@ -1,0 +1,1 @@
+{"id": 3454, "input_str": " Richard M. Nixon made negative comments about Jews, blacks and other", "correct_token_str": " ethnic", "generated_token_str": " minorities", "generator_name": "text-curie-001", "correct_logprobs": [-6.394825, -4.4147954, -3.4248147], "generated_logprobs": [-0.5378675, -0.6767248, -0.2617978]}

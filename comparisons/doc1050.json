@@ -1,0 +1,1 @@
+{"id": 1679, "input_str": " The off-season is always tough. We go from the crazy, hustle and bustle of the regular season and playoffs (if your team is", "correct_token_str": " lucky", "generated_token_str": " in", "generator_name": "text-ada-001", "correct_logprobs": [-8.657837, -3.047752, -2.8462965], "generated_logprobs": [-0.13879083, -0.198198, -0.13780816]}

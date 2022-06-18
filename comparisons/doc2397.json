@@ -1,0 +1,1 @@
+{"id": 3741, "input_str": " A month after it was reported that a Ukrainian parliament member had attempted to blackmail", "correct_token_str": " Paul", "generated_token_str": " a", "generator_name": "text-curie-001", "correct_logprobs": [-12.054193, -9.241112, -8.81009], "generated_logprobs": [-1.0498195, -0.76680535, -0.7959763]}

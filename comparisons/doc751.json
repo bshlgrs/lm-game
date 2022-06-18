@@ -1,0 +1,1 @@
+{"id": 1181, "input_str": " WE STILL NEED YOUR HELP! HOURS LEFT TO PLEDGE!\n\nEven though we have met our goal, we", "correct_token_str": "'d", "generated_token_str": " want", "generator_name": "text-ada-001", "correct_logprobs": [-12.54545, -17.7622, -13.359926], "generated_logprobs": [-3.0427399, -9.46462, -5.7321763]}

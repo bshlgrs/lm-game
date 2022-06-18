@@ -1,0 +1,1 @@
+{"id": 3503, "input_str": " by Angie Santiago\n\nOh boy.", "correct_token_str": " It", "generated_token_str": " Fans", "generator_name": "text-babbage-001", "correct_logprobs": [-6.4402275, -3.3008618, -3.4870944], "generated_logprobs": [-12.25142, -8.563882, -10.460024]}

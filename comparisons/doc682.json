@@ -1,0 +1,1 @@
+{"id": 1076, "input_str": " HeLi-on - The World's Most Compact Solar Charger\n\nWe have been crowdfunding HeLi-on", "correct_token_str": " through", "generated_token_str": " for", "generator_name": "text-babbage-001", "correct_logprobs": [-6.2727942, -7.7463946, -7.1030927], "generated_logprobs": [-4.79576, -0.88272434, -1.3000499]}

@@ -1,0 +1,1 @@
+{"id": 2196, "input_str": " by Matt Ealer\n\nIn the 90s music", "correct_token_str": " history", "generated_token_str": " video", "generator_name": "text-curie-001", "correct_logprobs": [-15.114482, -8.082786, -10.558747], "generated_logprobs": [-10.835172, -3.7378466, -2.4383073]}

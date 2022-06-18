@@ -1,0 +1,1 @@
+{"id": 1445, "input_str": " Many writers infuse bits of themselves, their family and friends into their work, but Karl", "correct_token_str": " O", "generated_token_str": " Mueller", "generator_name": "text-curie-001", "correct_logprobs": [-4.566081, -0.26921394, -0.7649076], "generated_logprobs": [-11.833366, -11.262055, -6.930656]}

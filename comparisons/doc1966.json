@@ -1,0 +1,1 @@
+{"id": 3139, "input_str": " A comprehensive travel guide for the man who is soon to embark on an adventure. We", "correct_token_str": "\ufffd", "generated_token_str": "'ll", "generator_name": "text-babbage-001", "correct_logprobs": [-14.192556, -12.067036, -11.647597], "generated_logprobs": [-3.9579127, -1.2509338, -2.1410174]}

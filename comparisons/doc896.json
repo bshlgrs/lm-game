@@ -1,0 +1,1 @@
+{"id": 1419, "input_str": " Tolstoy\u2019s first diary, started on March 17, 1847, at the age of eighteen, began as a clinical investigation launched under", "correct_token_str": " laboratory", "generated_token_str": " the", "generator_name": "text-curie-001", "correct_logprobs": [-16.11451, -12.128231, -10.2852], "generated_logprobs": [-0.001882671, -0.017003665, -0.1273078]}

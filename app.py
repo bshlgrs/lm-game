@@ -49,7 +49,7 @@ def get_doc():
 
 @app.route("/get_comparison")
 def get_comparison():
-    doc_choice_num = random.randint(0, 511)
+    doc_choice_num = random.randint(0, 2486)
 
     return jsonify(json.load(open(__file__[:-6] + f"/comparisons/doc{doc_choice_num}.json")))
 

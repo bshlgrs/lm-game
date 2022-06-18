@@ -1,0 +1,1 @@
+{"id": 2716, "input_str": " It seems every week there's yet another article written about the resurgence of", "correct_token_str": " vinyl", "generated_token_str": " old", "generator_name": "text-ada-001", "correct_logprobs": [-8.981122, -6.5813584, -0.918768], "generated_logprobs": [-8.456418, -8.990696, -7.45906]}

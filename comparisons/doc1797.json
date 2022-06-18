@@ -1,0 +1,1 @@
+{"id": 2857, "input_str": " I was driving back to Scotland up the M1 when I", "correct_token_str": " heard", "generated_token_str": " saw", "generator_name": "text-ada-001", "correct_logprobs": [-4.5276136, -4.062699, -2.8122714], "generated_logprobs": [-0.16962439, -0.51158506, -0.81232774]}

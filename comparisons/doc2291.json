@@ -1,0 +1,1 @@
+{"id": 3635, "input_str": " OBJECTIVE: The purpose of this study was to assess the evidence base for the efficacy of light therapy in treating", "correct_token_str": " mood", "generated_token_str": " depression", "generator_name": "text-curie-001", "correct_logprobs": [-8.639228, -5.8465, -3.923008], "generated_logprobs": [-5.5175176, -2.4696512, -2.3686392]}

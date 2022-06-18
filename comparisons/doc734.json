@@ -1,0 +1,1 @@
+{"id": 1160, "input_str": " No politician does particularly well in the face of the initial tsunami of skepticism he or she faces", "correct_token_str": ".", "generated_token_str": " when", "generator_name": "text-babbage-001", "correct_logprobs": [-2.4358113, -0.27215692, -0.35188392], "generated_logprobs": [-5.545221, -5.570098, -2.3183947]}

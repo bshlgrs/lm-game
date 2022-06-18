@@ -1,0 +1,1 @@
+{"id": 3196, "input_str": " Dr. David Newman The esteemed physician accused of drugging and then sexually assaulting a patient at Mt. Sinai", "correct_token_str": " Hospital", "generated_token_str": " in", "generator_name": "text-ada-001", "correct_logprobs": [-2.192877, -0.2120158, -0.24820569], "generated_logprobs": [-1.078583, -4.9484515, -5.9654255]}

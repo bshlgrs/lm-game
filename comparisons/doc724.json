@@ -1,0 +1,1 @@
+{"id": 1148, "input_str": " The man tipped to be the next President of France has few possessions in his office in Paris\u2019s 15th district: Under the bare walls,", "correct_token_str": " a", "generated_token_str": " he", "generator_name": "text-curie-001", "correct_logprobs": [-5.758677, -2.065328, -1.1131616], "generated_logprobs": [-6.0321116, -2.5623307, -1.5899063]}

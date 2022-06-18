@@ -1,0 +1,1 @@
+{"id": 938, "input_str": " Sometimes the best way of being protected from nature is by protecting nature itself \u2014 and", "correct_token_str": " a", "generated_token_str": " this", "generator_name": "text-curie-001", "correct_logprobs": [-9.781037, -6.3855596, -6.2695045], "generated_logprobs": [-0.7591943, -1.7620384, -1.3523852]}

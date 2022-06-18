@@ -1,0 +1,1 @@
+{"id": 3719, "input_str": " BRASILIA: Brazilian state oil company Petrobras reported a record loss on Monday, under", "correct_token_str": "lining", "generated_token_str": "c", "generator_name": "text-babbage-001", "correct_logprobs": [-0.9412571, -0.4194114, -0.14656065], "generated_logprobs": [-9.084028, -10.8640585, -18.304882]}

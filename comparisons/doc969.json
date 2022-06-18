@@ -1,0 +1,1 @@
+{"id": 1544, "input_str": " #COLUMN\n\n\u2018Who\u2019s really hiding behind a mask? \u201cRainmaker\u201d", "correct_token_str": " Ok", "generated_token_str": " is", "generator_name": "text-ada-001", "correct_logprobs": [-15.651293, -14.07073, -12.82578], "generated_logprobs": [-0.26703367, -2.7165198, -1.4718587]}

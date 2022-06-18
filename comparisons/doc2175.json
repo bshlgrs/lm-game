@@ -1,0 +1,1 @@
+{"id": 3484, "input_str": " Newspaper Page Text\n\nTHE ROCK ISLAND ARGUS.\n\nA", "correct_token_str": ".", "generated_token_str": " unique", "generator_name": "text-ada-001", "correct_logprobs": [-4.348219, -4.234445, -4.762273], "generated_logprobs": [-4.8383684, -8.626938, -9.846303]}

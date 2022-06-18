@@ -1,0 +1,1 @@
+{"id": 1453, "input_str": " Earlier this year, Pentax released the", "correct_token_str": " K", "generated_token_str": " P", "generator_name": "text-ada-001", "correct_logprobs": [-4.123348, -1.1022437, -0.4971738], "generated_logprobs": [-1.643021, -5.2552686, -4.3092833]}

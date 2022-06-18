@@ -1,0 +1,1 @@
+{"id": 2518, "input_str": " The low inventory of homes for sale has turned the Seattle region into an \u201cextreme seller\u2019s market,\u201d", "correct_token_str": " where", "generated_token_str": " according", "generator_name": "text-ada-001", "correct_logprobs": [-1.3524193, -3.209488, -2.5090718], "generated_logprobs": [-1.279816, -0.43088773, -0.44850686]}

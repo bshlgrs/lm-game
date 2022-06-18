@@ -1,0 +1,1 @@
+{"id": 1066, "input_str": " Winter is nearing, but water protectors camped in North Dakota aren\u2019t", "correct_token_str": " letting", "generated_token_str": " going", "generator_name": "text-curie-001", "correct_logprobs": [-4.175101, -3.698318, -2.7352567], "generated_logprobs": [-8.0906925, -2.1495843, -0.8139176]}

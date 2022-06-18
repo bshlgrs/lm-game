@@ -1,0 +1,1 @@
+{"id": 2665, "input_str": " If you ever find yourself at the San Jose airport ha", "correct_token_str": "iling", "generated_token_str": "uling", "generator_name": "text-babbage-001", "correct_logprobs": [-2.3542633, -1.5028231, -1.011445], "generated_logprobs": [-1.0343658, -0.28460154, -0.55656916]}

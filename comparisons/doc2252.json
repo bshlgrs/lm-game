@@ -1,0 +1,1 @@
+{"id": 3596, "input_str": " by\n\nWith the end of the year in sight it\u2019s time for year-end mutual fund distributions. If you hold mutual funds in taxable", "correct_token_str": " accounts", "generated_token_str": " account", "generator_name": "text-ada-001", "correct_logprobs": [-1.667655, -0.11246122, -0.3556159], "generated_logprobs": [-0.6005517, -3.357419, -1.3285125]}

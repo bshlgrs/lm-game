@@ -1,0 +1,1 @@
+{"id": 3298, "input_str": " Venezuela's President Maduro holds a 100,000 bolivar note as he speaks during a", "correct_token_str": " meeting", "generated_token_str": " live", "generator_name": "text-curie-001", "correct_logprobs": [-2.1624858, -3.9423692, -1.3874178], "generated_logprobs": [-7.332949, -6.469848, -5.198245]}

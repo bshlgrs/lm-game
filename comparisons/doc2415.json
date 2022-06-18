@@ -1,0 +1,1 @@
+{"id": 3759, "input_str": " America has gone Uber-mad.\n\n", "correct_token_str": "B", "generated_token_str": "\n", "generator_name": "text-babbage-001", "correct_logprobs": [-7.883268, -9.327353, -7.283394], "generated_logprobs": [-0.005521174, -0.069252804, -0.062138867]}

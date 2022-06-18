@@ -1,0 +1,1 @@
+{"id": 1677, "input_str": " The Slackers Website\n\nFacebook\n\nTwitter\n\nInstagram The Slackers are", "correct_token_str": " self", "generated_token_str": " a", "generator_name": "text-babbage-001", "correct_logprobs": [-12.325821, -11.167263, -13.520561], "generated_logprobs": [-0.20071451, -0.20131269, -0.6120899]}

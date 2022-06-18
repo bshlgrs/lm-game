@@ -1,0 +1,1 @@
+{"id": 1471, "input_str": " Last week we put together a list of Android tablet apps to help you (or your relatives) outfit the new devices sitting", "correct_token_str": " under", "generated_token_str": " in", "generator_name": "text-ada-001", "correct_logprobs": [-12.280883, -7.7332115, -2.5341058], "generated_logprobs": [-0.015750272, -0.62856394, -0.19677773]}

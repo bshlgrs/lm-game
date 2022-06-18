@@ -1,0 +1,1 @@
+{"id": 1363, "input_str": " Talk about a \u201crogues\u201d gallery.\n\nTwo", "correct_token_str": " Manhattan", "generated_token_str": " reluctance", "generator_name": "text-ada-001", "correct_logprobs": [-12.8283205, -12.215608, -15.342843], "generated_logprobs": [-10.005129, -14.777427, -20.06138]}

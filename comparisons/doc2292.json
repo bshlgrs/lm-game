@@ -1,0 +1,1 @@
+{"id": 3636, "input_str": " Your Mac is running a little slow these days. It takes forever to boot up. You have to", "correct_token_str": " delete", "generated_token_str": " keep", "generator_name": "text-ada-001", "correct_logprobs": [-10.396815, -10.906271, -10.086028], "generated_logprobs": [-3.6314604, -4.0057845, -5.6544523]}

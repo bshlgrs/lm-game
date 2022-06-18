@@ -1,0 +1,1 @@
+{"id": 2938, "input_str": " They paint their faces, they grunt and swear and down Jell-O shots before 10 A.M", "correct_token_str": ".,", "generated_token_str": ".", "generator_name": "text-ada-001", "correct_logprobs": [-7.325808, -1.8177708, -3.396739], "generated_logprobs": [-0.00087646506, -0.21143626, -0.046605363]}

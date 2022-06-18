@@ -1,0 +1,1 @@
+{"id": 2664, "input_str": " 167 SHARES Facebook Twitter Linkedin Reddit\n\nThe word \u2018surreal\u2019 invariably falls short when it comes to trying to lift the", "correct_token_str": " shroud", "generated_token_str": " lid", "generator_name": "text-curie-001", "correct_logprobs": [-11.823631, -8.435722, -5.652968], "generated_logprobs": [-0.12151435, -0.22271365, -1.4903663]}

@@ -1,0 +1,1 @@
+{"id": 1411, "input_str": " Hampden-Sydney College has", "correct_token_str": " c", "generated_token_str": " announced", "generator_name": "text-curie-001", "correct_logprobs": [-8.978321, -9.415711, -8.991898], "generated_logprobs": [-4.924356, -3.454863, -2.5397716]}

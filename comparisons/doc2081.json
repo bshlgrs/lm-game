@@ -1,0 +1,1 @@
+{"id": 3340, "input_str": " The government is being urged to change the law so that sex education books in schools are vetted by film censors.\n\nConservative", "correct_token_str": " MP", "generated_token_str": " MPs", "generator_name": "text-babbage-001", "correct_logprobs": [-1.4108825, -0.30018875, -0.065926984], "generated_logprobs": [-4.450234, -1.5773399, -3.4003441]}

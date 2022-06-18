@@ -1,0 +1,1 @@
+{"id": 1505, "input_str": " It was a bustling, summer day in San Francisco just like any other for Jackson Palmer, a", "correct_token_str": " marketing", "generated_token_str": " web", "generator_name": "text-curie-001", "correct_logprobs": [-6.857569, -6.988124, -7.4849887], "generated_logprobs": [-5.484471, -6.4255314, -3.4140055]}

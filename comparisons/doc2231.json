@@ -1,0 +1,1 @@
+{"id": 3566, "input_str": " In some sense, it doesn't really matter how the Supreme Court rules on the gay marriage case it's hearing today. The culture war is", "correct_token_str": " over", "generated_token_str": " right", "generator_name": "text-ada-001", "correct_logprobs": [-4.487522, -2.2705061, -1.1518779], "generated_logprobs": [-5.387514, -11.113412, -14.146135]}

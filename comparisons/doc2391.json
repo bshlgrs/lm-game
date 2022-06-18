@@ -1,0 +1,1 @@
+{"id": 3735, "input_str": " Sebastian Vettel probably summed up the Chinese Grand Prix", "correct_token_str": " as", "generated_token_str": " weekend", "generator_name": "text-babbage-001", "correct_logprobs": [-2.3002799, -4.2714, -2.6646898], "generated_logprobs": [-8.532188, -1.9224138, -1.463305]}

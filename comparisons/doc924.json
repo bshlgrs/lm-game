@@ -1,0 +1,1 @@
+{"id": 1465, "input_str": " The Australian Greens say Tony Abbott's budget has", "correct_token_str": " been", "generated_token_str": " Villa", "generator_name": "text-ada-001", "correct_logprobs": [-2.9010599, -1.2960843, -3.6249146], "generated_logprobs": [-9.546293, -17.733393, -17.196358]}

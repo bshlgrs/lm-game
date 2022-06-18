@@ -1,0 +1,1 @@
+{"id": 3447, "input_str": " UPDATE 4/8/17 10:30am: It's taken three months to comprehensively sort the issues, but we can finally recommend the", "correct_token_str": " PlayStation", "generated_token_str": " first", "generator_name": "text-curie-001", "correct_logprobs": [-10.830346, -12.639373, -8.801884], "generated_logprobs": [-10.746341, -5.5653515, -2.6846697]}

@@ -1,0 +1,1 @@
+{"id": 990, "input_str": " The Hawks have raised the pressure acts and their formline has lifted\n\nA HAWTHORN triple premiership star and potentially", "correct_token_str": " the", "generated_token_str": " Hawth", "generator_name": "text-curie-001", "correct_logprobs": [-4.8571687, -2.2671947, -1.4177992], "generated_logprobs": [-8.856073, -5.794929, -5.9861417]}

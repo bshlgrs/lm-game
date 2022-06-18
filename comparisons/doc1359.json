@@ -1,0 +1,1 @@
+{"id": 2179, "input_str": " Students head back to school across Oregon Tuesday. Education researchers have found students lose ground", "correct_token_str": " over", "generated_token_str": " when", "generator_name": "text-ada-001", "correct_logprobs": [-7.0749235, -5.5984254, -4.8020735], "generated_logprobs": [-0.8377243, -2.2693694, -3.0831573]}

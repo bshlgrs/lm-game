@@ -1,0 +1,1 @@
+{"id": 1220, "input_str": " Overview\n\nProgramme Code: T508 BA/ALC Mode of Attendance: Full-time Please note this programme is not accepting applications for 2019/", "correct_token_str": "20", "generated_token_str": "2020", "generator_name": "text-curie-001", "correct_logprobs": [-1.4781781, -2.3343797, -0.85407364], "generated_logprobs": [-0.30942547, -0.10352386, -0.55736846]}

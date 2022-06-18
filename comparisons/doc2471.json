@@ -1,0 +1,1 @@
+{"id": 3815, "input_str": " Supporters and surrogates of President Donald Trump woke", "correct_token_str": " up", "generated_token_str": " Monday", "generator_name": "text-babbage-001", "correct_logprobs": [-0.00036491916, -0.021212246, -0.011639507], "generated_logprobs": [-12.969459, -6.503123, -8.176505]}

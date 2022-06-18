@@ -1,0 +1,1 @@
+{"id": 1597, "input_str": " The 100+ Most Controversial Films of All-Time\n\nMovie Title Screen Film Title/Year, Director Screenshots\n\nThe", "correct_token_str": " Kiss", "generated_token_str": " God", "generator_name": "text-curie-001", "correct_logprobs": [-12.515125, -9.21097, -9.47829], "generated_logprobs": [-3.0577757, -0.822128, -0.54979247]}

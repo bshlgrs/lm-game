@@ -1,0 +1,1 @@
+{"id": 3090, "input_str": " Berlin's Brandenburg Gate is illuminated with the colors of the British flag on March 23 to pay tribute to the", "correct_token_str": " victims", "generated_token_str": " British", "generator_name": "text-babbage-001", "correct_logprobs": [-5.190523, -2.31778, -0.05375607], "generated_logprobs": [-0.7849825, -1.3135133, -4.996011]}

@@ -1,0 +1,1 @@
+{"id": 3212, "input_str": " Last week\u2019s Washington Post bombshell, the news that the Justice Department has given immunity from", "correct_token_str": " prosecution", "generated_token_str": " criminal", "generator_name": "text-ada-001", "correct_logprobs": [-2.249001, -0.16124903, -0.025546066], "generated_logprobs": [-0.84663343, -2.4480503, -4.1024885]}

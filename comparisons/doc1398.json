@@ -1,0 +1,1 @@
+{"id": 2238, "input_str": " YouTube, as a platform, isn\u2019t exactly known for quiet or calm. Its most popular personalities,", "correct_token_str": " at", "generated_token_str": " such", "generator_name": "text-babbage-001", "correct_logprobs": [-4.481077, -8.91621, -8.403828], "generated_logprobs": [-1.7281021, -1.119399, -2.1277413]}

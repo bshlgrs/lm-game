@@ -1,0 +1,1 @@
+{"id": 2645, "input_str": " I long thought it likely to be captured on the iPhone 62S, but this millennium\ufffd", "correct_token_str": "\ufffd", "generated_token_str": "?\"", "generator_name": "text-babbage-001", "correct_logprobs": [-0.0003109561, -7.20769e-05, -0.0034521401], "generated_logprobs": [-15.11084, -10.576686, -13.465572]}

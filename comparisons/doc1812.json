@@ -1,0 +1,1 @@
+{"id": 2887, "input_str": " Ayn Rand\n\nNSFWCORP sent me to", "correct_token_str": " the", "generated_token_str": " this", "generator_name": "text-curie-001", "correct_logprobs": [-8.517996, -3.2744167, -4.219987], "generated_logprobs": [-3.8749928, -0.51687247, -0.8422304]}

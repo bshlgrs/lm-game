@@ -1,0 +1,1 @@
+{"id": 1226, "input_str": " Many and long were the conversations between Lord Byron and Shelley, to which I was", "correct_token_str": " a", "generated_token_str": " not", "generator_name": "text-curie-001", "correct_logprobs": [-6.4505067, -1.7699047, -2.904729], "generated_logprobs": [-3.1919322, -5.0814233, -0.22840978]}

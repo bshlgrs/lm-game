@@ -1,0 +1,1 @@
+{"id": 3816, "input_str": " Bitcoin, the best-performing currency of 2016, has reported", "correct_token_str": " its", "generated_token_str": " a", "generator_name": "text-babbage-001", "correct_logprobs": [-1.3964943, -2.0824783, -3.5086749], "generated_logprobs": [-3.1514199, -0.77074564, -0.54522455]}

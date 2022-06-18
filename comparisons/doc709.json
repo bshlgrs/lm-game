@@ -1,0 +1,1 @@
+{"id": 1122, "input_str": " Milwaukee | Mandel Group, Inc. celebrated groundbreaking today for a unique development containing an", "correct_token_str": " 18", "generated_token_str": " 86", "generator_name": "text-curie-001", "correct_logprobs": [-8.024316, -6.011902, -4.688683], "generated_logprobs": [-12.316767, -6.808715, -5.559112]}

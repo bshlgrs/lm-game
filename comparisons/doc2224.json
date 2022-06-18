@@ -1,0 +1,1 @@
+{"id": 3557, "input_str": " I've been wanting to write an article about how I've grown to the kind of developer I am now hence the title dev evolution, not to say", "correct_token_str": " I", "generated_token_str": " dev", "generator_name": "text-babbage-001", "correct_logprobs": [-8.999102, -4.6797924, -1.3715487], "generated_logprobs": [-8.975212, -1.6181326, -7.8829126]}

@@ -1,0 +1,1 @@
+{"id": 2114, "input_str": " Members of the University at Buffalo\u2019s Young", "correct_token_str": " Americans", "generated_token_str": " America", "generator_name": "text-babbage-001", "correct_logprobs": [-4.9913573, -2.9083667, -0.81990147], "generated_logprobs": [-2.9935908, -2.4118657, -3.9818962]}

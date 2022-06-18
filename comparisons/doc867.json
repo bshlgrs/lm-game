@@ -1,0 +1,1 @@
+{"id": 1377, "input_str": " HARRISBURG, Pa. (AP) \u2014 Pennsylvania's attorney general commented publicly for the first time", "correct_token_str": " about", "generated_token_str": " last", "generator_name": "text-ada-001", "correct_logprobs": [-6.4358926, -7.2497754, -4.340568], "generated_logprobs": [-2.9202864, -11.128288, -9.784581]}

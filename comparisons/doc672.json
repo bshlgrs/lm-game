@@ -1,0 +1,1 @@
+{"id": 1062, "input_str": " Former New York representative Anthony Weiner was sentenced Monday to 21", "correct_token_str": " months", "generated_token_str": " days", "generator_name": "text-babbage-001", "correct_logprobs": [-0.96232957, -0.07413788, -0.0036869862], "generated_logprobs": [-0.53756684, -3.0408928, -6.711593]}

@@ -1,0 +1,1 @@
+{"id": 2448, "input_str": " Newt Gingrich won't be president. He represents the worst in every", "correct_token_str": " other", "generated_token_str": " way", "generator_name": "text-babbage-001", "correct_logprobs": [-9.431227, -8.861033, -6.682183], "generated_logprobs": [-0.90445125, -0.30195177, -0.66120625]}

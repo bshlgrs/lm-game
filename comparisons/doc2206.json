@@ -1,0 +1,1 @@
+{"id": 3525, "input_str": " A Chinese satellite looking for the missing Malaysia Air plane had 'observed a suspected crash", "correct_token_str": " area", "generated_token_str": " site", "generator_name": "text-babbage-001", "correct_logprobs": [-4.9319153, -4.5491395, -2.470119], "generated_logprobs": [-3.8000982, -0.6444499, -0.20167308]}

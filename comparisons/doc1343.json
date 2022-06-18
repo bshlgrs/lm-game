@@ -1,0 +1,1 @@
+{"id": 2150, "input_str": " A protest by about 350,000 Ukrainians", "correct_token_str": ",", "generated_token_str": " in", "generator_name": "text-curie-001", "correct_logprobs": [-11.746165, -4.3277698, -3.8108337], "generated_logprobs": [-5.4571705, -2.0531888, -1.4096715]}

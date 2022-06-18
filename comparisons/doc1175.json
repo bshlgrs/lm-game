@@ -1,0 +1,1 @@
+{"id": 1892, "input_str": " Hey there! Chapter 3 has arrived! I got particularly inspired and managed to", "correct_token_str": " punch", "generated_token_str": " capture", "generator_name": "text-ada-001", "correct_logprobs": [-13.233084, -10.135462, -12.0486765], "generated_logprobs": [-2.884367, -7.868225, -11.049095]}

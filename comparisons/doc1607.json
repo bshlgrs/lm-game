@@ -1,0 +1,1 @@
+{"id": 2569, "input_str": " My Dog Leads The Way To Joy\n\nTo chore or not to chore.\n\nThat is the question.\n\nThe debate between people like me.\n\n", "correct_token_str": "C", "generated_token_str": "\n", "generator_name": "text-babbage-001", "correct_logprobs": [-6.6619425, -9.7953615, -8.268484], "generated_logprobs": [-0.0003377283, -0.014381782, -0.0486464]}

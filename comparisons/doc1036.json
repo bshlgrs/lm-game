@@ -1,0 +1,1 @@
+{"id": 1660, "input_str": " HR, coders and manufacturing: The occupations most affected by", "correct_token_str": " 457", "generated_token_str": " computer", "generator_name": "text-babbage-001", "correct_logprobs": [-13.845782, -13.243178, -15.889538], "generated_logprobs": [-7.801224, -2.067593, -5.678427]}

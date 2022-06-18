@@ -1,0 +1,1 @@
+{"id": 892, "input_str": " This post may be a little controversial for some, but it needs to be brought into open discussion. There are some out there", "correct_token_str": " they", "generated_token_str": " who", "generator_name": "text-curie-001", "correct_logprobs": [-14.35372, -15.587705, -18.378521], "generated_logprobs": [-2.2805681, -0.6550357, -0.71863425]}

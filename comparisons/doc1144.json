@@ -1,0 +1,1 @@
+{"id": 1835, "input_str": " (CNN) -- It's a story that originated from a single, unnamed sourced in", "correct_token_str": " India", "generated_token_str": " the", "generator_name": "text-curie-001", "correct_logprobs": [-13.339794, -10.25394, -6.459117], "generated_logprobs": [-0.13532127, -1.0257589, -0.9930981]}

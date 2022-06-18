@@ -1,0 +1,1 @@
+{"id": 3486, "input_str": " Made from reinforced polymer and an anodized aluminum bedding block, the Magpul Remington 700", "correct_token_str": " Hunter", "generated_token_str": " Clean", "generator_name": "text-ada-001", "correct_logprobs": [-9.5939, -5.9318886, -7.6797996], "generated_logprobs": [-8.565375, -12.072116, -10.922725]}

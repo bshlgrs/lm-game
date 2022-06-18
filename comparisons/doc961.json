@@ -1,0 +1,1 @@
+{"id": 1536, "input_str": " Image caption Ghostwatch's creators wanted to break television boundaries -", "correct_token_str": " but", "generated_token_str": " and", "generator_name": "text-curie-001", "correct_logprobs": [-3.2367618, -1.1717178, -2.710991], "generated_logprobs": [-0.1081286, -0.65492254, -0.3100835]}

@@ -1,0 +1,1 @@
+{"id": 2549, "input_str": " Applebee\u2019s Neighborhood Grill and", "correct_token_str": " Bar", "generated_token_str": " D", "generator_name": "text-babbage-001", "correct_logprobs": [-3.3971996, -1.7237821, -0.027251922], "generated_logprobs": [-5.137795, -5.3192606, -17.07049]}

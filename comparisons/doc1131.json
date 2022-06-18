@@ -1,0 +1,1 @@
+{"id": 1813, "input_str": " This is a rush transcript. Copy may not be in its final form.\n\nJUAN GONZ\u00c1LEZ: Scientists are", "correct_token_str": " warning", "generated_token_str": " reporting", "generator_name": "text-curie-001", "correct_logprobs": [-1.2273407, -1.0467767, -0.15888989], "generated_logprobs": [-5.2278433, -4.1324167, -3.7079942]}

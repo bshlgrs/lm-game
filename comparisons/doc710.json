@@ -1,0 +1,1 @@
+{"id": 1126, "input_str": " Georgia running back Todd Gurley must sit out", "correct_token_str": " two", "generated_token_str": " the", "generator_name": "text-curie-001", "correct_logprobs": [-7.787432, -5.670692, -5.2833724], "generated_logprobs": [-1.1383867, -0.5121756, -0.20309384]}

@@ -1,0 +1,1 @@
+{"id": 2129, "input_str": " Prof Harlene Hayne\n\nThe University of Otago has compared", "correct_token_str": " its", "generated_token_str": " the", "generator_name": "text-ada-001", "correct_logprobs": [-7.678391, -4.054251, -3.3637912], "generated_logprobs": [-0.05159462, -0.55918545, -0.5574823]}

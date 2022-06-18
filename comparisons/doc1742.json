@@ -1,0 +1,1 @@
+{"id": 2768, "input_str": " Darts, Dice, and Coins: Sampling from a Discrete Distribution Last Major Update: December 29,", "correct_token_str": " 2011", "generated_token_str": " 2016", "generator_name": "text-ada-001", "correct_logprobs": [-10.517348, -6.9795194, -4.369609], "generated_logprobs": [-1.892721, -1.9591295, -1.7280197]}

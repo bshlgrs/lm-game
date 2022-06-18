@@ -1,0 +1,1 @@
+{"id": 1705, "input_str": " Jack Bergeson, 16, a", "correct_token_str": " Wichita", "generated_token_str": " student", "generator_name": "text-ada-001", "correct_logprobs": [-14.643978, -10.236538, -9.591576], "generated_logprobs": [-2.0711577, -1.7862552, -1.5900763]}

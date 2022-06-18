@@ -1,0 +1,1 @@
+{"id": 1433, "input_str": " You require assistance to finish a dissertation because of the", "correct_token_str": " activities", "generated_token_str": " ardu", "generator_name": "text-ada-001", "correct_logprobs": [-11.428431, -13.649537, -15.347732], "generated_logprobs": [-8.099586, -9.486082, -11.828626]}

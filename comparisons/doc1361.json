@@ -1,0 +1,1 @@
+{"id": 2186, "input_str": " by\n\nBeijing.\n\nThe information that Abu Anas al-Libi is", "correct_token_str": " now", "generated_token_str": " being", "generator_name": "text-curie-001", "correct_logprobs": [-10.885784, -5.6789885, -5.1116138], "generated_logprobs": [-9.508325, -2.9578705, -1.7724128]}

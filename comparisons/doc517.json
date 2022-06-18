@@ -1,0 +1,1 @@
+{"id": 816, "input_str": " HOUSTON \u2013 Shocked. That was A.J. DeLaGarza\u2019s reaction when learning that his club of the past eight years, the LA", "correct_token_str": " Galaxy", "generated_token_str": " Bas", "generator_name": "text-ada-001", "correct_logprobs": [-4.164871, -0.5492304, -0.0001617331], "generated_logprobs": [-10.223416, -19.233747, -27.302044]}

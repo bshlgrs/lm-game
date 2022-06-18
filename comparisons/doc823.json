@@ -1,0 +1,1 @@
+{"id": 1299, "input_str": " >>> it's the kind of thing we never know about while it's happening because we're not", "correct_token_str": " allowed", "generated_token_str": " living", "generator_name": "text-curie-001", "correct_logprobs": [-8.4999275, -4.7077208, -7.413529], "generated_logprobs": [-5.36798, -3.4292066, -4.6061754]}

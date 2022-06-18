@@ -1,0 +1,1 @@
+{"id": 1943, "input_str": " The world holds its collective breath as the President of the United States calls for military", "correct_token_str": " action", "generated_token_str": " intervention", "generator_name": "text-ada-001", "correct_logprobs": [-1.9239659, -0.11233763, -0.105213106], "generated_logprobs": [-4.2005954, -2.9557996, -2.809614]}

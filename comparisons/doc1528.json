@@ -1,0 +1,1 @@
+{"id": 2443, "input_str": " Forty-six years after the attack on the USS Liberty, survivors", "correct_token_str": " are", "generated_token_str": " of", "generator_name": "text-ada-001", "correct_logprobs": [-1.7181896, -1.5482953, -4.559364], "generated_logprobs": [-2.042934, -1.3479322, -1.454598]}

@@ -1,0 +1,1 @@
+{"id": 3466, "input_str": " Christopher Redmond spoke with Canadian icons the Trailer Park Boys about their non-", "correct_token_str": "Tra", "generated_token_str": "profit", "generator_name": "text-ada-001", "correct_logprobs": [-14.743701, -14.909728, -8.82403], "generated_logprobs": [-0.6259442, -0.09594006, -1.3354915]}

@@ -1,0 +1,1 @@
+{"id": 2516, "input_str": " BEIRUT/NEW YORK (Reuters) - Syria announced a new offensive against", "correct_token_str": " rebel", "generated_token_str": " Kurdish", "generator_name": "text-curie-001", "correct_logprobs": [-4.3144956, -1.7944168, -2.080484], "generated_logprobs": [-8.715194, -3.6981392, -5.6160903]}

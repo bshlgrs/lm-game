@@ -1,0 +1,1 @@
+{"id": 2667, "input_str": " Astronomers have, for the first time, mapped", "correct_token_str": " a", "generated_token_str": " the", "generator_name": "text-babbage-001", "correct_logprobs": [-5.2049894, -3.1770892, -3.2571805], "generated_logprobs": [-0.14039733, -0.54746956, -0.11057606]}

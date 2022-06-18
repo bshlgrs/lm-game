@@ -1,0 +1,1 @@
+{"id": 3136, "input_str": " Chapter 21.\n\nAnna had gone on a few more dates with Hans the past two weeks and, even if she searched for", "correct_token_str": " any", "generated_token_str": " the", "generator_name": "text-curie-001", "correct_logprobs": [-11.494629, -3.3370404, -6.8129983], "generated_logprobs": [-14.408012, -2.4292111, -0.13518037]}

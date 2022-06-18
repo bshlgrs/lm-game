@@ -1,0 +1,1 @@
+{"id": 992, "input_str": " Gail Goestenkors Gail Goestenkors This was a roller-coaster weekend for Gail Goestenkors. On the day she resigned as", "correct_token_str": " an", "generated_token_str": " chair", "generator_name": "text-babbage-001", "correct_logprobs": [-4.919604, -5.580764, -6.2446785], "generated_logprobs": [-3.5946562, -1.8317846, -2.8963892]}

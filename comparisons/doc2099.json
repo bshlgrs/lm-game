@@ -1,0 +1,1 @@
+{"id": 3367, "input_str": " 2010 was a big shift in work environment for me. I migrated from an office to a completely distributed and remote team at Outspokes and", "correct_token_str": " then", "generated_token_str": " my", "generator_name": "text-babbage-001", "correct_logprobs": [-8.419702, -7.8693585, -8.812231], "generated_logprobs": [-10.471312, -3.0238328, -4.1539288]}

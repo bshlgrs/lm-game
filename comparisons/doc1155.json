@@ -1,0 +1,1 @@
+{"id": 1849, "input_str": " K\u014dnosuke Matsushita (\u677e\u4e0b \u5e78\u4e4b\u52a9, Matsushita K\u014dnosuke,", "correct_token_str": " 27", "generated_token_str": " January", "generator_name": "text-curie-001", "correct_logprobs": [-9.994027, -7.487866, -7.303211], "generated_logprobs": [-11.405169, -4.0999613, -2.5532687]}

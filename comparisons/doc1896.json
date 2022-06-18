@@ -1,0 +1,1 @@
+{"id": 3031, "input_str": " Local woman achieves national sumo title\n\nIDAHO FALLS, Idaho (KIFI/KIDK) - There's a little cafe on", "correct_token_str": " North", "generated_token_str": " the", "generator_name": "text-babbage-001", "correct_logprobs": [-8.741157, -6.1734047, -4.051098], "generated_logprobs": [-0.49154252, -0.18629453, -1.4391327]}

@@ -1,0 +1,1 @@
+{"id": 1653, "input_str": " The season demands orange. There are pumpkins sitting on our front porch right now, and the maple outside has turned many", "correct_token_str": " shades", "generated_token_str": " colors", "generator_name": "text-ada-001", "correct_logprobs": [-3.8924162, -0.59394217, -0.015033475], "generated_logprobs": [-0.2787537, -4.6691318, -5.109039]}

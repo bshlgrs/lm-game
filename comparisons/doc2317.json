@@ -1,0 +1,1 @@
+{"id": 3661, "input_str": " DENVER -- Last week, legal recreational marijuana sales began in Colorado, making Colorado the first state in the United States", "correct_token_str": " and", "generated_token_str": " to", "generator_name": "text-ada-001", "correct_logprobs": [-18.768532, -7.8518, -6.677918], "generated_logprobs": [-0.00027399295, -0.0008981817, -0.050544098]}

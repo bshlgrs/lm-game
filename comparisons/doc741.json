@@ -1,0 +1,1 @@
+{"id": 1169, "input_str": " Expensive streetcar route leaves VIA $70 million", "correct_token_str": " short", "generated_token_str": " more", "generator_name": "text-babbage-001", "correct_logprobs": [-11.502958, -4.839382, -2.3774934], "generated_logprobs": [-12.778105, -3.3973064, -8.148689]}

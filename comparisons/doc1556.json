@@ -1,0 +1,1 @@
+{"id": 2483, "input_str": " Remember when an American presidential candidate called for a hostile", "correct_token_str": " foreign", "generated_token_str": " takeover", "generator_name": "text-ada-001", "correct_logprobs": [-7.6022196, -3.2302678, -3.5987647], "generated_logprobs": [-0.07003421, -0.25079364, -0.122616]}

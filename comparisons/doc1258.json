@@ -1,0 +1,1 @@
+{"id": 2020, "input_str": " A whistleblower lawsuit in the United States is accusing CN Rail of fudging", "correct_token_str": " its", "generated_token_str": " safety", "generator_name": "text-curie-001", "correct_logprobs": [-4.2001696, -3.3373528, -2.4966886], "generated_logprobs": [-8.676428, -3.208708, -0.2802105]}

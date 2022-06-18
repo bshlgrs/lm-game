@@ -1,0 +1,1 @@
+{"id": 3162, "input_str": " First, a disclaimer. I haven\u2019t seen the new Cosmos. Second, Neil deGrasse Tyson, the", "correct_token_str": " host", "generated_token_str": " author", "generator_name": "text-babbage-001", "correct_logprobs": [-4.4287367, -1.9724882, -1.0345569], "generated_logprobs": [-3.7144685, -3.2846437, -5.48902]}

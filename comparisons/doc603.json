@@ -1,0 +1,1 @@
+{"id": 940, "input_str": " Alt-J (stylised as alt-J, or \u2206) is an English", "correct_token_str": " indie", "generated_token_str": " rock", "generator_name": "text-babbage-001", "correct_logprobs": [-6.444955, -4.2921724, -0.98775196], "generated_logprobs": [-0.28695408, -2.7117944, -1.0885822]}

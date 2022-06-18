@@ -1,0 +1,1 @@
+{"id": 3094, "input_str": " Gan Gola of Los Angeles holds a ball and chain", "correct_token_str": " representing", "generated_token_str": " that", "generator_name": "text-curie-001", "correct_logprobs": [-10.036585, -8.486193, -4.9370003], "generated_logprobs": [-5.1871104, -4.101354, -1.9581841]}

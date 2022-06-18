@@ -1,0 +1,1 @@
+{"id": 3327, "input_str": " French President Emmanuel Macron's plans for eurozone reform took a major hit with the failure of Germany's coalition talks,", "correct_token_str": " but", "generated_token_str": " opening", "generator_name": "text-curie-001", "correct_logprobs": [-6.8222017, -4.271693, -2.7548833], "generated_logprobs": [-10.076342, -5.935551, -3.1130278]}

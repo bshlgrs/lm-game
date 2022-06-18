@@ -1,0 +1,1 @@
+{"id": 2598, "input_str": " Waiting for Duffy\n\nIn the National Post, Andrew Coyne rolls his eyes\n\nat Senators\u2019 mostly anonymous protestations that the", "correct_token_str": " aud", "generated_token_str": " internal", "generator_name": "text-curie-001", "correct_logprobs": [-14.525647, -11.781335, -6.4703546], "generated_logprobs": [-14.158633, -9.597838, -6.119905]}

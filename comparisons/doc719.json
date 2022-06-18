@@ -1,0 +1,1 @@
+{"id": 1138, "input_str": " A Four-Day War in April\n\nIn four days of bloodshed in the South Caucasus from April 2 to 5,", "correct_token_str": " Armenian", "generated_token_str": " want", "generator_name": "text-ada-001", "correct_logprobs": [-4.989374, -1.1172581, -5.134897], "generated_logprobs": [-9.964441, -15.248471, -16.297432]}

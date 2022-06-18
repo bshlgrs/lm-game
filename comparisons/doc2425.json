@@ -1,0 +1,1 @@
+{"id": 3769, "input_str": " \u201cIT\u2019S A COVER-UP TO DENY THE PUBLIC THE TRUE PICTURE OF THE NHS. WE DEMAND FULL", "correct_token_str": " TRAN", "generated_token_str": " ACC", "generator_name": "text-curie-001", "correct_logprobs": [-7.7566943, -3.297064, -0.7982342], "generated_logprobs": [-3.3750896, -1.0800004, -1.1609719]}

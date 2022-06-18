@@ -1,0 +1,1 @@
+{"id": 3721, "input_str": " Insomniac Joseph Stoiber, 29, was walking in his neighborhood when he couldn't sleep at 2:30 a.m. May 30, talking to his", "correct_token_str": " friend", "generated_token_str": " dog", "generator_name": "text-curie-001", "correct_logprobs": [-3.9158256, -1.0971651, -3.6525478], "generated_logprobs": [-3.8692453, -2.3791265, -1.6398573]}

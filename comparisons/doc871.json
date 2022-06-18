@@ -1,0 +1,1 @@
+{"id": 1383, "input_str": " lets(\n\n:person => Person.find(:first", "correct_token_str": ",", "generated_token_str": ")", "generator_name": "text-babbage-001", "correct_logprobs": [-13.08655, -6.948757, -3.3443875], "generated_logprobs": [-6.3242097, -1.6530474, -2.2420151]}

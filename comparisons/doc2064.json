@@ -1,0 +1,1 @@
+{"id": 3314, "input_str": " Increasingly, society is depending on electronic devices to consume information", "correct_token_str": ".", "generated_token_str": ",", "generator_name": "text-curie-001", "correct_logprobs": [-2.0358033, -0.9862281, -1.2637972], "generated_logprobs": [-8.388948, -2.2121267, -1.4206109]}

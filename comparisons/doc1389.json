@@ -1,0 +1,1 @@
+{"id": 2225, "input_str": " Consider you have an issue with another person", "correct_token_str": ".", "generated_token_str": "?", "generator_name": "text-babbage-001", "correct_logprobs": [-14.169247, -6.048717, -3.2365968], "generated_logprobs": [-1.9760556, -1.1854122, -5.8259807]}

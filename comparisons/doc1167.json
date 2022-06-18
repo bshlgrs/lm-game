@@ -1,0 +1,1 @@
+{"id": 1868, "input_str": " The University College London (UCL) will be", "correct_token_str": " hosting", "generated_token_str": " the", "generator_name": "text-babbage-001", "correct_logprobs": [-6.29177, -2.6491797, -1.9621204], "generated_logprobs": [-0.14846586, -0.5530665, -0.71315724]}

@@ -1,0 +1,1 @@
+{"id": 2390, "input_str": " Paul V. Hartman\n\n(The Capitalized syllable gets the emphasis)\n\nA\n\nalacrity a-LACK-ra-tee cheerful willingness and promptness\n\n", "correct_token_str": "an", "generated_token_str": "\n", "generator_name": "text-ada-001", "correct_logprobs": [-10.078928, -3.4343655, -3.7234707], "generated_logprobs": [-3.076318e-07, -0.026582673, -0.02960955]}

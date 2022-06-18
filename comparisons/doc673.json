@@ -1,0 +1,1 @@
+{"id": 1063, "input_str": " The macroeconomic elite is definitely wrong about something By Scott Sumner\n\nBen", "correct_token_str": " South", "generated_token_str": " Bern", "generator_name": "text-babbage-001", "correct_logprobs": [-10.414311, -12.038963, -10.259597], "generated_logprobs": [-2.8970118, -0.063522264, -0.086647786]}

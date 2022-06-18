@@ -1,0 +1,1 @@
+{"id": 3651, "input_str": " Breitbart News is preparing a lawsuit against a \"major media company\" over claims that it", "correct_token_str": " is", "generated_token_str": " suppress", "generator_name": "text-babbage-001", "correct_logprobs": [-0.4698267, -1.3725334, -2.0656044], "generated_logprobs": [-7.7075, -7.0718594, -11.581778]}

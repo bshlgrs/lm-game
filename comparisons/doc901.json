@@ -1,0 +1,1 @@
+{"id": 1428, "input_str": " The Ron Gilbert Ouevre Maniac Mansion", "correct_token_str": " |", "generated_token_str": "\n", "generator_name": "text-babbage-001", "correct_logprobs": [-9.156042, -8.545203, -8.671997], "generated_logprobs": [-0.38607976, -0.21662548, -0.52579767]}

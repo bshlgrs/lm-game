@@ -1,0 +1,1 @@
+{"id": 3785, "input_str": " The father of an autistic four-year-old boy has", "correct_token_str": " said", "generated_token_str": " branded", "generator_name": "text-ada-001", "correct_logprobs": [-3.4417496, -3.770065, -2.2814705], "generated_logprobs": [-6.41677, -12.158438, -8.620164]}

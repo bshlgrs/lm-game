@@ -1,0 +1,1 @@
+{"id": 1402, "input_str": " Being into fountain pens you keep exploring paper which is good for fountain pen inks. In India it is difficult to get the likes of", "correct_token_str": " Rhod", "generated_token_str": " Fountain", "generator_name": "text-babbage-001", "correct_logprobs": [-6.5602384, -4.3236337, -1.1950507], "generated_logprobs": [-10.0595, -4.095303, -7.4629283]}

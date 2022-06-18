@@ -1,0 +1,1 @@
+{"id": 3170, "input_str": " KANSAS CITY, Kan. \u2013 In one", "correct_token_str": " record", "generated_token_str": " of", "generator_name": "text-babbage-001", "correct_logprobs": [-16.024569, -12.346128, -11.414331], "generated_logprobs": [-0.011737684, -0.07566454, -0.27896184]}

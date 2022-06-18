@@ -1,0 +1,1 @@
+{"id": 1253, "input_str": " SAN FRANCISCO (Reuters) - Mobile messaging company Snapchat blamed third-party software apps for possible security lapses that", "correct_token_str": " may", "generated_token_str": " led", "generator_name": "text-ada-001", "correct_logprobs": [-8.560174, -2.4106755, -1.5593321], "generated_logprobs": [-0.24875566, -2.7544198, -2.2830296]}

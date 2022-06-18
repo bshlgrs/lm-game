@@ -1,0 +1,1 @@
+{"id": 1842, "input_str": " Due to a lack of total vertical integration and heavy focus on IP licensing, one", "correct_token_str": " of", "generated_token_str": " patent", "generator_name": "text-babbage-001", "correct_logprobs": [-2.9492002, -0.48120716, -0.50593853], "generated_logprobs": [-11.076368, -7.3339844, -10.643171]}

@@ -1,0 +1,1 @@
+{"id": 3354, "input_str": " A little more than a year ago, an outfielder named Mike Trout made", "correct_token_str": " his", "generated_token_str": " an", "generator_name": "text-babbage-001", "correct_logprobs": [-3.2714589, -1.7287992, -0.4181509], "generated_logprobs": [-1.9139352, -2.5806155, -2.6789293]}

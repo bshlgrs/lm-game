@@ -1,0 +1,1 @@
+{"id": 3457, "input_str": " With a wide variety of large districts and", "correct_token_str": " 100", "generated_token_str": " communities", "generator_name": "text-babbage-001", "correct_logprobs": [-8.844149, -10.777703, -8.4259405], "generated_logprobs": [-7.8720894, -3.2736645, -5.2470613]}

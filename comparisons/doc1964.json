@@ -1,0 +1,1 @@
+{"id": 3137, "input_str": " Last Thursday, TheProtocol.TV released an interview with Sam Patterson, Operations Lead for the OpenBazaar project.\n\nThe very", "correct_token_str": " next", "generated_token_str": " first", "generator_name": "text-babbage-001", "correct_logprobs": [-7.8149605, -4.320298, -6.941796], "generated_logprobs": [-0.1606585, -1.3534814, -0.74788195]}

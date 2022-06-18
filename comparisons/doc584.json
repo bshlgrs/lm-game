@@ -1,0 +1,1 @@
+{"id": 913, "input_str": " LIONEL MESSI'S appeal against a 21-month jail term is on April 20", "correct_token_str": " \u2013", "generated_token_str": "\n", "generator_name": "text-babbage-001", "correct_logprobs": [-12.380565, -9.765415, -8.838279], "generated_logprobs": [-0.70000124, -0.17660679, -0.12023097]}
