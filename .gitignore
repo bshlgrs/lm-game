@@ -138,6 +138,8 @@ RACE/
 .idea/
 .vscode/
 
+# secrets
+secrets.py
 
 # misc
 **/node_modules/**
