@@ -1,3 +1,4 @@
+from sys import argv
 import flask
 from flask import Flask, send_file, request, jsonify
 import json
@@ -15,6 +16,11 @@ app = Flask(__name__, static_url_path="", static_folder="frontend/build")
 database_url = os.getenv("DATABASE_URL")
 if database_url:
     app.config["SQLALCHEMY_DATABASE_URI"] = database_url.replace("postgres://", "postgresql://")
+if len(argv) > 1 and argv[1] == "--use-secrets-file":
+    from secrets import DB_URL
+
+    app.config["SQLALCHEMY_DATABASE_URI"] = DB_URL
+
 app.config["SECRET_KEY"] = os.getenv("SECRET_KEY") or "DEVELOPMENT SECRET KEY"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False  # get rid of warning
 
@@ -26,8 +32,10 @@ def get_database_connection() -> Connection:
     return session.connection()
 
 
-tokens = ast.literal_eval(open("./tokens.json").read())
-# docs = json.load(open("./docs.json"))
+try:
+    tokens = ast.literal_eval(open("./tokens.json").read())
+except:
+    tokens = []
 
 
 @app.route("/tokens")
@@ -126,7 +134,33 @@ def submit_whichone_guess():
     db.session.add(WhichOneGameGuess(**stuff))
     db.session.commit()
 
-    print(stuff)
+    return "whatever"
+
+
+@dataclass
+class WhichOneScoredGameGuess(db.Model):
+    __tablename__ = "whichonescored_game_guesses"
+    id: int
+    id = db.Column(db.Integer, primary_key=True)
+
+    username: str
+    username = db.Column(db.String, nullable=False)
+
+    guess: float  # X% that the correct one is the correct one
+    guess = db.Column(db.String, nullable=False)
+
+    comparison_id: int
+    comparison_id = db.Column(db.Integer, nullable=False)
+
+    created_on = db.Column(db.DateTime, default=datetime.datetime.utcnow)
+    updated_on = db.Column(db.DateTime, default=datetime.datetime.utcnow, onupdate=datetime.datetime.utcnow)
+
+
+@app.route("/submit_whichone_scored_guess", methods=["POST"])
+def submit_whichonescored_guess():
+    stuff = request.get_json()
+    db.session.add(WhichOneScoredGameGuess(**stuff))
+    db.session.commit()
 
     return "whatever"
 

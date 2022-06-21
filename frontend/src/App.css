@@ -58,7 +58,7 @@ label {
   margin: 0;
 }
 .token-list > div {
-  padding: 0px 6px 0px 6px;
+  padding: 4px 8px 4px 8px;
 }
 
 .prompt {
@@ -76,7 +76,11 @@ label {
 
 .token-correct {
   border-style: solid;
-  border-color: rgb(3, 167, 3);
+  border-color: #0075ff;
+  box-sizing: border-box;
+  border-width: 4px;
+  border-radius: 2px;
+  padding: 0px 4px 0px 4px !important;
 }
 
 .whichone-App {

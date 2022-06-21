@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import WhichOneApp from "./WhichOneApp";
+import WhichOneScoredApp from "./WhichOneScoredApp";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -16,6 +17,16 @@ if (pathname === "/whichone") {
       root.render(
         <React.StrictMode>
           <WhichOneApp initialComparison={doc} />
+        </React.StrictMode>
+      );
+    });
+} else if (pathname === "/whichonescored") {
+  fetch("/get_comparison")
+    .then((response) => response.json())
+    .then((doc) => {
+      root.render(
+        <React.StrictMode>
+          <WhichOneScoredApp initialComparison={doc} />
         </React.StrictMode>
       );
     });
