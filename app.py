@@ -45,7 +45,7 @@ def get_tokens():
 
 @app.route("/get_doc")
 def get_doc():
-    doc_choice_num = random.randint(0, 10000)
+    doc_choice_num = random.randint(0, 9999)
 
     return jsonify(
         {

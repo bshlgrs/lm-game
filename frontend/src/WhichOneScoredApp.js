@@ -51,8 +51,10 @@ function computeDelta(comparison, guess) {
   console.log(guess);
   console.log(comparison);
   return (
-    comparison.generated_logprobs[comparison.generator_index] *
-    Math.log(guess / 100)
+    scoreFactor *
+      comparison.generated_logprobs[comparison.generator_index] *
+      Math.log(guess / 100) +
+    constantScoreIncrease
   );
 }
 
