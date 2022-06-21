@@ -1,0 +1,1 @@
+{"id": 5340, "input_str": " Izvor: N1\n\nSed", "correct_token_str": "am", "generated_token_str": "i", "generator_index": 0, "correct_logprobs": [-6.459695816040039, -4.743745803833008, -6.3517608642578125], "generated_logprobs": [-3.567336082458496, -5.752519607543945, -6.480976104736328], "generator_names": ["gelu_two_layers/", "gelu_twelve_layers/", "gelu_twenty_four_layers/"]}
