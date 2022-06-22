@@ -1,6 +1,7 @@
 #%%
 from sqlalchemy import create_engine
-from secrets import DB_URL
+
+DB_URL = open("secrets.txt", "r").read()[:-1]
 
 engine = create_engine(DB_URL, echo=False)
 
@@ -25,17 +26,23 @@ print(engine.execute("SELECT * FROM lm_game_guesses").fetchone())
 # print(engine.execute("SELECT * FROM whichone_game_guesses").fetchall())
 
 # %% creation fo the whichonescored game
-create_whichonescored_table = """
-CREATE TABLE whichonescored_game_guesses (
-  id SERIAL PRIMARY KEY,
-  username VARCHAR(40) NOT NULL,
-  guess FLOAT NOT NULL,
-  comparison_id INT NOT NULL,
-  created_on DATE,
-  updated_on DATE
-  )
- """
-engine.execute(create_whichonescored_table)
+
+# DANGER # engine.execute("DROP TABLE whichonescored_game_guesses")
+
+# create_whichonescored_table = """
+# CREATE TABLE whichonescored_game_guesses (
+#   id SERIAL PRIMARY KEY,
+#   username VARCHAR(40) NOT NULL,
+#   guess FLOAT NOT NULL,
+#   comparison_id INT NOT NULL,
+#   comparison_number INT NOT NULL,
+#   created_on DATE,
+#   updated_on DATE
+#   )
+#  """
+# engine.execute(create_whichonescored_table)
+
+#%%
 print(engine.execute("SELECT * FROM whichonescored_game_guesses").fetchall())
 
 # %%

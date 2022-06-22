@@ -67,6 +67,13 @@ label {
   /* word-break: break-all; */
 }
 
+.prompt-activated {
+  padding: 10px;
+  background-color: #eee;
+  border: 2px solid black;
+  /* word-break: break-all; */
+}
+
 .invisible-letter {
   color: #ccc;
 }

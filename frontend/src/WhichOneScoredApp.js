@@ -1,9 +1,11 @@
 import { useState } from "react";
 import "./App.css";
 
+const mulNumber = 400;
 const percentages = [99, 90, 80, 70, 60, 50, 40, 30, 20, 10, 1];
 const constantScoreIncrease = 2;
 const scoreFactor = 10;
+const maxComparisonStep = 2;
 
 function randomBool() {
   return Math.random() < 0.5;
@@ -58,10 +60,18 @@ function computeDelta(comparison, guess) {
   );
 }
 
+function hashCode(s) {
+  return s.split("").reduce(function (a, b) {
+    a = (a << 5) - a + b.charCodeAt(0);
+    return a & a;
+  }, 0);
+}
+
 function WhichOneScoredApp(props) {
   const { initialComparison } = props;
 
   const [name, setName] = useState(localStorage.getItem("name") || "anon");
+  const comparisonNb = hashCode(name) % mulNumber;
 
   const [comparison, setComparison] = useState(initialComparison);
   const [correctToTheLeft, setCorrectToTheLeft] = useState(randomBool());
@@ -70,20 +80,72 @@ function WhichOneScoredApp(props) {
   const [hasGuessed, setHasGuessed] = useState(false);
   const [error, setError] = useState("");
   const [score, setScore] = useState(0);
-  const [lastDelta, setLastDelta] = useState(10.01);
+  const [lastDelta, setLastDelta] = useState(0);
 
-  function getNewComparison() {
-    fetch("/get_comparison")
-      .then((response) => response.json())
-      .then((comparison) => {
-        setComparison(comparison);
-      });
+  const [comparisonStep, setComparisonStep] = useState(-1); // -1 when in training
+
+  function startTrueGame() {
+    setComparisonStep(0);
+    goToNextComparison(0);
   }
 
-  function reset() {
+  function getNewComparison(step) {
+    if (maxComparisonStep === step) {
+      setComparisonStep(-2);
+    }
+    if (step !== undefined && step >= 0 && maxComparisonStep !== step) {
+      fetch("/get_multi_comparison/" + step)
+        .then((response) => response.json())
+        .then((comparison) => {
+          // Convert multi comparison to simple comparison
+          comparison["generated_logprobs"] = comparison[
+            "generated_logprobss"
+          ].map(function (a) {
+            return a[comparisonNb];
+          });
+          comparison["generated_token_str"] =
+            comparison["generated_token_strs"][comparisonNb];
+
+          if (
+            comparison["generated_token_str"] ===
+            comparison["correct_token_str"]
+          ) {
+            sendAnswer(comparison, 50);
+            getNewComparison(step + 1);
+          } else {
+            setComparison(comparison);
+            setComparisonStep(step + 1);
+          }
+        });
+    } else
+      fetch("/get_comparison")
+        .then((response) => response.json())
+        .then((comparison) => {
+          setComparison(comparison);
+        });
+  }
+
+  function sendAnswer(comparison, guess) {
+    fetch("/submit_whichone_scored_guess", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        username: name,
+        guess: computeAbsoluteGuess(guess, correctToTheLeft),
+        comparison_id: comparison.id,
+        comparison_number: comparisonNb,
+      }),
+    });
+  }
+
+  function goToNextComparison(step) {
+    console.log(step);
     setGuess(-1);
     setHasGuessed(false);
-    getNewComparison();
+    getNewComparison(step);
     setCorrectToTheLeft(randomBool());
     setError("");
   }
@@ -96,18 +158,9 @@ function WhichOneScoredApp(props) {
     setLastDelta(delta);
     setScore((score) => score + delta);
     setHasGuessed(true);
-    fetch("/submit_whichone_guess", {
-      method: "POST",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        username: name,
-        guess: computeAbsoluteGuess(guess, correctToTheLeft),
-        comparison_id: comparison.id,
-      }),
-    });
+    if (comparisonStep >= 1) {
+      sendAnswer(comparison, guess);
+    }
   }
 
   return (
@@ -143,6 +196,27 @@ function WhichOneScoredApp(props) {
           </span>
         )}
       </div>
+      <div style={{ display: "flex", alignItems: "center" }}>
+        {comparisonStep === -1 ? (
+          <>
+            <p>
+              You are currently in training mode. Please train a bit to
+              understand how the scoring system works, then launch the true
+              game.{" "}
+            </p>
+            <button
+              onClick={startTrueGame}
+              style={{ height: "2em", flexShrink: 0 }}
+            >
+              Start the true game
+            </button>
+          </>
+        ) : comparisonStep === -2 ? (
+          <p>Thank you for playing!</p>
+        ) : (
+          <p>You are currenly playing the true game. Think wisely!</p>
+        )}
+      </div>
       <p>
         Read the following prompt. Token A or token B is a token that appeared
         next index the original text. The other one was generated by a language
@@ -150,7 +224,9 @@ function WhichOneScoredApp(props) {
         appeared in the original text?
       </p>
       <p>(comparison number: {comparison.id})</p>
-      <p className="prompt">{addInvisibleTokenToText(comparison.input_str)}</p>
+      <p className={comparisonStep >= 0 ? "prompt prompt-activated" : "prompt"}>
+        {addInvisibleTokenToText(comparison.input_str)}
+      </p>
       <div className="token-list">
         <div className={correctToTheLeft && hasGuessed ? "token-correct" : ""}>
           <p>Token A</p>
@@ -202,7 +278,13 @@ function WhichOneScoredApp(props) {
           {hasGuessed ? "Submitted" : "Submit guess"}
         </button>
         <span style={{ width: "2em" }} />
-        <button onClick={reset} disabled={!hasGuessed}>
+        <button
+          onClick={function () {
+            if (comparisonStep >= 0) goToNextComparison(comparisonStep);
+            else goToNextComparison();
+          }}
+          disabled={!hasGuessed}
+        >
           Next completion
         </button>
       </div>

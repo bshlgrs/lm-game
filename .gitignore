@@ -139,7 +139,7 @@ RACE/
 .vscode/
 
 # secrets
-secrets.py
+secrets.txt
 
 # misc
 **/node_modules/**

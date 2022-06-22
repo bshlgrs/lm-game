@@ -1,4 +1,5 @@
 from sys import argv
+import sys
 import flask
 from flask import Flask, send_file, request, jsonify
 import json
@@ -17,9 +18,8 @@ database_url = os.getenv("DATABASE_URL")
 if database_url:
     app.config["SQLALCHEMY_DATABASE_URI"] = database_url.replace("postgres://", "postgresql://")
 if len(argv) > 1 and argv[1] == "--use-secrets-file":
-    from secrets import DB_URL
-
-    app.config["SQLALCHEMY_DATABASE_URI"] = DB_URL
+    url = open("secrets.txt", "r").read()[:-1]
+    app.config["SQLALCHEMY_DATABASE_URI"] = url
 
 app.config["SECRET_KEY"] = os.getenv("SECRET_KEY") or "DEVELOPMENT SECRET KEY"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False  # get rid of warning
@@ -58,8 +58,12 @@ def get_doc():
 @app.route("/get_comparison")
 def get_comparison():
     doc_choice_num = random.randint(0, 2486)
-
     return jsonify(json.load(open(__file__[:-6] + f"/comparisons/doc{doc_choice_num}.json")))
+
+
+@app.route("/get_multi_comparison/<comparison_nb>")
+def get_multi_comparison(comparison_nb):
+    return jsonify(json.load(open(__file__[:-6] + f"/multi_comparisons/doc{comparison_nb}.json")))
 
 
 @app.route("/")
@@ -69,6 +73,11 @@ def lm_game():
 
 @app.route("/whichone")
 def whichone_game():
+    return send_file(__file__[:-6] + "frontend/build/index.html")
+
+
+@app.route("/whichonescored")
+def whichone_game_scored():
     return send_file(__file__[:-6] + "frontend/build/index.html")
 
 
@@ -152,6 +161,9 @@ class WhichOneScoredGameGuess(db.Model):
     comparison_id: int
     comparison_id = db.Column(db.Integer, nullable=False)
 
+    comparison_number: int
+    comparison_number = db.Column(db.Integer, nullable=False)
+
     created_on = db.Column(db.DateTime, default=datetime.datetime.utcnow)
     updated_on = db.Column(db.DateTime, default=datetime.datetime.utcnow, onupdate=datetime.datetime.utcnow)
 
@@ -159,6 +171,7 @@ class WhichOneScoredGameGuess(db.Model):
 @app.route("/submit_whichone_scored_guess", methods=["POST"])
 def submit_whichonescored_guess():
     stuff = request.get_json()
+    print(stuff)
     db.session.add(WhichOneScoredGameGuess(**stuff))
     db.session.commit()
 
@@ -167,4 +180,4 @@ def submit_whichonescored_guess():
 
 if __name__ == "__main__":
     # Threaded option to enable multiple instances for multiple user access support
-    app.run(host="0.0.0.0", threaded=True, port=int(os.getenv("PORT", "5000")))
+    app.run(host="0.0.0.0", threaded=True, port=int(os.getenv("PORT", "5000")), debug=True)
