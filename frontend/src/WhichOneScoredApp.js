@@ -5,7 +5,7 @@ const mulNumber = 400;
 const percentages = [99, 90, 80, 70, 60, 50, 40, 30, 20, 10, 1];
 const constantScoreIncrease = 2;
 const scoreFactor = 10;
-const maxComparisonStep = 2;
+const maxComparisonStep = 40;
 
 function randomBool() {
   return Math.random() < 0.5;
