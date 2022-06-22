@@ -3,8 +3,8 @@ import "./App.css";
 
 const mulNumber = 400;
 const percentages = [99, 90, 80, 70, 60, 50, 40, 30, 20, 10, 1];
-const constantScoreIncrease = 2;
-const scoreFactor = 10;
+const constantScoreIncrease = Math.log(2) * 0.5; // score if the model has no clue and you don't either
+const scoreFactor = 10; // To make the score more readable
 const maxComparisonStep = 40;
 
 function randomBool() {
@@ -54,9 +54,9 @@ function computeDelta(comparison, guess) {
   console.log(comparison);
   return (
     scoreFactor *
-      comparison.generated_logprobs[comparison.generator_index] *
+    (comparison.generated_logprobs[comparison.generator_index] *
       Math.log(guess / 100) +
-    constantScoreIncrease
+      constantScoreIncrease)
   );
 }
 
@@ -83,6 +83,14 @@ function WhichOneScoredApp(props) {
   const [lastDelta, setLastDelta] = useState(0);
 
   const [comparisonStep, setComparisonStep] = useState(-1); // -1 when in training
+
+  function changeName(newName) {
+    setName(newName);
+    if (comparisonStep !== -1) {
+      setComparisonStep(-1);
+      goToNextComparison(-1);
+    }
+  }
 
   function startTrueGame() {
     setComparisonStep(0);
@@ -183,7 +191,7 @@ function WhichOneScoredApp(props) {
         <input
           value={name}
           onChange={(e) => {
-            setName(e.target.value);
+            changeName(e.target.value);
             localStorage.setItem("name", e.target.value);
           }}
         />{" "}

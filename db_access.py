@@ -27,7 +27,7 @@ print(engine.execute("SELECT * FROM lm_game_guesses").fetchone())
 
 # %% creation fo the whichonescored game
 
-# DANGER # engine.execute("DROP TABLE whichonescored_game_guesses")
+# DANGER #  engine.execute("DROP TABLE whichonescored_game_guesses")
 
 # create_whichonescored_table = """
 # CREATE TABLE whichonescored_game_guesses (
