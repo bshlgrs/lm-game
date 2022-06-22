@@ -3,8 +3,10 @@ import "./App.css";
 
 const mulNumber = 400;
 const percentages = [99, 90, 80, 70, 60, 50, 40, 30, 20, 10, 1];
-const constantScoreIncrease = Math.log(2) * 0.5; // score if the model has no clue and you don't either
-const scoreFactor = 10; // To make the score more readable
+
+// To make the score more readable
+const scoreFactor = 1000;
+
 const maxComparisonStep = 40;
 
 function randomBool() {
@@ -52,11 +54,11 @@ function computeAbsoluteGuess(guess, correctToTheLeft) {
 function computeDelta(comparison, guess) {
   console.log(guess);
   console.log(comparison);
+  console.log(comparison.correct_logprobs[comparison.generator_index]);
   return (
     scoreFactor *
-    (comparison.generated_logprobs[comparison.generator_index] *
-      Math.log(guess / 100) +
-      constantScoreIncrease)
+    (Math.exp(comparison.correct_logprobs[comparison.generator_index]) *
+      (Math.log(guess / 100) - Math.log(0.5)))
   );
 }
 
@@ -71,7 +73,7 @@ function WhichOneScoredApp(props) {
   const { initialComparison } = props;
 
   const [name, setName] = useState(localStorage.getItem("name") || "anon");
-  const comparisonNb = hashCode(name) % mulNumber;
+  const comparisonNb = ((hashCode(name) % mulNumber) + mulNumber) % mulNumber;
 
   const [comparison, setComparison] = useState(initialComparison);
   const [correctToTheLeft, setCorrectToTheLeft] = useState(randomBool());
@@ -95,6 +97,7 @@ function WhichOneScoredApp(props) {
   function startTrueGame() {
     setComparisonStep(0);
     goToNextComparison(0);
+    setScore(0);
   }
 
   function getNewComparison(step) {
@@ -113,7 +116,6 @@ function WhichOneScoredApp(props) {
           });
           comparison["generated_token_str"] =
             comparison["generated_token_strs"][comparisonNb];
-
           if (
             comparison["generated_token_str"] ===
             comparison["correct_token_str"]
@@ -162,7 +164,10 @@ function WhichOneScoredApp(props) {
       setError("Please give your confidence level.");
       return;
     }
-    const delta = computeDelta(comparison, computeAbsoluteGuess(guess));
+    const delta = computeDelta(
+      comparison,
+      computeAbsoluteGuess(guess, correctToTheLeft)
+    );
     setLastDelta(delta);
     setScore((score) => score + delta);
     setHasGuessed(true);
@@ -179,12 +184,13 @@ function WhichOneScoredApp(props) {
         <a href="https://docs.google.com/document/d/1MrL5_C3TNkml1MDRVvMg_c8WgXggOWmGEIwGHc1bJ1A/edit?usp=sharing">
           here
         </a>
-        . Be careful, to get a score as high as possible, you should play as if
-        you were choosing between the true next token and another one chosen
-        uniformly at random between all other tokens, so don't hesitate to put
-        high probability on one token if you think the other is highly unlikely.
-        For more details on the scoring section and about the optimal strategy
-        (which we need you to follow), please check out the notes.
+        .To get a score as high as possible, simply put how likely the left
+        token is in this context compared to the right token. (Don't overthink
+        this: you should play as if you were choosing between the true next
+        token and another one chosen uniformly at random between all other
+        tokens, so don't hesitate to put high probability on one token if you
+        think the other is highly unlikely. For more details, please check out
+        the notes.)
       </p>
       <div>
         Your name:{" "}

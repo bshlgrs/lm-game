@@ -63,7 +63,7 @@ def get_comparison():
 
 @app.route("/get_multi_comparison/<comparison_nb>")
 def get_multi_comparison(comparison_nb):
-    return jsonify(json.load(open(__file__[:-6] + f"/multi_comparisons/doc{comparison_nb - 10_000}.json")))
+    return jsonify(json.load(open(__file__[:-6] + f"/multi_comparisons/doc{int(comparison_nb) + 10000}.json")))
 
 
 @app.route("/")
