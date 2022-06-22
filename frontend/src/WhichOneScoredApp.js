@@ -52,9 +52,6 @@ function computeAbsoluteGuess(guess, correctToTheLeft) {
 }
 
 function computeDelta(comparison, guess) {
-  console.log(guess);
-  console.log(comparison);
-  console.log(comparison.correct_logprobs[comparison.generator_index]);
   return (
     scoreFactor *
     (Math.exp(comparison.correct_logprobs[comparison.generator_index]) *
@@ -152,7 +149,6 @@ function WhichOneScoredApp(props) {
   }
 
   function goToNextComparison(step) {
-    console.log(step);
     setGuess(-1);
     setHasGuessed(false);
     getNewComparison(step);
@@ -226,7 +222,9 @@ function WhichOneScoredApp(props) {
             </button>
           </>
         ) : comparisonStep === -2 ? (
-          <p>Thank you for playing!</p>
+          <p>
+            <b>Thank you for playing!</b>
+          </p>
         ) : (
           <p>You are currenly playing the true game. Think wisely!</p>
         )}
