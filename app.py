@@ -1,3 +1,4 @@
+#%%
 from sys import argv
 import sys
 import flask
@@ -78,6 +79,11 @@ def whichone_game():
 
 @app.route("/whichonescored")
 def whichone_game_scored():
+    return send_file(__file__[:-6] + "frontend/build/index.html")
+
+
+@app.route("/whichonescoredleaderboard")
+def whichonescoredleaderboard():
     return send_file(__file__[:-6] + "frontend/build/index.html")
 
 
@@ -171,13 +177,46 @@ class WhichOneScoredGameGuess(db.Model):
 @app.route("/submit_whichone_scored_guess", methods=["POST"])
 def submit_whichonescored_guess():
     stuff = request.get_json()
-    print(stuff)
     db.session.add(WhichOneScoredGameGuess(**stuff))
     db.session.commit()
 
     return "whatever"
 
 
+@dataclass
+class WhichOneScoredLeaderBoardGameGuess(db.Model):
+    __tablename__ = "whichonescored_leaderboard"
+    id: int
+    id = db.Column(db.Integer, primary_key=True)
+
+    username: str
+    username = db.Column(db.String, nullable=False)
+
+    score: int
+    score = db.Column(db.Integer, nullable=False)
+
+    created_on = db.Column(db.DateTime, default=datetime.datetime.utcnow)
+    updated_on = db.Column(db.DateTime, default=datetime.datetime.utcnow, onupdate=datetime.datetime.utcnow)
+
+
+@app.route("/submit_whichonescored_leaderboard", methods=["POST"])
+def submit_whichonescored_leaderboard():
+    stuff = request.get_json()
+    db.session.add(WhichOneScoredLeaderBoardGameGuess(**stuff))
+    db.session.commit()
+
+    return "whatever"
+
+
+@app.route("/get_leaderboard")
+def get_leaderboard():
+    q = WhichOneScoredLeaderBoardGameGuess.query.all()
+    q = sorted(q, key=lambda e: -e.score)
+    return jsonify([{"username": e.username, "score": e.score} for e in q])
+
+
 if __name__ == "__main__":
     # Threaded option to enable multiple instances for multiple user access support
     app.run(host="0.0.0.0", threaded=True, port=int(os.getenv("PORT", "5000")), debug=True)
+    pass
+# %%

@@ -5,6 +5,7 @@ import App from "./App";
 import WhichOneApp from "./WhichOneApp";
 import WhichOneScoredApp from "./WhichOneScoredApp";
 import reportWebVitals from "./reportWebVitals";
+import LeaderBoard from "./LeaderBoard";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -27,6 +28,16 @@ if (pathname === "/whichone") {
       root.render(
         <React.StrictMode>
           <WhichOneScoredApp initialComparison={doc} />
+        </React.StrictMode>
+      );
+    });
+} else if (pathname === "/whichonescoredleaderboard") {
+  fetch("/get_leaderboard")
+    .then((response) => response.json())
+    .then((leaderboard) => {
+      root.render(
+        <React.StrictMode>
+          <LeaderBoard leaderboard={leaderboard} />
         </React.StrictMode>
       );
     });

@@ -43,6 +43,20 @@ print(engine.execute("SELECT * FROM lm_game_guesses").fetchone())
 # engine.execute(create_whichonescored_table)
 
 #%%
+create_whichonescored_leaderboard_table = """
+CREATE TABLE whichonescored_leaderboard (
+  id SERIAL PRIMARY KEY,
+  username VARCHAR(40) NOT NULL,
+  score INT NOT NULL,
+  created_on DATE,
+  updated_on DATE
+  )
+ """
+engine.execute(create_whichonescored_leaderboard_table)
+#%%
+print(engine.execute("SELECT * FROM whichonescored_leaderboard").fetchall())
+
+#%%
 print(engine.execute("SELECT * FROM whichonescored_game_guesses").fetchall())
 
 # %%

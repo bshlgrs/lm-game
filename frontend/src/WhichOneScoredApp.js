@@ -131,6 +131,17 @@ function WhichOneScoredApp(props) {
   function getNewComparison(step) {
     if (maxComparisonStep === step) {
       setComparisonStep(-2);
+      fetch("/submit_whichonescored_leaderboard", {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          username: name,
+          score: Math.round(score),
+        }),
+      });
     }
     if (step !== undefined && step >= 0 && maxComparisonStep !== step) {
       fetch("/get_multi_comparison/" + step)
