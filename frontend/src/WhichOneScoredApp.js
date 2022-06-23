@@ -67,6 +67,29 @@ function hashCode(s) {
   }, 0);
 }
 
+function getScoreComponent(score, delta) {
+  return (
+    <>
+      <b>{score.toFixed(0)}</b>{" "}
+      <span className="delta">
+        {" "}
+        ({delta > 0 && "+"}
+        {delta.toFixed(0)})
+      </span>
+    </>
+  );
+}
+
+function getModelGuess(i, comparison) {
+  const p_good = Math.exp(comparison["correct_logprobs"][i]);
+  const p_bad = Math.exp(comparison["generated_logprobs"][i]);
+  const ratio = p_good / (p_good + p_bad);
+  let guess = Math.round(ratio * 10) * 10; // round to 0, 10, ..., or 100
+  if (guess === 0) guess = 1;
+  if (guess === 100) guess = 99;
+  return guess;
+}
+
 function WhichOneScoredApp(props) {
   const { initialComparison } = props;
 
@@ -79,14 +102,17 @@ function WhichOneScoredApp(props) {
   const [guess, setGuess] = useState(-1);
   const [hasGuessed, setHasGuessed] = useState(false);
   const [error, setError] = useState("");
+
   const [score, setScore] = useState(0);
-  const [modelsScore, setModelsScore] = useState([0, 0, 0]);
   const [lastDelta, setLastDelta] = useState(0);
+
+  const [modelsScore, setModelsScore] = useState([0, 0, 0]);
+  const [modelsLastDelta, setModelsLastDelta] = useState([0, 0, 0]);
 
   const [comparisonStep, setComparisonStep] = useState(-1); // -1 when in training
 
-  const [showScoreDetails, setShowScoreDetails] = useState(true);
-  const [showModelsScores, setShowModelsScores] = useState(true);
+  const [showScoreDetails, setShowScoreDetails] = useState(false);
+  const [showModelsScores, setShowModelsScores] = useState(false);
 
   function changeName(newName) {
     setName(newName);
@@ -165,11 +191,27 @@ function WhichOneScoredApp(props) {
       setError("Please give your confidence level.");
       return;
     }
+
+    // compute your delta
     const delta = computeDelta(
       comparison,
       computeAbsoluteGuess(guess, correctToTheLeft)
     );
     setLastDelta(delta);
+
+    //Compute models delta
+    setModelsLastDelta(
+      modelNames.map(function (_, i) {
+        const g = getModelGuess(i, comparison);
+        return computeDelta(comparison, g);
+      })
+    );
+    setModelsScore(
+      modelsScore.map(function (score, i) {
+        return score + modelsLastDelta[i];
+      })
+    );
+
     setScore((score) => score + delta);
     setHasGuessed(true);
     if (comparisonStep >= 1) {
@@ -210,15 +252,37 @@ function WhichOneScoredApp(props) {
             setShowScoreDetails(!showScoreDetails);
           }}
         />
+        {"  "}Show models score{" "}
+        <input
+          type="checkbox"
+          checked={showModelsScores}
+          onChange={function () {
+            setShowModelsScores(!showModelsScores);
+          }}
+        />
       </div>
-      <div>
-        Your current score: <b>{score.toFixed(0)}</b>{" "}
-        <span className="delta">
-          {" "}
-          ({lastDelta > 0 && "+"}
-          {lastDelta.toFixed(0)})
-        </span>
-        {"  "}
+      <div className={showModelsScores ? "score-grid" : ""}>
+        <div>Your current score: {getScoreComponent(score, lastDelta)}</div>
+        {showModelsScores &&
+          modelNames.map(function (name, i) {
+            return (
+              <div>
+                {name}: {getScoreComponent(modelsScore[i], modelsLastDelta[i])}
+                {hasGuessed && (
+                  <>
+                    {" "}
+                    (
+                    {computeAbsoluteGuess(
+                      // Put it on the right scale (the inverse of computeAbsoluteGuess is computeAbsoluteGuess)
+                      getModelGuess(i, comparison),
+                      correctToTheLeft
+                    )}
+                    %)
+                  </>
+                )}
+              </div>
+            );
+          })}
       </div>
       {hasGuessed && showScoreDetails && (
         <div>

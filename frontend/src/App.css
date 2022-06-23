@@ -91,7 +91,7 @@ label {
 }
 
 .whichone-App {
-  max-width: 800px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   padding: 1em 1em 1em 1em;
@@ -132,6 +132,11 @@ label {
   width: 20em;
   text-align: left;
   gap: 1px;
+}
+.score-grid {
+  display: grid;
+  grid-template-columns: 12em 1fr 1fr 1fr;
+  margin: 0.5em 0 0.2em 0;
 }
 .error {
   color: red;
