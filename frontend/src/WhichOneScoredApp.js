@@ -3,6 +3,7 @@ import "./App.css";
 
 const mulNumber = 400;
 const percentages = [99, 90, 80, 70, 60, 50, 40, 30, 20, 10, 1];
+const modelNames = ["2 layers", "12 layers", "24 layers"];
 
 // To make the score more readable
 const scoreFactor = 1000;
@@ -79,9 +80,13 @@ function WhichOneScoredApp(props) {
   const [hasGuessed, setHasGuessed] = useState(false);
   const [error, setError] = useState("");
   const [score, setScore] = useState(0);
+  const [modelsScore, setModelsScore] = useState([0, 0, 0]);
   const [lastDelta, setLastDelta] = useState(0);
 
   const [comparisonStep, setComparisonStep] = useState(-1); // -1 when in training
+
+  const [showScoreDetails, setShowScoreDetails] = useState(true);
+  const [showModelsScores, setShowModelsScores] = useState(true);
 
   function changeName(newName) {
     setName(newName);
@@ -197,11 +202,25 @@ function WhichOneScoredApp(props) {
             localStorage.setItem("name", e.target.value);
           }}
         />
+        {"  "}Show score details{" "}
+        <input
+          type="checkbox"
+          checked={showScoreDetails}
+          onChange={function () {
+            setShowScoreDetails(!showScoreDetails);
+          }}
+        />
       </div>
       <div>
-        Your current score: <b>{score.toFixed(0)}</b>
+        Your current score: <b>{score.toFixed(0)}</b>{" "}
+        <span className="delta">
+          {" "}
+          ({lastDelta > 0 && "+"}
+          {lastDelta.toFixed(0)})
+        </span>
+        {"  "}
       </div>
-      {hasGuessed && (
+      {hasGuessed && showScoreDetails && (
         <div>
           <div>
             Your last guess' score:
