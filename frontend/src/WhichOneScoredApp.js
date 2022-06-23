@@ -196,16 +196,32 @@ function WhichOneScoredApp(props) {
             changeName(e.target.value);
             localStorage.setItem("name", e.target.value);
           }}
-        />{" "}
-        Your current score: <b>{score.toFixed(0)}</b>
-        {hasGuessed && (
-          <span className="delta">
-            {" "}
-            ({lastDelta > 0 && "+"}
-            {lastDelta.toFixed(0)})
-          </span>
-        )}
+        />
       </div>
+      <div>
+        Your current score: <b>{score.toFixed(0)}</b>
+      </div>
+      {hasGuessed && (
+        <div>
+          <div>
+            Your last guess' score:
+            <span className="delta">
+              {" "}
+              {lastDelta > 0 && "+"}
+              {lastDelta.toFixed(0)} = 1000 *
+              {Math.exp(
+                comparison.correct_logprobs[comparison.generator_index]
+              ).toPrecision(2)}
+              * log(
+              {computeAbsoluteGuess(guess, correctToTheLeft) / 100})
+            </span>
+          </div>
+          <div>
+            = 1000 * P(token according to the model, against all other tokens) *
+            log(your odd ratio toward the correct answer)
+          </div>
+        </div>
+      )}
       <div style={{ display: "flex", alignItems: "center" }}>
         {comparisonStep === -1 ? (
           <>
@@ -235,7 +251,14 @@ function WhichOneScoredApp(props) {
         model. How confident are you that <b>token A</b> is the one that
         appeared in the original text?
       </p>
-      <p>(comparison number: {comparison.id})</p>
+      <p>
+        {comparisonStep >= 0 && (
+          <>
+            Progress: {((100 * comparisonStep) / maxComparisonStep).toFixed(0)}%{" "}
+          </>
+        )}
+        (comparison number: {comparison.id})
+      </p>
       <p className={comparisonStep >= 0 ? "prompt prompt-activated" : "prompt"}>
         {addInvisibleTokenToText(comparison.input_str)}
       </p>
