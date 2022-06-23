@@ -1,4 +1,3 @@
-#%%
 from sys import argv
 import sys
 import flask
@@ -218,5 +217,3 @@ def get_leaderboard():
 if __name__ == "__main__":
     # Threaded option to enable multiple instances for multiple user access support
     app.run(host="0.0.0.0", threaded=True, port=int(os.getenv("PORT", "5000")), debug=True)
-    pass
-# %%
