@@ -114,6 +114,8 @@ function WhichOneScoredApp(props) {
   const [showScoreDetails, setShowScoreDetails] = useState(false);
   const [showModelsScores, setShowModelsScores] = useState(false);
 
+  const [isLoading, setIsLoading] = useState(false);
+
   function changeName(newName) {
     setName(newName);
     if (comparisonStep !== -1) {
@@ -164,6 +166,7 @@ function WhichOneScoredApp(props) {
           } else {
             setComparison(comparison);
             setComparisonStep(step + 1);
+            setIsLoading(false);
           }
         });
     } else
@@ -171,6 +174,7 @@ function WhichOneScoredApp(props) {
         .then((response) => response.json())
         .then((comparison) => {
           setComparison(comparison);
+          setIsLoading(false);
         });
   }
 
@@ -193,8 +197,9 @@ function WhichOneScoredApp(props) {
   function goToNextComparison(step) {
     setGuess(-1);
     setHasGuessed(false);
-    getNewComparison(step);
+    setIsLoading(true);
     setCorrectToTheLeft(randomBool());
+    getNewComparison(step);
     setError("");
   }
   function handleSubmit(e) {
@@ -339,7 +344,8 @@ function WhichOneScoredApp(props) {
           <p>You are currenly playing the true game. Think wisely!</p>
         )}
       </div>
-      {comparisonStep !== -2 && (
+      {isLoading && <p>Loading...</p>}
+      {comparisonStep !== -2 && !isLoading && (
         <>
           <p>
             Read the following prompt. Token A or token B is a token that
