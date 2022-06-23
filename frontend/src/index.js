@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import WhichOneApp from "./WhichOneApp";
 import WhichOneScoredApp from "./WhichOneScoredApp";
+import WhichOneScored2App from "./WhichOneScored2App";
 import reportWebVitals from "./reportWebVitals";
 import LeaderBoard from "./LeaderBoard";
 
@@ -28,6 +29,45 @@ if (pathname === "/whichone") {
       root.render(
         <React.StrictMode>
           <WhichOneScoredApp initialComparison={doc} />
+        </React.StrictMode>
+      );
+    });
+} else if (pathname === "/whichonescored2") {
+  fetch("/get_multi_comparison/20000")
+    .then((response) => response.json())
+    .then((doc) => {
+      root.render(
+        <React.StrictMode>
+          <WhichOneScored2App
+            initialComparison={doc}
+            lowestComparisonId={20000}
+          />
+        </React.StrictMode>
+      );
+    });
+} else if (pathname === "/whichonescored3") {
+  fetch("/get_multi_comparison/20100")
+    .then((response) => response.json())
+    .then((doc) => {
+      root.render(
+        <React.StrictMode>
+          <WhichOneScored2App
+            initialComparison={doc}
+            lowestComparisonId={20100}
+          />
+        </React.StrictMode>
+      );
+    });
+} else if (pathname === "/whichonescored4") {
+  fetch("/get_multi_comparison/20200")
+    .then((response) => response.json())
+    .then((doc) => {
+      root.render(
+        <React.StrictMode>
+          <WhichOneScored2App
+            initialComparison={doc}
+            lowestComparisonId={20200}
+          />
         </React.StrictMode>
       );
     });

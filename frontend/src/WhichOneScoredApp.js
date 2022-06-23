@@ -8,6 +8,7 @@ const modelNames = ["2 layers", "12 layers", "24 layers"];
 // To make the score more readable
 const scoreFactor = 1000;
 
+const lowestComparisonId = 10_000;
 const maxComparisonStep = 40;
 
 function randomBool() {
@@ -146,7 +147,7 @@ function WhichOneScoredApp(props) {
       });
     }
     if (step !== undefined && step >= 0 && maxComparisonStep !== step) {
-      fetch("/get_multi_comparison/" + step)
+      fetch("/get_multi_comparison/" + (step + lowestComparisonId))
         .then((response) => response.json())
         .then((comparison) => {
           // Convert multi comparison to simple comparison

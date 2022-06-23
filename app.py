@@ -63,7 +63,7 @@ def get_comparison():
 
 @app.route("/get_multi_comparison/<comparison_nb>")
 def get_multi_comparison(comparison_nb):
-    return jsonify(json.load(open(__file__[:-6] + f"/multi_comparisons/doc{int(comparison_nb) + 10000}.json")))
+    return jsonify(json.load(open(__file__[:-6] + f"/multi_comparisons/doc{int(comparison_nb)}.json")))
 
 
 @app.route("/")
@@ -176,6 +176,7 @@ class WhichOneScoredGameGuess(db.Model):
 @app.route("/submit_whichone_scored_guess", methods=["POST"])
 def submit_whichonescored_guess():
     stuff = request.get_json()
+    print(stuff)
     db.session.add(WhichOneScoredGameGuess(**stuff))
     db.session.commit()
 
