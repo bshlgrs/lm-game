@@ -130,6 +130,31 @@ label {
   margin: 0;
 }
 
+.score-bar-holder {
+  width: 100%;
+  position: relative;
+}
+
+.score-bar {
+  display: inline-block;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+  height: 1em;
+  border-radius: 0 0.5em 0.5em 0;
+}
+
+.top-score-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #014ca1;
+  height: 1em;
+}
+
+.full-score-bar {
+  background-color: #0075ff;
+}
+
 .reasons-radios {
   margin-top: 1em;
   display: flex;

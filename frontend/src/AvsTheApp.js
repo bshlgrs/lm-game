@@ -1,9 +1,16 @@
 import { useState } from "react";
 import "./App.css";
 
-const score_mult = 1.0 / 10;
+const score_mult = 1.0 / 100;
 const percentages = [99, 90, 80, 70, 60, 50, 40, 30, 20, 10, 1];
-const modelNames = ["2 layers", "12 layers", "24 layers"];
+const modelNames = [
+  "2 layers",
+  "12 layers",
+  "24 layers",
+  "Ada",
+  "Babbage",
+  "Curie",
+];
 
 function addInvisibleTokenToText(text) {
   return (
@@ -26,13 +33,14 @@ function addInvisibleTokenToText(text) {
 
 function computeDelta(comparison, guess) {
   const target = comparison.correct_token_is_a ? 100 : 0;
-  return (50 * 50 - (target - guess) * (target - guess)) * score_mult;
+  return (100 * 100 - (target - guess) * (target - guess)) * score_mult;
 }
 
 function getScoreComponent(score, delta) {
   return (
     <>
-      <b>{score.toFixed(0)}</b>{" "}
+      <b>{score.toFixed(0)}</b>
+      {"pts "}
       <span className="delta">
         {" "}
         ({delta > 0 && "+"}
@@ -65,8 +73,12 @@ function AvsTheApp(props) {
   const [score, setScore] = useState(0);
   const [lastDelta, setLastDelta] = useState(0);
 
-  const [modelsScore, setModelsScore] = useState([0, 0, 0]);
-  const [modelsLastDelta, setModelsLastDelta] = useState([0, 0, 0]);
+  const [modelsScore, setModelsScore] = useState(modelNames.map((_) => 0));
+  const [modelsLastDelta, setModelsLastDelta] = useState(
+    modelNames.map((_) => 0)
+  );
+
+  const maxScore = Math.max(score, ...modelsScore);
 
   const [comparisonStep, setComparisonStep] = useState(start);
 
@@ -80,6 +92,34 @@ function AvsTheApp(props) {
         setComparisonStep(step + 1);
         setIsLoading(false);
       });
+  }
+
+  function getScoreBarComponent(score, maxScore, lastDelta, text, guess) {
+    return (
+      <div className="score-bar-holder">
+        {maxScore !== 0 && (
+          <div
+            className="score-bar top-score-bar"
+            style={{
+              width: ((70 * (score - lastDelta)) / maxScore).toFixed(0) + "%",
+            }}
+          ></div>
+        )}
+        {maxScore !== 0 && (
+          <div
+            className="score-bar full-score-bar"
+            style={{
+              width: ((70 * score) / maxScore).toFixed(0) + "%",
+            }}
+          ></div>
+        )}
+
+        <span>
+          {text}: {getScoreComponent(score, lastDelta)}{" "}
+          {guess !== undefined && <>({guess} %)</>}
+        </span>
+      </div>
+    );
   }
 
   function goToNextComparison(step) {
@@ -125,26 +165,40 @@ function AvsTheApp(props) {
         is one of them.
       </p>
       <p>
-        The score is (50² - (guess - target)²)/10 (where target = 100 if the
-        correct answer is " a", and 0 if it is " the")
+        The additional score is (100² - (guess - target)²)/100 (where target =
+        100 if the correct answer is " a", and 0 if it is " the")
       </p>
-      <div className="score-grid">
-        <div>Your current score: {getScoreComponent(score, lastDelta)}</div>
-        {modelNames.map(function (name, i) {
-          return (
-            <div>
-              {name}: {getScoreComponent(modelsScore[i], modelsLastDelta[i])}
-              {hasGuessed && (
-                <>
-                  {" "}
-                  ({getModelGuess(i, comparison)}
-                  %)
-                </>
-              )}
-            </div>
-          );
-        })}
-      </div>
+      <div
+        style={{
+          backgroundColor: "red",
+          width: (score / 10).toFixed(0) + "px",
+        }}
+      ></div>
+      {getScoreBarComponent(score, maxScore, lastDelta, "You")}
+      {/* <div>Your current score: {getScoreComponent(score, lastDelta)}</div> */}
+      {modelNames.map(function (name, i) {
+        const guess = hasGuessed ? getModelGuess(i, comparison) : undefined;
+        return getScoreBarComponent(
+          modelsScore[i],
+          maxScore,
+          modelsLastDelta[i],
+          name,
+          guess
+        );
+        // (
+
+        //   <div>
+        //     {name}: {getScoreComponent(modelsScore[i], modelsLastDelta[i])}
+        //     {hasGuessed && (
+        //       <>
+        //         {" "}
+        //         ({getModelGuess(i, comparison)}
+        //         %)
+        //       </>
+        //     )}
+        //   </div>
+        // );
+      })}
       {isLoading && <p>Loading...</p>}
       {!isLoading && (
         <>
