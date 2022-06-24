@@ -95,9 +95,16 @@ def whichone_game_scored3():
 def whichone_game_scored4():
     return send_file(__file__[:-6] + "frontend/build/index.html")
 
+
 @app.route("/whichonescoredold")
-def whichone_game_scored4():
+def whichone_game_scoredold():
     return send_file(__file__[:-6] + "frontend/build/index.html")
+
+
+# @app.route("/avsthe")
+# def avsthe():
+#     return send_file(__file__[:-6] + "frontend/build/index.html")
+
 
 @app.route("/whichonescoredleaderboard")
 def whichonescoredleaderboard():
