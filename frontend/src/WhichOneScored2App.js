@@ -359,7 +359,14 @@ function WhichOneScored2App(props) {
             <b>Thank you for playing!</b>
           </p>
         ) : (
-          <p>You are currenly playing the true game. Think wisely!</p>
+          <p>
+            You are currenly playing the true game. Think wisely! If you want to
+            train more,{" "}
+            <a href="https://rr-lm-game.herokuapp.com/whichonescoredold">
+              click here
+            </a>
+            .
+          </p>
         )}
       </div>
       {isLoading && <p>Loading...</p>}

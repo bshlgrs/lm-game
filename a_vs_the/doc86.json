@@ -1,0 +1,1 @@
+{"id": 86, "sentence_nb": 7, "input_str": "[BEGIN] The US military is responsible", "correct_token_is_a": false, "logp_a": [-1.7377005815505981, -1.3604559898376465, -1.7830806970596313], "logp_the": [-0.19349305331707, -0.29644542932510376, -0.18406638503074646]}

@@ -1,0 +1,1 @@
+{"id": 1027, "sentence_nb": 90, "input_str": "[BEGIN] Police released surveillance video Tuesday", "correct_token_is_a": true, "logp_a": [-1.2448902130126953, -0.29150381684303284, -0.438929945230484], "logp_the": [-0.33963876962661743, -1.3749159574508667, -1.0348657369613647]}

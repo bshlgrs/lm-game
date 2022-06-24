@@ -1,0 +1,1 @@
+{"id": 682, "sentence_nb": 59, "input_str": "[BEGIN] The United States government owns 47 percent of all land in the West. In some states, including Oregon, Utah and Nevada", "correct_token_is_a": false, "logp_a": [-0.8896209001541138, -3.2773571014404297, -2.919377326965332], "logp_the": [-0.5290089845657349, -0.038457904011011124, -0.05547816678881645]}

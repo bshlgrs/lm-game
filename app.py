@@ -65,6 +65,10 @@ def get_comparison():
 def get_multi_comparison(comparison_nb):
     return jsonify(json.load(open(__file__[:-6] + f"/multi_comparisons/doc{int(comparison_nb)}.json")))
 
+@app.route("/get_a_vs_the/<comparison_nb>")
+def get_a_vs_the(comparison_nb):
+    doc_choice_num = int(comparison_nb) % 1000
+    return jsonify(json.load(open(__file__[:-6] + f"/a_vs_the/doc{doc_choice_num}.json")))
 
 @app.route("/")
 def lm_game():
@@ -101,9 +105,9 @@ def whichone_game_scoredold():
     return send_file(__file__[:-6] + "frontend/build/index.html")
 
 
-# @app.route("/avsthe")
-# def avsthe():
-#     return send_file(__file__[:-6] + "frontend/build/index.html")
+@app.route("/avsthe")
+def avsthe():
+    return send_file(__file__[:-6] + "frontend/build/index.html")
 
 
 @app.route("/whichonescoredleaderboard")

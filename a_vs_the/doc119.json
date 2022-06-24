@@ -1,0 +1,1 @@
+{"id": 119, "sentence_nb": 10, "input_str": "[BEGIN] Texas Gov. Greg Abbott has not backed down from his vow to eradicate sanctuary city policies from the Lone Star State, officially", "correct_token_is_a": true, "logp_a": [-0.42575231194496155, -0.3736734092235565, -0.3203964829444885], "logp_the": [-1.0592323541641235, -1.1653985977172852, -1.2941207885742188]}

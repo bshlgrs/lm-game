@@ -1,0 +1,1 @@
+{"id": 917, "sentence_nb": 81, "input_str": "[BEGIN] Hey gang! I am currently writing my key-note address", "correct_token_is_a": false, "logp_a": [-1.893328309059143, -1.559480905532837, -1.1736152172088623], "logp_the": [-0.16318954527378082, -0.23603276908397675, -0.3699728846549988]}

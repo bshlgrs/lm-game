@@ -1,0 +1,1 @@
+{"id": 1112, "sentence_nb": 97, "input_str": "[BEGIN] \u201cSomebody told me at the beginning", "correct_token_is_a": false, "logp_a": [-2.0860965251922607, -3.4176249504089355, -4.524272441864014], "logp_the": [-0.13258428871631622, -0.03333992511034012, -0.010901772417128086]}

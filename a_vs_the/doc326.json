@@ -1,0 +1,1 @@
+{"id": 326, "sentence_nb": 28, "input_str": "[BEGIN] \u2018I reject your reality and substitute my own\u2019", "correct_token_is_a": true, "logp_a": [-0.7606079578399658, -1.1327581405639648, -0.7302885055541992], "logp_the": [-0.6299512386322021, -0.38881972432136536, -0.6573362350463867]}

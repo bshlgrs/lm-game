@@ -1,0 +1,1 @@
+{"id": 327, "sentence_nb": 28, "input_str": "[BEGIN] \u2018I reject your reality and substitute my own\u2019 \u2013 a quote made semi-famous by Adam Savage", "correct_token_is_a": false, "logp_a": [-1.9615073204040527, -1.2121955156326294, -1.466808795928955], "logp_the": [-0.15157465636730194, -0.3531714975833893, -0.2622228264808655]}

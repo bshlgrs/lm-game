@@ -1,0 +1,1 @@
+{"id": 310, "sentence_nb": 27, "input_str": "[BEGIN] Under the U.S. Constitution, Congress,", "correct_token_is_a": false, "logp_a": [-1.034618616104126, -3.224165439605713, -4.27998161315918], "logp_the": [-0.43906620144844055, -0.04060220718383789, -0.013939641416072845]}

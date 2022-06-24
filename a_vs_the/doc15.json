@@ -1,0 +1,1 @@
+{"id": 15, "sentence_nb": 1, "input_str": "[BEGIN] Though we come to know Bayern", "correct_token_is_a": false, "logp_a": [-1.1523810625076294, -1.779958963394165, -1.2658867835998535], "logp_the": [-0.3796273469924927, -0.18469838798046112, -0.33127063512802124]}

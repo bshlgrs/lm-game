@@ -1,0 +1,1 @@
+{"id": 105, "sentence_nb": 9, "input_str": "[BEGIN] I think one should still be a Leninist, at least", "correct_token_is_a": false, "logp_a": [-2.4169716835021973, -2.148914337158203, -1.9253236055374146], "logp_the": [-0.09342242032289505, -0.12398921698331833, -0.15762341022491455]}

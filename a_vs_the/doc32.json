@@ -1,0 +1,1 @@
+{"id": 32, "sentence_nb": 2, "input_str": "[BEGIN] A small airplane landed in the center of Interstate 4 in Seminole County on Friday afternoon, closing several lanes, according", "correct_token_is_a": false, "logp_a": [-0.5645173788070679, -0.9435964822769165, -1.310608148574829], "logp_the": [-0.8407996892929077, -0.49302735924720764, -0.3142396807670593]}

@@ -90,6 +90,14 @@ label {
   padding: 3px 7px 3px 7px !important;
 }
 
+.side-correct {
+  border-style: solid;
+  border-color: #0075ff;
+  box-sizing: border-box;
+  border-width: 5px;
+  border-radius: 5px;
+}
+
 .whichone-App {
   max-width: 900px;
   margin-left: auto;
@@ -118,7 +126,8 @@ label {
   flex-shrink: 0;
   width: 8em;
   text-align: center;
-  margin: 8px 5px 0 5px;
+  padding: 8px 5px 8px 5px;
+  margin: 0;
 }
 
 .reasons-radios {

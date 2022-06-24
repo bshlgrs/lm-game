@@ -7,6 +7,7 @@ import WhichOneScoredApp from "./WhichOneScoredApp";
 import WhichOneScored2App from "./WhichOneScored2App";
 import reportWebVitals from "./reportWebVitals";
 import LeaderBoard from "./LeaderBoard";
+import AvsTheApp from "./AvsTheApp";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -78,6 +79,17 @@ if (pathname === "/whichone") {
       root.render(
         <React.StrictMode>
           <LeaderBoard leaderboard={leaderboard} />
+        </React.StrictMode>
+      );
+    });
+} else if (pathname === "/avsthe") {
+  const start = Math.floor(1000 * Math.random());
+  fetch("/get_a_vs_the/" + start)
+    .then((response) => response.json())
+    .then((doc) => {
+      root.render(
+        <React.StrictMode>
+          <AvsTheApp initialComparison={doc} start={start + 1} />
         </React.StrictMode>
       );
     });

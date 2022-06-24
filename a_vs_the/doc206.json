@@ -1,0 +1,1 @@
+{"id": 206, "sentence_nb": 17, "input_str": "[BEGIN] Eight U.S. senators called for an investigation today", "correct_token_is_a": true, "logp_a": [-0.9519639015197754, -0.4871806502342224, -0.6396622061729431], "logp_the": [-0.4877314567565918, -0.9528407454490662, -0.7496551871299744]}

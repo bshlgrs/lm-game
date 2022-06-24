@@ -1,0 +1,1 @@
+{"id": 243, "sentence_nb": 20, "input_str": "[BEGIN] The media has focused much attention on the supposed pregnancy of a 9-year-old Mexican girl, but reports now indicate", "correct_token_is_a": false, "logp_a": [-1.036773443222046, -1.7587190866470337, -2.136409044265747], "logp_the": [-0.437880277633667, -0.1890626698732376, -0.12565170228481293]}

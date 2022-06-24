@@ -1,0 +1,1 @@
+{"id": 383, "sentence_nb": 33, "input_str": "[BEGIN] Netflix continues to", "correct_token_is_a": false, "logp_a": [-0.5975788831710815, -0.42230224609375, -0.5359325408935547], "logp_the": [-0.7988232374191284, -1.065765380859375, -0.8797740936279297]}
