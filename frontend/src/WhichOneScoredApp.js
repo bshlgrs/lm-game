@@ -125,10 +125,17 @@ function WhichOneScoredApp(props) {
     }
   }
 
+  function resetScores() {
+    setScore(0);
+    setLastDelta(0);
+    setModelsScore([0, 0, 0]);
+    setModelsLastDelta([0, 0, 0]);
+  }
+
   function startTrueGame() {
     setComparisonStep(0);
     goToNextComparison(0);
-    setScore(0);
+    resetScores();
   }
 
   function getNewComparison(step) {
