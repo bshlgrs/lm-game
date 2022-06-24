@@ -1,1 +1,1 @@
-{"id": 1054, "sentence_nb": 93, "input_str": "[BEGIN] Born in 1906 in Wisconsin, Ed Gein grew up", "correct_token_is_a": true, "logp_a": [-1.5631574392318726, -1.0326905250549316, -0.7909641265869141], "logp_the": [-0.23505628108978271, -0.44013065099716187, -0.6040515899658203]}
+{"id": 1054, "sentence_nb": 93, "input_str": " Born in 1906 in Wisconsin, Ed Gein grew up in", "correct_token_is_a": true, "logp_a": [-1.5631574392318726, -1.0326905250549316, -0.7909641265869141], "logp_the": [-0.23505628108978271, -0.44013065099716187, -0.6040515899658203]}

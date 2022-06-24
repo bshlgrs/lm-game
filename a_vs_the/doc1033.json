@@ -1,1 +1,1 @@
-{"id": 1033, "sentence_nb": 91, "input_str": "[BEGIN] A marketopia populated by the rabid people, surnamed", "correct_token_is_a": false, "logp_a": [-0.7314366102218628, -1.69253671169281, -2.253776788711548], "logp_the": [-0.656269907951355, -0.2034047544002533, -0.11093365401029587]}
+{"id": 1033, "sentence_nb": 91, "input_str": " A marketopia populated by the rabid people, surnamed after", "correct_token_is_a": false, "logp_a": [-0.7314366102218628, -1.69253671169281, -2.253776788711548], "logp_the": [-0.656269907951355, -0.2034047544002533, -0.11093365401029587]}

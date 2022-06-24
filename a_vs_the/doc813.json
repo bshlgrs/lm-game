@@ -1,1 +1,1 @@
-{"id": 813, "sentence_nb": 71, "input_str": "[BEGIN] Photo: AP\n\nToday is the fifth anniversary", "correct_token_is_a": false, "logp_a": [-1.3982912302017212, -3.096959352493286, -2.9492223262786865], "logp_the": [-0.2837148606777191, -0.046239081770181656, -0.05380215123295784]}
+{"id": 813, "sentence_nb": 71, "input_str": " Photo: AP\n\nToday is the fifth anniversary of", "correct_token_is_a": false, "logp_a": [-1.3982912302017212, -3.096959352493286, -2.9492223262786865], "logp_the": [-0.2837148606777191, -0.046239081770181656, -0.05380215123295784]}

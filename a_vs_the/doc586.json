@@ -1,1 +1,1 @@
-{"id": 586, "sentence_nb": 51, "input_str": "[BEGIN] In 2012, two seasoned scholars", "correct_token_is_a": false, "logp_a": [-0.3523038327693939, -0.26116958260536194, -0.43503522872924805], "logp_the": [-1.2142471075057983, -1.4703294038772583, -1.0419726371765137]}
+{"id": 586, "sentence_nb": 51, "input_str": " In 2012, two seasoned scholars shared", "correct_token_is_a": false, "logp_a": [-0.3523038327693939, -0.26116958260536194, -0.43503522872924805], "logp_the": [-1.2142471075057983, -1.4703294038772583, -1.0419726371765137]}

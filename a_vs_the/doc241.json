@@ -1,1 +1,1 @@
-{"id": 241, "sentence_nb": 20, "input_str": "[BEGIN] The media has focused much attention", "correct_token_is_a": false, "logp_a": [-1.9377161264419556, -3.1954433917999268, -2.611358404159546], "logp_the": [-0.1555228978395462, -0.041810352355241776, -0.07627075165510178]}
+{"id": 241, "sentence_nb": 20, "input_str": " The media has focused much attention on", "correct_token_is_a": false, "logp_a": [-1.9377161264419556, -3.1954433917999268, -2.611358404159546], "logp_the": [-0.1555228978395462, -0.041810352355241776, -0.07627075165510178]}

@@ -1,1 +1,1 @@
-{"id": 31, "sentence_nb": 2, "input_str": "[BEGIN] A small airplane landed", "correct_token_is_a": false, "logp_a": [-1.7053860425949097, -1.0297868251800537, -0.9226206541061401], "logp_the": [-0.20052896440029144, -0.4417397379875183, -0.5066279172897339]}
+{"id": 31, "sentence_nb": 2, "input_str": " A small airplane landed in", "correct_token_is_a": false, "logp_a": [-1.7053860425949097, -1.0297868251800537, -0.9226206541061401], "logp_the": [-0.20052896440029144, -0.4417397379875183, -0.5066279172897339]}

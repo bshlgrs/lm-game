@@ -1,1 +1,1 @@
-{"id": 530, "sentence_nb": 47, "input_str": "[BEGIN] Mr. Sarkozy, speaking Monday", "correct_token_is_a": false, "logp_a": [-2.4240193367004395, -0.7400946617126465, -0.6955370903015137], "logp_the": [-0.09273489564657211, -0.6483054161071777, -0.690762996673584]}
+{"id": 530, "sentence_nb": 47, "input_str": " Mr. Sarkozy, speaking Monday at", "correct_token_is_a": false, "logp_a": [-2.4240193367004395, -0.7400946617126465, -0.6955370903015137], "logp_the": [-0.09273489564657211, -0.6483054161071777, -0.690762996673584]}

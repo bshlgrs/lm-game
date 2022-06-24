@@ -1,1 +1,1 @@
-{"id": 965, "sentence_nb": 85, "input_str": "[BEGIN] After reading through all", "correct_token_is_a": false, "logp_a": [-3.935281991958618, -6.529574871063232, -6.352292060852051], "logp_the": [-0.019733652472496033, -0.0014606770128011703, -0.0017442979151383042]}
+{"id": 965, "sentence_nb": 85, "input_str": " After reading through all of", "correct_token_is_a": false, "logp_a": [-3.935281991958618, -6.529574871063232, -6.352292060852051], "logp_the": [-0.019733652472496033, -0.0014606770128011703, -0.0017442979151383042]}

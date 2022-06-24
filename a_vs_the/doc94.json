@@ -1,1 +1,1 @@
-{"id": 94, "sentence_nb": 8, "input_str": "[BEGIN] So, we have all heard", "correct_token_is_a": false, "logp_a": [-2.1811273097991943, -2.7564895153045654, -3.149721145629883], "logp_the": [-0.11981356889009476, -0.0656210407614708, -0.04380989074707031]}
+{"id": 94, "sentence_nb": 8, "input_str": " So, we have all heard about", "correct_token_is_a": false, "logp_a": [-2.1811273097991943, -2.7564895153045654, -3.149721145629883], "logp_the": [-0.11981356889009476, -0.0656210407614708, -0.04380989074707031]}

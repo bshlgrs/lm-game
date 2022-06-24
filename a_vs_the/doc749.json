@@ -1,1 +1,1 @@
-{"id": 749, "sentence_nb": 65, "input_str": "[BEGIN] THIS much Nina Funnell knows", "correct_token_is_a": false, "logp_a": [-2.040470838546753, -2.8432135581970215, -2.7213258743286133], "logp_the": [-0.13922470808029175, -0.06000285595655441, -0.06805134564638138]}
+{"id": 749, "sentence_nb": 65, "input_str": " THIS much Nina Funnell knows about", "correct_token_is_a": false, "logp_a": [-2.040470838546753, -2.8432135581970215, -2.7213258743286133], "logp_the": [-0.13922470808029175, -0.06000285595655441, -0.06805134564638138]}

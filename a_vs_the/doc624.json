@@ -1,1 +1,1 @@
-{"id": 624, "sentence_nb": 54, "input_str": "[BEGIN] FRESNO, Calif. -- A man wanted", "correct_token_is_a": false, "logp_a": [-1.2631806135177612, -1.2127984762191772, -1.0225762128829956], "logp_the": [-0.33233535289764404, -0.3529161512851715, -0.44576725363731384]}
+{"id": 624, "sentence_nb": 54, "input_str": " FRESNO, Calif. -- A man wanted in", "correct_token_is_a": false, "logp_a": [-1.2631806135177612, -1.2127984762191772, -1.0225762128829956], "logp_the": [-0.33233535289764404, -0.3529161512851715, -0.44576725363731384]}

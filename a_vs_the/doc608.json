@@ -1,1 +1,1 @@
-{"id": 608, "sentence_nb": 53, "input_str": "[BEGIN] As an alumnus of San Diego State, I can attest", "correct_token_is_a": false, "logp_a": [-1.8000084161758423, -3.3643147945404053, -3.3803024291992188], "logp_the": [-0.18067993223667145, -0.035197995603084564, -0.034629881381988525]}
+{"id": 608, "sentence_nb": 53, "input_str": " As an alumnus of San Diego State, I can attest to", "correct_token_is_a": false, "logp_a": [-1.8000084161758423, -3.3643147945404053, -3.3803024291992188], "logp_the": [-0.18067993223667145, -0.035197995603084564, -0.034629881381988525]}

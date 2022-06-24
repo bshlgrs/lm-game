@@ -1,1 +1,1 @@
-{"id": 976, "sentence_nb": 86, "input_str": "[BEGIN] The Obama administration is working", "correct_token_is_a": true, "logp_a": [-0.5585757493972778, -0.03403148800134659, -0.037839531898498535], "logp_the": [-0.8486863374710083, -3.397434711456299, -3.293260097503662]}
+{"id": 976, "sentence_nb": 86, "input_str": " The Obama administration is working on", "correct_token_is_a": true, "logp_a": [-0.5585757493972778, -0.03403148800134659, -0.037839531898498535], "logp_the": [-0.8486863374710083, -3.397434711456299, -3.293260097503662]}
