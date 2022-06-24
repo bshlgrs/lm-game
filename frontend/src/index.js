@@ -22,7 +22,7 @@ if (pathname === "/whichone") {
         </React.StrictMode>
       );
     });
-} else if (pathname === "/whichonescored") {
+} else if (pathname === "/whichonescoredold") {
   fetch("/get_comparison")
     .then((response) => response.json())
     .then((doc) => {
@@ -32,7 +32,7 @@ if (pathname === "/whichone") {
         </React.StrictMode>
       );
     });
-} else if (pathname === "/whichonescored2") {
+} else if (pathname === "/whichonescored2" || pathname === "/whichonescored") {
   fetch("/get_multi_comparison/20000")
     .then((response) => response.json())
     .then((doc) => {
