@@ -330,12 +330,12 @@ function WhichOneScored2App(props) {
                 comparison.correct_logprobs[comparison.generator_index]
               ).toPrecision(2)}
               * log(
-              {computeAbsoluteGuess(guess, correctToTheLeft) / 100})
+              {computeAbsoluteGuess(guess, correctToTheLeft) / 100} / 0.5)
             </span>
           </div>
           <div>
             = 1000 * P(token according to the model, against all other tokens) *
-            log(your odd ratio toward the correct answer)
+            log(your probability / 0.5)
           </div>
         </div>
       )}

@@ -159,7 +159,7 @@ function AvsTheApp(props) {
     <div className="whichone-App">
       <h1>A or The?</h1>
       <p>
-        Language model can some tasks much better than humans, even when the try
+        Language model can do some tasks much better than humans, even when the try
         hard. Guessing whether the next token is "
         {addInvisibleTokenToText(" a")}" or "{addInvisibleTokenToText(" the")}"
         is one of them.
