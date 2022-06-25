@@ -141,6 +141,7 @@ label {
   margin-top: 0.5em;
   height: 1em;
   border-radius: 0 0.5em 0.5em 0;
+  transition: width 0.5s ease-in-out;
 }
 
 .top-score-bar {

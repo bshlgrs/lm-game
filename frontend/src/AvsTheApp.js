@@ -95,24 +95,24 @@ function AvsTheApp(props) {
   }
 
   function getScoreBarComponent(score, maxScore, lastDelta, text, guess) {
+    const percentageOfMax = maxScore === 0 ? 0 : score / maxScore;
+    const percentageOfMaxPreDekta =
+      maxScore === 0 ? 0 : (score - lastDelta) / maxScore;
+
     return (
       <div className="score-bar-holder">
-        {maxScore !== 0 && (
-          <div
-            className="score-bar top-score-bar"
-            style={{
-              width: ((70 * (score - lastDelta)) / maxScore).toFixed(0) + "%",
-            }}
-          ></div>
-        )}
-        {maxScore !== 0 && (
-          <div
-            className="score-bar full-score-bar"
-            style={{
-              width: ((70 * score) / maxScore).toFixed(0) + "%",
-            }}
-          ></div>
-        )}
+        <div
+          className="score-bar top-score-bar"
+          style={{
+            width: (70 * percentageOfMaxPreDekta).toFixed(0) + "%",
+          }}
+        ></div>
+        <div
+          className="score-bar full-score-bar"
+          style={{
+            width: (70 * percentageOfMax).toFixed(0) + "%",
+          }}
+        ></div>
 
         <span>
           {text}: {getScoreComponent(score, lastDelta)}{" "}
