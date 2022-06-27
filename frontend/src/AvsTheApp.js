@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 const score_mult = 1.0 / 100;
+const targetScore = 500;
 const percentages = [99, 90, 80, 70, 60, 50, 40, 30, 20, 10, 1];
 const modelNames = [
   "2 layers",
@@ -33,7 +34,7 @@ function addInvisibleTokenToText(text) {
 
 function computeDelta(comparison, guess) {
   const target = comparison.correct_token_is_a ? 100 : 0;
-  return (100 * 100 - (target - guess) * (target - guess)) * score_mult;
+  return (50 * 50 - (target - guess) * (target - guess)) * score_mult;
 }
 
 function getScoreComponent(score, delta) {
@@ -95,9 +96,12 @@ function AvsTheApp(props) {
   }
 
   function getScoreBarComponent(score, maxScore, lastDelta, text, guess) {
-    const percentageOfMax = maxScore === 0 ? 0 : score / maxScore;
-    const percentageOfMaxPreDekta =
-      maxScore === 0 ? 0 : (score - lastDelta) / maxScore;
+    const fullBarScore = Math.max(maxScore, targetScore);
+    const percentageOfMax = score / fullBarScore;
+    const percentageOfMaxPreDekta = Math.min(
+      (score - lastDelta) / fullBarScore,
+      percentageOfMax
+    );
 
     return (
       <div className="score-bar-holder">
@@ -159,13 +163,13 @@ function AvsTheApp(props) {
     <div className="whichone-App">
       <h1>A or The?</h1>
       <p>
-        Language model can do some tasks much better than humans, even when the try
-        hard. Guessing whether the next token is "
+        Language model can do some tasks much better than humans, even when the
+        try hard. Guessing whether the next token is "
         {addInvisibleTokenToText(" a")}" or "{addInvisibleTokenToText(" the")}"
         is one of them.
       </p>
       <p>
-        The additional score is (100² - (guess - target)²)/100 (where target =
+        The additional score is (50² - (guess - target)²)/100 (where target =
         100 if the correct answer is " a", and 0 if it is " the")
       </p>
       <div
@@ -174,31 +178,20 @@ function AvsTheApp(props) {
           width: (score / 10).toFixed(0) + "px",
         }}
       ></div>
-      {getScoreBarComponent(score, maxScore, lastDelta, "You")}
-      {/* <div>Your current score: {getScoreComponent(score, lastDelta)}</div> */}
-      {modelNames.map(function (name, i) {
-        const guess = hasGuessed ? getModelGuess(i, comparison) : undefined;
-        return getScoreBarComponent(
-          modelsScore[i],
-          maxScore,
-          modelsLastDelta[i],
-          name,
-          guess
-        );
-        // (
-
-        //   <div>
-        //     {name}: {getScoreComponent(modelsScore[i], modelsLastDelta[i])}
-        //     {hasGuessed && (
-        //       <>
-        //         {" "}
-        //         ({getModelGuess(i, comparison)}
-        //         %)
-        //       </>
-        //     )}
-        //   </div>
-        // );
-      })}
+      <div className="score-bars-container">
+        {getScoreBarComponent(score, maxScore, lastDelta, "You")}
+        {/* <div>Your current score: {getScoreComponent(score, lastDelta)}</div> */}
+        {modelNames.map(function (name, i) {
+          const guess = hasGuessed ? getModelGuess(i, comparison) : undefined;
+          return getScoreBarComponent(
+            modelsScore[i],
+            maxScore,
+            modelsLastDelta[i],
+            name,
+            guess
+          );
+        })}
+      </div>
       {isLoading && <p>Loading...</p>}
       {!isLoading && (
         <>

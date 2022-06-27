@@ -135,6 +135,23 @@ label {
   position: relative;
 }
 
+/* target bar */
+.score-bars-container {
+  width: 100%;
+  position: relative;
+}
+.score-bars-container::after {
+  content: "";
+  height: 100%;
+  width: 4px;
+  position: absolute;
+  left: 70%;
+  top: 0;
+  background-color: #0075ff80;
+  /* border: #0002 solid 2px; */
+  box-sizing: content-box;
+}
+
 .score-bar {
   display: inline-block;
   margin-right: 0.5em;
